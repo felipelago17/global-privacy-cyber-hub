@@ -1,0 +1,22 @@
+name: Probe feed URLs (manual)
+on:
+  workflow_dispatch:
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Probe
+        run: |
+          UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+          for u in \
+            https://iapp.org/news/rss/ https://iapp.org/feed/ https://iapp.org/news/feed/ https://iapp.org/rss/ https://iapp.org/news/rss.xml https://iapp.org/news/rss https://www.iapp.org/news/rss/ \
+            https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/rss/ https://ico.org.uk/rss/ https://ico.org.uk/about-the-ico/news-and-events/news-and-blogs/rss/ \
+            https://www.ftc.gov/feeds/press-releases.xml https://www.ftc.gov/news-events/news/press-releases/rss \
+            https://www.cisa.gov/cybersecurity-advisories/all.xml https://www.cisa.gov/news.xml \
+            https://www.enisa.europa.eu/front-page/RSS https://www.enisa.europa.eu/news/rss https://www.enisa.europa.eu/rss.xml \
+            https://www.edpb.europa.eu/feed/news_en https://www.edps.europa.eu/press-publications/press-news/press-releases_en/rss ; do
+            printf '\n=== %s\n' "$u"
+            curl -sSL -A "$UA" -m 25 -o /tmp/body -w 'HTTP %{http_code}  %{content_type}  final=%{url_effective}\n' "$u" || true
+            head -c 300 /tmp/body | tr '\n' ' '; echo
+            grep -o -m1 'type="application/rss+xml"[^>]*href="[^"]*"' /tmp/body || grep -o -m1 'href="[^"]*"[^>]*type="application/rss+xml"' /tmp/body || true
+          done
