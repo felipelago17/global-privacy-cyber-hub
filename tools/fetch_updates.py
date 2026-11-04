@@ -31,28 +31,35 @@ LOOKBACK_DAYS = 3        # how far back to look on each run
 MAX_PER_SOURCE = 8       # cap per source per digest
 SEEN_KEEP_DAYS = 60      # prune seen-IDs older than this
 
+def gnews(query: str) -> str:
+    """Google News RSS search feed — reliable fallback for sites that block bots or have no feed."""
+    from urllib.parse import quote
+    return f"https://news.google.com/rss/search?q={quote(query + ' when:3d')}&hl=en-US&gl=US&ceid=US:en"
+
+
 FEEDS = [
     # Practitioner / industry
-    {"source": "IAPP", "url": "https://iapp.org/news/rss/", "category": "Privacy & AI governance"},
+    {"source": "IAPP", "url": "https://iapp.org/news", "type": "iapp_html", "category": "Privacy & AI governance"},
     {"source": "Future of Privacy Forum", "url": "https://fpf.org/feed/", "category": "Privacy & AI governance"},
     {"source": "EFF Deeplinks", "url": "https://www.eff.org/rss/updates.xml", "category": "Privacy & digital rights"},
     # EU
     {"source": "EDPB", "url": "https://www.edpb.europa.eu/feed/news_en", "category": "EU data protection"},
+    {"source": "EDPB (via Google News)", "url": gnews("site:edpb.europa.eu"), "category": "EU data protection"},
     {"source": "CNIL", "url": "https://www.cnil.fr/fr/rss.xml", "category": "EU data protection"},
-    {"source": "ENISA", "url": "https://www.enisa.europa.eu/front-page/RSS", "category": "EU cybersecurity"},
+    {"source": "ENISA (via Google News)", "url": gnews("site:enisa.europa.eu"), "category": "EU cybersecurity"},
     {"source": "EU Digital Strategy", "url": "https://digital-strategy.ec.europa.eu/en/rss.xml", "category": "EU digital policy"},
     # UK
-    {"source": "ICO", "url": "https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/rss/", "category": "UK data protection"},
+    {"source": "ICO (via Google News)", "url": gnews("site:ico.org.uk"), "category": "UK data protection"},
     {"source": "UK NCSC", "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml", "category": "UK cybersecurity"},
     # US
-    {"source": "FTC", "url": "https://www.ftc.gov/feeds/press-releases.xml", "category": "US enforcement"},
+    {"source": "FTC (via Google News)", "url": gnews("site:ftc.gov privacy OR data OR security OR AI"), "category": "US enforcement"},
     {"source": "NIST", "url": "https://www.nist.gov/news-events/news/rss.xml", "category": "Standards"},
-    {"source": "CISA advisories", "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml", "category": "Cybersecurity advisories"},
+    {"source": "CISA (via Google News)", "url": gnews("site:cisa.gov advisory OR alert OR vulnerability"), "category": "Cybersecurity advisories"},
 ]
 
 # Relevance filter for the broad feeds (FTC, NIST, EU Digital Strategy, EFF).
 # Regulator-specific feeds (EDPB, ICO, CNIL, ENISA, CISA, IAPP, FPF) are kept whole.
-UNFILTERED = {"IAPP", "Future of Privacy Forum", "EDPB", "CNIL", "ENISA", "ICO", "CISA advisories", "UK NCSC"}
+UNFILTERED = {"IAPP", "Future of Privacy Forum", "EDPB", "EDPB (via Google News)", "CNIL", "ENISA (via Google News)", "ICO (via Google News)", "CISA (via Google News)", "UK NCSC"}
 KEYWORDS = re.compile(
     r"\b(privacy|data protection|gdpr|personal data|biometric|surveillance|"
     r"cyber|ransomware|breach|vulnerabilit|zero[- ]day|encryption|"
@@ -93,7 +100,36 @@ def clean(text: str, limit: int = 280) -> str:
     return (text[: limit - 1] + "…") if len(text) > limit else text
 
 
+def fetch_iapp_html(feed: dict, seen: dict[str, str]) -> tuple[list[dict], str | None]:
+    """IAPP publishes no RSS feed; parse article links from the news listing page."""
+    import urllib.request
+    req = urllib.request.Request(feed["url"], headers={"User-Agent": "Mozilla/5.0 (compatible; global-privacy-cyber-hub digest/1.0)"})
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r:
+            html = r.read().decode("utf-8", "ignore")
+    except Exception as exc:  # noqa: BLE001
+        return [], f"{feed['source']}: {exc}"
+    items, found = [], set()
+    for m in re.finditer(r'<a[^>]+href="(/news/a/[^"?#]+)"[^>]*>(.*?)</a>', html, re.S | re.I):
+        path, inner = m.group(1).rstrip("/"), clean(m.group(2), 200)
+        if path in found or len(inner) < 20:
+            continue
+        found.add(path)
+        link = "https://iapp.org" + path
+        if link in seen:
+            continue
+        items.append({"uid": link, "source": feed["source"], "category": feed["category"],
+                      "title": inner, "link": link, "date": "", "summary": ""})
+        if len(items) >= MAX_PER_SOURCE:
+            break
+    if not found:
+        return [], f"{feed['source']}: no article links found on listing page (markup may have changed)"
+    return items, None
+
+
 def fetch(feed: dict, since: datetime, seen: dict[str, str]) -> tuple[list[dict], str | None]:
+    if feed.get("type") == "iapp_html":
+        return fetch_iapp_html(feed, seen)
     try:
         parsed = feedparser.parse(feed["url"], request_headers={"User-Agent": "global-privacy-cyber-hub digest/1.0"})
     except Exception as exc:  # noqa: BLE001
@@ -111,6 +147,8 @@ def fetch(feed: dict, since: datetime, seen: dict[str, str]) -> tuple[list[dict]
         if d and d < since:
             continue
         title = clean(e.get("title", ""), 200)
+        if "news.google.com" in feed["url"]:
+            title = re.sub(r"\s+-\s+[^-]{2,60}$", "", title)
         if feed["source"] not in UNFILTERED and not KEYWORDS.search(title + " " + e.get("summary", "")):
             continue
         items.append(
@@ -164,7 +202,7 @@ def write_index() -> None:
         "# Daily updates",
         "",
         "Automated daily digest of privacy, cybersecurity and AI-governance developments from regulators, "
-        "standards bodies and trusted practitioner sources (IAPP, FPF, EDPB, ICO, CNIL, ENISA, NCSC, FTC, NIST, CISA, EFF). "
+        "standards bodies and trusted practitioner sources (IAPP, FPF, EDPB, ICO, CNIL, ENISA, NCSC, FTC, NIST, CISA, EFF — some via Google News site-feeds where the regulator blocks automated access). "
         "Each item is reported once, on the day it is first seen. Sources and filters are defined in "
         "[`tools/fetch_updates.py`](https://github.com/felipelago17/global-privacy-cyber-hub/blob/main/tools/fetch_updates.py).",
         "",
