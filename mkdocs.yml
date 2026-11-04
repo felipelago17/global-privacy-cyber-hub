@@ -51,7 +51,9 @@ nav:
   - Resources:
       - Source papers: resources/papers/links.md
       - Summaries: resources/papers/summaries/README.md
-      - Frameworks: resources/frameworks/README.md
+      - Frameworks:
+          - Index: resources/frameworks/README.md
+          - ISO/IEC 27090 AI security: resources/frameworks/iso-27090-ai-security.md
       - Tools: resources/tools/README.md
       - Checklists:
           - Index: resources/checklists/README.md
@@ -60,6 +62,10 @@ nav:
           - Agent security: resources/checklists/agent-security-checklist.md
           - DPDP readiness: resources/checklists/dpdp-readiness-checklist.md
           - Global compliance maturity: resources/checklists/global-compliance-maturity.md
+  - Case studies:
+      - Index: case-studies/README.md
+      - Binance hack (Oct 2026): case-studies/binance-2026-hack.md
+      - OpenAI / Hugging Face (Jul 2026): case-studies/openai-hugging-face-2026.md
   - Daily updates: updates/index.md
   - Connectors: connectors/external-hubs.md
   - Related forks: related-forks.md

@@ -27,6 +27,7 @@ Focus areas: AI governance, cloud DPIAs, agent security, privacy-enhancing techn
 | [`resources/frameworks/`](resources/frameworks/) | GDPR, EU AI Act, DPDP, NIST, ISO and other framework notes |
 | [`resources/tools/`](resources/tools/) | Open-source tools, templates and automation ideas |
 | [`resources/checklists/`](resources/checklists/) | Practitioner checklists derived from the analyses |
+| [`case-studies/`](case-studies/) | Incident write-ups tested against the frameworks — Binance hack (Oct 2026), OpenAI/Hugging Face autonomous-agent intrusion (Jul 2026) |
 | [`updates/`](updates/) | Automated daily digest of privacy, cyber and AI-governance news from IAPP, EDPB, ICO, CNIL, ENISA, NCSC, FTC, NIST, CISA, FPF, EFF |
 | [`connectors/`](connectors/) | External hubs (IAPP, OECD, OneTrust, FPF, OWASP, ENISA) and technical connectors |
 | [`related-forks.md`](related-forks.md) | Awesome lists and related projects to star, fork or reference |
@@ -42,6 +43,10 @@ Focus areas: AI governance, cloud DPIAs, agent security, privacy-enhancing techn
 | [DPDP in Practice (India)](analyses/india-dpdp-practice.md) | Phased commencement to May 2027, narrow lawful bases, every breach reportable, high penalty ceilings |
 | [Transatlantic transfers after the FTC ruling](analyses/transatlantic-transfers-ftc.md) | US Supreme Court ruling on FTC independence reopens uncertainty for the EU–US DPF and UK–US Data Bridge |
 | [10 Tips for Global Compliance (IAPP)](analyses/iapp-global-compliance-tips.md) | Practical operating model for multi-jurisdictional privacy programmes |
+
+## Frameworks spotlight
+
+- [ISO/IEC 27090:2026 — AI security](resources/frameworks/iso-27090-ai-security.md): the new ISO standard on security threats to AI systems (published 14 Oct 2026), with related publications and its relationship to 27001/42001/27091 and EU AI Act Art. 15.
 
 ## Connectors
 
