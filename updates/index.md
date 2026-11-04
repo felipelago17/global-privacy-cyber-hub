@@ -4,4 +4,4 @@ Automated daily digest of privacy, cybersecurity and AI-governance developments 
 
 | Date | Digest |
 |---|---|
-| 2026-11-04 | [11 items](2026-11-04.md) |
+| 2026-11-04 | [29 items](2026-11-04.md) |
