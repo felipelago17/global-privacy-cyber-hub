@@ -1,0 +1,27 @@
+# Source documents — links and abstracts
+
+Original documents (or public versions) underlying the analyses in [`../../analyses/`](../../analyses/). Where a document is paywalled or was received privately, the entry points to the publisher's landing page and notes the limitation. **Do not commit the PDFs themselves.**
+
+| # | Document | Author / publisher | Date | Analysis | Link / access |
+|---|---|---|---|---|---|
+| 1 | DPIA on Google Cloud Platform — Compute Engine, Cloud SQL (MySQL), Cloud Storage, BigQuery | Dutch central government (SLM Rijk) / Privacy Company | June 2026 | [gcp-dpia-summary.md](../../analyses/gcp-dpia-summary.md) | Published on the Dutch government open-documents portal; search "DPIA Google Cloud Platform 2026" at <https://www.rijksoverheid.nl/> |
+| 2 | Briefing: US Supreme Court ruling on FTC independence and implications for the EU–US DPF and UK–US Data Bridge | CMS | 2026 | [transatlantic-transfers-ftc.md](../../analyses/transatlantic-transfers-ftc.md) | CMS Law-Now: <https://cms.law/en/int/publication> |
+| 3 | High-risk without safeguards? The Health Innovation Package and AI-enabled medical devices under the EU AI Act | BMJ Digital Health | 2026 | [medical-ai-act-safeguards.md](../../analyses/medical-ai-act-safeguards.md) | <https://bmjdigitalhealth.bmj.com/> |
+| 4 | The Three Layers of Agent Security: A framework for policymakers | Google DeepMind | June 2026 | [agent-security-three-layers.md](../../analyses/agent-security-three-layers.md) | <https://deepmind.google/discover/blog/> (policy publications) |
+| 5 | Opinion 28/2024 on certain data protection aspects related to the processing of personal data in the context of AI models | European Data Protection Board | 17 Dec 2024 | [edpb-ai-models.md](../../analyses/edpb-ai-models.md) | <https://www.edpb.europa.eu/our-work-tools/our-documents/opinion-board-art-64/opinion-282024-certain-data-protection-aspects_en> |
+| 6 | DPDP in Practice — India's DPDP Act 2023 and Rules 2025 | Novation Strategy | Oct 2026 | [india-dpdp-practice.md](../../analyses/india-dpdp-practice.md) | Publisher site; primary law at <https://www.meity.gov.in/> |
+| 7 | 10 Tips for Global Compliance | IAPP Privacy Bar Section Advisory Board | 2024 | [iapp-global-compliance-tips.md](../../analyses/iapp-global-compliance-tips.md) | <https://iapp.org/resources/> |
+
+## Abstracts
+
+1. **GCP DPIA (2026).** Assesses four core Google Cloud services for Dutch central-government use against GDPR. Distinguishes Content, Account, Diagnostic, Support and Website data; examines processor/controller roles, residency, encryption and confidential computing, transfers and retention. Finds 11 low risks subject to stated measures.
+2. **CMS on FTC independence.** Explains the Supreme Court's expansion of presidential removal power over FTC commissioners and why that matters for the DPF and the UK–US Data Bridge, with recommendations to reassess transfer risk mitigation.
+3. **BMJ Digital Health.** Argues that moving AI-enabled medical devices from Annex I Section A to Section B of the AI Act would retain the high-risk label but remove most AI-specific safeguards, relying on MDR/IVDR that lack equivalent provisions.
+4. **DeepMind, Three Layers.** Policy framework separating individual-agent security (upstream and downstream interventions, standards readiness), multi-agent risks (cascading failure, information-environment weaponisation), and empowering cyber defenders.
+5. **EDPB Opinion 28/2024.** AI models trained on personal data are not automatically anonymous; sets out the case-by-case anonymity test, the three-step legitimate-interest test for development and deployment, reasonable expectations and mitigating measures, and consequences of unlawful development.
+6. **Novation Strategy, DPDP in Practice.** Practitioner guide to the phased commencement (most duties and penalties from 13 May 2027), narrow lawful bases, Fiduciary responsibility for vendors, no-threshold breach reporting and high penalty ceilings.
+7. **IAPP, 10 Tips.** Operating-model guidance for multi-jurisdictional compliance: scale assessment, trusted sources, tracking, risk measurement, jurisdiction/industry focus, strategy, audit, avoiding silos, privacy vs. cybersecurity, cultural humility.
+
+## Adding a source
+
+Add a row to the table and a numbered abstract (two to three sentences). Link to the analysis once written. If the document is not public, say so and give the publisher's landing page.

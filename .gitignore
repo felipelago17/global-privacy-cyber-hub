@@ -1,0 +1,28 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Python (for any future scripts / GitHub Actions helpers)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+*.egg-info/
+
+# Node (if MkDocs/JS tooling is added later)
+node_modules/
+
+# Build outputs
+site/
+dist/
+build/
+
+# Local drafts and downloaded source documents (link, don't commit)
+drafts/
+*.pdf
+!resources/checklists/*.pdf
