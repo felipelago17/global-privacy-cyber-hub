@@ -27,6 +27,7 @@ Focus areas: AI governance, cloud DPIAs, agent security, privacy-enhancing techn
 | [`resources/frameworks/`](resources/frameworks/) | GDPR, EU AI Act, DPDP, NIST, ISO and other framework notes |
 | [`resources/tools/`](resources/tools/) | Open-source tools, templates and automation ideas |
 | [`resources/checklists/`](resources/checklists/) | Practitioner checklists derived from the analyses |
+| [`updates/`](updates/) | Automated daily digest of privacy, cyber and AI-governance news from IAPP, EDPB, ICO, CNIL, ENISA, NCSC, FTC, NIST, CISA, FPF, EFF |
 | [`connectors/`](connectors/) | External hubs (IAPP, OECD, OneTrust, FPF, OWASP, ENISA) and technical connectors |
 | [`related-forks.md`](related-forks.md) | Awesome lists and related projects to star, fork or reference |
 

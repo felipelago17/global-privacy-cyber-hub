@@ -1,0 +1,59 @@
+name: Daily privacy & cyber digest
+
+on:
+  schedule:
+    - cron: "23 5 * * *"   # 05:23 UTC = 09:23 Gulf Standard Time
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install feedparser mkdocs-material
+
+      - name: Fetch updates and build digest
+        run: python tools/fetch_updates.py
+
+      - name: Commit digest
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add updates data
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Daily digest $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: Stage markdown into docs/
+        run: |
+          mkdir -p docs
+          cp README.md CONTRIBUTING.md related-forks.md docs/
+          cp -r analyses resources connectors updates docs/
+
+      - name: Build site
+        run: mkdocs build --strict
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - id: deployment
+        uses: actions/deploy-pages@v4

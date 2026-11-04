@@ -60,6 +60,7 @@ nav:
           - Agent security: resources/checklists/agent-security-checklist.md
           - DPDP readiness: resources/checklists/dpdp-readiness-checklist.md
           - Global compliance maturity: resources/checklists/global-compliance-maturity.md
+  - Daily updates: updates/index.md
   - Connectors: connectors/external-hubs.md
   - Related forks: related-forks.md
   - Contributing: CONTRIBUTING.md
