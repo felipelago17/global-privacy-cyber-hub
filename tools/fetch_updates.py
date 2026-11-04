@@ -13,6 +13,7 @@ Run from the repo root:  python tools/fetch_updates.py
 
 from __future__ import annotations
 
+import html as _html
 import json
 import re
 import sys
@@ -95,7 +96,7 @@ def entry_date(e) -> datetime | None:
 
 
 def clean(text: str, limit: int = 280) -> str:
-    text = re.sub(r"<[^>]+>", " ", text or "")
+    text = _html.unescape(re.sub(r"<[^>]+>", " ", text or ""))
     text = re.sub(r"\s+", " ", text).strip()
     return (text[: limit - 1] + "…") if len(text) > limit else text
 
