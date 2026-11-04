@@ -1,0 +1,65 @@
+site_name: Global Privacy & Cyber Hub
+site_description: Curated open resource hub for data privacy, cybersecurity, AI governance, DPIAs and global compliance frameworks
+site_url: https://felipelago17.github.io/global-privacy-cyber-hub/
+repo_url: https://github.com/felipelago17/global-privacy-cyber-hub
+repo_name: felipelago17/global-privacy-cyber-hub
+edit_uri: edit/main/
+docs_dir: docs
+site_dir: site
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Light mode
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Dark mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - content.action.edit
+    - toc.integrate
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.superfences
+plugins:
+  - search
+nav:
+  - Home: README.md
+  - Analyses:
+      - GCP DPIA (2026): analyses/gcp-dpia-summary.md
+      - EDPB Opinion 28/2024 on AI models: analyses/edpb-ai-models.md
+      - Three Layers of Agent Security: analyses/agent-security-three-layers.md
+      - Medical AI under the EU AI Act: analyses/medical-ai-act-safeguards.md
+      - India DPDP in Practice: analyses/india-dpdp-practice.md
+      - Transatlantic transfers after FTC ruling: analyses/transatlantic-transfers-ftc.md
+      - IAPP 10 Tips for Global Compliance: analyses/iapp-global-compliance-tips.md
+  - Resources:
+      - Source papers: resources/papers/links.md
+      - Summaries: resources/papers/summaries/README.md
+      - Frameworks: resources/frameworks/README.md
+      - Tools: resources/tools/README.md
+      - Checklists:
+          - Index: resources/checklists/README.md
+          - Cloud DPIA: resources/checklists/cloud-dpia-checklist.md
+          - AI model lawfulness: resources/checklists/ai-model-lawfulness-checklist.md
+          - Agent security: resources/checklists/agent-security-checklist.md
+          - DPDP readiness: resources/checklists/dpdp-readiness-checklist.md
+          - Global compliance maturity: resources/checklists/global-compliance-maturity.md
+  - Connectors: connectors/external-hubs.md
+  - Related forks: related-forks.md
+  - Contributing: CONTRIBUTING.md

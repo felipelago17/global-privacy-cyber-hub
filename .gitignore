@@ -26,3 +26,4 @@ build/
 drafts/
 *.pdf
 !resources/checklists/*.pdf
+docs/
