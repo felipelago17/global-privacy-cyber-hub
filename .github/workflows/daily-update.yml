@@ -72,7 +72,7 @@ jobs:
         run: |
           mkdir -p docs
           cp README.md CONTRIBUTING.md related-forks.md docs/
-          cp -r analyses resources connectors updates case-studies docs/
+          cp -r analyses resources connectors updates case-studies ai-agents docs/
 
       - name: Build site
         run: mkdocs build --strict
