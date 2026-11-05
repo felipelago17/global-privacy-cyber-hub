@@ -62,6 +62,11 @@ nav:
           - Agent security: resources/checklists/agent-security-checklist.md
           - DPDP readiness: resources/checklists/dpdp-readiness-checklist.md
           - Global compliance maturity: resources/checklists/global-compliance-maturity.md
+  - AI agents:
+      - Privacy & cyber risks (overview): ai-agents/index.md
+      - Incident catalogue 2025–26: ai-agents/incident-catalogue.md
+      - Risk literature: ai-agents/risk-literature.md
+      - Regulatory map: ai-agents/regulatory-map.md
   - Case studies:
       - Index: case-studies/README.md
       - Binance hack (Oct 2026): case-studies/binance-2026-hack.md

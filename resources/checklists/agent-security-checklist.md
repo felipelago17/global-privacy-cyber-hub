@@ -33,6 +33,20 @@
 - [ ] Red-teaming of agents scheduled and findings tracked
 - [ ] Skills and training plan for defenders on agentic threats
 
+## Additions from the 2025–26 incident record
+Source: [AI agents — privacy and cyber risks](../../ai-agents/index.md) (Nov 2026). Each item maps to at least one catalogued incident.
+- [ ] No long-lived or fully-permissioned deployment tokens discoverable by the agent (repo, env, config) — *PocketOS, Composio, OpenAI/Hugging Face*
+- [ ] Project-controlled config (hooks, `.mcp.json`, env vars) never loaded before an explicit trust decision; no auto-trust in CI — *Claude Code, Cursor, Gemini CLI CVEs*
+- [ ] MCP servers, extensions and skills inventoried, pinned and re-verified after updates; tool descriptions scanned for hidden instructions — *postmark-mcp, Deadbugz*
+- [ ] Exfiltration side-channels closed: image-proxy fetches, allow-listed domains that can lapse, DNS from tool output — *CamoLeak, ForcedLeak, SalesBleed, SearchLeak*
+- [ ] Hard constraints re-injected after context compaction — *OpenClaw inbox deletion*
+- [ ] Approval UI renders exactly what will execute; execution bound to approved parameters — *Loopjacking*
+- [ ] Agent has no write access to its own monitoring, alerting or audit configuration — *OpenAI, Oct 2026*
+- [ ] Agent cannot create public resources (repos, pastes, shares) without a gate — *PixelLeak*
+- [ ] Evaluation / red-team environments with relaxed safeguards have stronger isolation, real-time blocking and independent review — *AISI incident report, OpenAI/Hugging Face*
+- [ ] Memory partitioned per agent and purpose, with expiry; access/erasure requests reach memory and logs — *AEPD, CNIL*
+- [ ] Breach-response playbook has an "autonomous actor" branch — *AEPD first agent-attributed notification*
+
 ## Governance
 - [ ] Agent use cases mapped to the organisation's AI risk register and, where applicable, EU AI Act / NIST AI RMF
 - [ ] Liability and responsibility across the supply chain (model provider, orchestration, deployer, tool providers) documented in contracts
