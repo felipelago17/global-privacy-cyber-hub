@@ -43,6 +43,8 @@ FEEDS = [
     {"source": "IAPP", "url": "https://iapp.org/news", "type": "iapp_html", "category": "Privacy & AI governance"},
     {"source": "Future of Privacy Forum", "url": "https://fpf.org/feed/", "category": "Privacy & AI governance"},
     {"source": "EFF Deeplinks", "url": "https://www.eff.org/rss/updates.xml", "category": "Privacy & digital rights"},
+    # High-volume vendor/vuln news site — kept only where it touches incidents, critical infrastructure/OT, regulators or data
+    {"source": "Cyber Security News", "url": "https://cybersecuritynews.com/feed/", "category": "Cyber incidents & threat intel", "filter": "incident"},
     # EU
     {"source": "EDPB", "url": "https://www.edpb.europa.eu/feed/news_en", "category": "EU data protection"},
     {"source": "EDPB (via Google News)", "url": gnews("site:edpb.europa.eu"), "category": "EU data protection"},
@@ -61,6 +63,14 @@ FEEDS = [
 # Relevance filter for the broad feeds (FTC, NIST, EU Digital Strategy, EFF).
 # Regulator-specific feeds (EDPB, ICO, CNIL, ENISA, CISA, IAPP, FPF) are kept whole.
 UNFILTERED = {"IAPP", "Future of Privacy Forum", "EDPB", "EDPB (via Google News)", "CNIL", "ENISA (via Google News)", "ICO (via Google News)", "CISA (via Google News)", "UK NCSC"}
+# Tighter filter for high-volume threat-intel sites: incidents, OT/critical infrastructure, regulators, data exposure
+INCIDENT_KEYWORDS = re.compile(
+    r"\b(hacked|breach|leak|ransomware attack|data (theft|exposure|stolen)|"
+    r"hospital|health|blood|medical|water|energy|grid|pipeline|refrigerat|ics|scada|ot\b|plc|critical infrastructure|"
+    r"cert-fr|anssi|enisa|cisa|ncsc|ico\b|cnil|edpb|ftc|gdpr|nis2|regulator|fine[sd]?\b|sanction|"
+    r"supply[- ]chain|third[- ]party|vendor compromise|ai (model|agent)|llm|prompt injection)\b",
+    re.IGNORECASE,
+)
 KEYWORDS = re.compile(
     r"\b(privacy|data protection|gdpr|personal data|biometric|surveillance|"
     r"cyber|ransomware|breach|vulnerabilit|zero[- ]day|encryption|"
@@ -150,7 +160,11 @@ def fetch(feed: dict, since: datetime, seen: dict[str, str]) -> tuple[list[dict]
         title = clean(e.get("title", ""), 200)
         if "news.google.com" in feed["url"]:
             title = re.sub(r"\s+-\s+[^-]{2,60}$", "", title)
-        if feed["source"] not in UNFILTERED and not KEYWORDS.search(title + " " + e.get("summary", "")):
+        text = title + " " + e.get("summary", "")
+        if feed.get("filter") == "incident":
+            if not INCIDENT_KEYWORDS.search(text):
+                continue
+        elif feed["source"] not in UNFILTERED and not KEYWORDS.search(text):
             continue
         items.append(
             {
@@ -230,7 +244,7 @@ def write_index() -> None:
         "# Daily updates",
         "",
         "Automated daily digest of privacy, cybersecurity and AI-governance developments from regulators, "
-        "standards bodies and trusted practitioner sources (IAPP, FPF, EDPB, ICO, CNIL, ENISA, NCSC, FTC, NIST, CISA, EFF — some via Google News site-feeds where the regulator blocks automated access). "
+        "standards bodies and trusted practitioner sources (IAPP, FPF, EDPB, ICO, CNIL, ENISA, NCSC, FTC, NIST, CISA, EFF, Cyber Security News — some via Google News site-feeds where the regulator blocks automated access). "
         "Each item is reported once, on the day it is first seen. Sources and filters are defined in "
         "[`tools/fetch_updates.py`](https://github.com/felipelago17/global-privacy-cyber-hub/blob/main/tools/fetch_updates.py).",
         "",
