@@ -6,17 +6,18 @@
 
 Overnight on 1–2 November 2026, attackers reportedly altered the temperature setpoints on refrigeration units used by the **Établissement français du sang (EFS)** — France's national blood service — moving controllers from roughly **−30 °C to +110 °C**. The intrusion did not target EFS directly: it went through **Coolworld**, EFS's cooling-equipment and maintenance provider. Facilities in Bourgogne-Franche-Comté were among those reported as concerned. Donor samples kept for blood-safety surveillance were initially reported as affected; EFS later told *Le Canard enchaîné* that frozen plasma intended for transfusion was also involved. France's Health Ministry said staff detected the abnormal temperatures in time and that the incident had **no operational consequences**. No attacker has been publicly identified and no entry point has been confirmed.
 
-The incident landed in the same week as an **ENISA joint statement on cyber incidents in refrigeration systems across the EU** (4 Nov 2026 — see the [4 Nov digest](../updates/2026-11-04.md)) and three weeks after a **CERT-FR alert (12 Oct 2026)** on compromises of Danfoss AK-SM/AK-SC, Copeland and Dixell XWEB refrigeration controllers. No public evidence links those alerts to the EFS event, and the reporting is careful to say so.
+The incident is part of a wider European wave. On 4 November 2026 the **European Commission (DG CNECT), ENISA, Europol's EC3, the EU CSIRTs Network and EU-CyCLONe** issued a [joint statement](https://digital-strategy.ec.europa.eu/en/news/joint-statement-cyber-incidents-refrigeration-systems-across-eu) confirming that commercial refrigeration systems and similar devices in several Member States had been hit by cyber incidents **beginning on 11 October 2026, with a new wave on 1–2 November** — the EFS dates. The statement names no countries, vendors, products or actors and does not describe the intrusion method; it refers readers to national CSIRT advisories and to ENISA's advisory collection (CNW-2026-05). It came three weeks after a **CERT-FR alert (12 Oct 2026)** on compromises of Danfoss AK-SM/AK-SC, Copeland and Dixell XWEB refrigeration controllers and earlier attacks on supermarket refrigeration. No public evidence links any specific advisory to the EFS event, and the reporting is careful to say so.
 
 ## Timeline (as publicly reported)
 
 | When | Event |
 |---|---|
+| 11 Oct 2026 | Start of the EU-wide wave of incidents affecting commercial refrigeration systems (per the 4 Nov joint statement) |
 | 12 Oct 2026 | CERT-FR alert on compromises of internet-exposed refrigeration controllers (Danfoss AK-SM/AK-SC, Copeland, Dixell XWEB) |
 | Oct 2026 | Earlier attacks reported on supermarket refrigeration systems in France |
 | 1–2 Nov 2026 (night) | Setpoints on EFS refrigeration units changed to ~110 °C via the Coolworld-managed systems; abnormal temperatures detected by staff |
 | 3–4 Nov 2026 | *Le Canard enchaîné* / Cyberattaque report the incident; Health Ministry states "no operational consequences"; EFS confirms transfusion plasma was among the stock concerned |
-| 4 Nov 2026 | ENISA joint statement on refrigeration-system cyber incidents across the EU; Cyber Security News write-up (Guru Baran) |
+| 4 Nov 2026 | Commission / ENISA / Europol EC3 / CSIRTs Network / EU-CyCLONe joint statement on refrigeration-system cyber incidents across the EU (new wave 1–2 Nov confirmed); Cyber Security News write-up (Guru Baran) |
 
 ## What is known — and what is not
 
@@ -36,7 +37,8 @@ The incident landed in the same week as an **ENISA joint statement on cyber inci
 
 1. **The attack surface was a contractor's remote-management interface.** Refrigeration controllers are routinely exposed to the internet so a maintenance vendor can monitor them. That vendor becomes a single point of failure for every client site it serves. Third-party risk programmes built around data processors need to extend to **OT service providers** that hold write access to physical parameters.
 2. **Cyber-physical safety, not just data, is the harm.** A 140-degree setpoint swing on blood products is a patient-safety event. Incident classification, escalation and regulatory notification paths designed for data breaches may not fire for an integrity attack on a physical process — this case is a useful tabletop scenario (CISA ran a cyber-physical tabletop the same week; see the [4 Nov digest](../updates/2026-11-04.md)).
-3. **NIS2 essential-entity obligations are directly engaged.** Blood establishments are health-sector essential entities under NIS2 (Annex I); the directive's supply-chain security requirements (Art. 21(2)(d)) and 24-hour early-warning / 72-hour notification regime (Art. 23) apply. Whether a setpoint manipulation with "no operational consequences" is a "significant incident" is exactly the kind of threshold question national CSIRTs will now have to answer.
+3. **NIS2 essential-entity obligations are directly engaged.** Blood establishments are health-sector essential entities under NIS2 (Annex I); the directive's supply-chain security requirements (Art. 21(2)(d)) and 24-hour early-warning / 72-hour notification regime (Art. 23) apply. The EU joint statement restates that in-scope entities must manage risks to their operations and report significant incidents to their national CSIRT. Whether a setpoint manipulation with "no operational consequences" is a "significant incident" is exactly the kind of threshold question national CSIRTs will now have to answer.
+3a. **The Cyber Resilience Act is already live for the manufacturers.** The joint statement points out that since **11 September 2026** manufacturers of products with digital elements — refrigeration controllers included — must report actively exploited vulnerabilities and severe incidents through the CRA Single Reporting Platform; the full security-by-design, lifecycle-support and vulnerability-remediation requirements apply from **11 December 2027**. This wave is therefore one of the first live tests of CRA reporting, and controller vendors whose products were exploited are now in scope of a reporting duty that did not exist two months earlier.
 4. **GDPR exposure is secondary but real.** Donor samples kept for safety surveillance are linked to identifiable donors (special-category health data). Even absent exfiltration, loss of availability or integrity of those samples can be a personal-data breach under Art. 4(12) GDPR, triggering the Art. 33 assessment with the CNIL.
 5. **Detection by people is a control gap, not a success story.** The outcome was good because someone noticed. The lesson is that OT telemetry (setpoint changes, out-of-band temperature excursions) should alert automatically and be correlated with vendor remote-access logs.
 
@@ -55,7 +57,7 @@ The incident landed in the same week as an **ENISA joint statement on cyber inci
 |---|---|
 | **NIS2 Directive (EU 2022/2555)** | Art. 21(2)(d) supply-chain security; Art. 21(2)(b) incident handling; Art. 23 reporting (24h early warning / 72h notification / 1-month final report); Annex I health sector |
 | **GDPR** | Art. 4(12) personal-data breach (availability/integrity); Art. 9 special-category (health) data; Arts. 32–34 security and breach notification |
-| **EU Cyber Resilience Act** | Security-by-default and vulnerability-handling obligations for connected refrigeration controllers once in application |
+| **EU Cyber Resilience Act (Reg. 2024/2847)** | Manufacturer reporting of actively exploited vulnerabilities and severe incidents via the Single Reporting Platform since 11 Sep 2026; security-by-design, lifecycle support and remediation obligations from 11 Dec 2027 |
 | **IEC 62443** | Zones and conduits, remote-access requirements (SR 1.13), security levels for vendor connectivity |
 | **NIST CSF 2.0 / SP 800-82r3** | GV.SC (supply chain), DE.CM (continuous monitoring of OT), OT-specific guidance |
 | **ISO/IEC 27001:2022** | A.5.19–5.22 supplier relationships; A.8.16 monitoring activities |
@@ -63,7 +65,7 @@ The incident landed in the same week as an **ENISA joint statement on cyber inci
 ## Sources
 
 - Cyber Security News — [French Blood Plasma Freezers Hacked: Temperatures Pushed to 110 °C](https://cybersecuritynews.com/french-blood-plasma-freezers-hacked/) (Guru Baran, 4 Nov 2026), drawing on Cyberattaque and *Le Canard enchaîné*
-- ENISA — Joint statement on cyber incidents in refrigeration systems across the EU (4 Nov 2026) — via [4 Nov digest](../updates/2026-11-04.md)
+- European Commission, ENISA, Europol EC3, EU CSIRTs Network, EU-CyCLONe — [Joint statement on cyber incidents in refrigeration systems across the EU](https://digital-strategy.ec.europa.eu/en/news/joint-statement-cyber-incidents-refrigeration-systems-across-eu) (4 Nov 2026); ENISA advisory collection CNW-2026-05
 - CERT-FR — alert on compromised refrigeration controllers (12 Oct 2026)
 
 *Status: developing. Figures and scope are as reported in the press on 4 Nov 2026 and have not been confirmed by an official EFS or ANSSI incident report.*
