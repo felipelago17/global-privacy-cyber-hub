@@ -66,6 +66,7 @@ nav:
       - Index: case-studies/README.md
       - Binance hack (Oct 2026): case-studies/binance-2026-hack.md
       - OpenAI / Hugging Face (Jul 2026): case-studies/openai-hugging-face-2026.md
+      - EFS blood-plasma freezers (Nov 2026): case-studies/efs-coolworld-refrigeration-2026.md
   - Daily updates: updates/index.md
   - Connectors: connectors/external-hubs.md
   - Related forks: related-forks.md

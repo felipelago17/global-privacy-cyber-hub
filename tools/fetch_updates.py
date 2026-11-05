@@ -168,9 +168,34 @@ def fetch(feed: dict, since: datetime, seen: dict[str, str]) -> tuple[list[dict]
     return items, None
 
 
+PICKS_HEADING = "## Editor's picks"
+
+
+def read_picks(path: Path) -> list[str]:
+    """Return a hand-curated "Editor's picks" section from an existing digest, if any.
+
+    Curated items are added by hand (e.g. from Claude on mobile) before or after the
+    automated run; the section runs from its heading to the next '## ' heading or EOF
+    and is preserved verbatim when the digest is regenerated.
+    """
+    if not path.exists():
+        return []
+    out: list[str] = []
+    capturing = False
+    for line in path.read_text().splitlines():
+        if line.strip() == PICKS_HEADING:
+            capturing = True
+        elif capturing and line.startswith("## "):
+            break
+        if capturing:
+            out.append(line)
+    return out
+
+
 def write_digest(day: str, items: list[dict], errors: list[str]) -> Path:
     UPDATES.mkdir(exist_ok=True)
     path = UPDATES / f"{day}.md"
+    picks = read_picks(path)
     by_cat: dict[str, list[dict]] = {}
     for it in items:
         by_cat.setdefault(it["category"], []).append(it)
@@ -183,6 +208,8 @@ def write_digest(day: str, items: list[dict], errors: list[str]) -> Path:
         "Not legal advice.",
         "",
     ]
+    if picks:
+        lines += picks + [""]
     for cat in sorted(by_cat):
         lines += [f"## {cat}", ""]
         for it in sorted(by_cat[cat], key=lambda x: (x["source"], x["date"]), reverse=False):
@@ -214,7 +241,10 @@ def write_index() -> None:
         day = p.stem
         first = p.read_text().splitlines()
         count = next((l for l in first if "new item" in l), "").split(" new item")[0]
-        lines.append(f"| {day} | [{count} items]({day}.md) |")
+        label = f"{count} items" if count else "curated"
+        if any(l.strip() == PICKS_HEADING for l in first):
+            label += " + editor's picks"
+        lines.append(f"| {day} | [{label}]({day}.md) |")
     lines.append("")
     (UPDATES / "index.md").write_text("\n".join(lines))
 
