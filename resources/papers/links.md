@@ -12,6 +12,7 @@ Original documents (or public versions) underlying the analyses in [`../../analy
 | 6 | DPDP in Practice — India's DPDP Act 2023 and Rules 2025 | Novation Strategy | Oct 2026 | [india-dpdp-practice.md](../../analyses/india-dpdp-practice.md) | Publisher site; primary law at <https://www.meity.gov.in/> |
 | 7 | 10 Tips for Global Compliance | IAPP Privacy Bar Section Advisory Board | 2024 | [iapp-global-compliance-tips.md](../../analyses/iapp-global-compliance-tips.md) | <https://iapp.org/resources/> |
 | 8 | Open weights are not open source AI, and why it matters (interview with Duane O'Brien, Open Source Initiative) | All Things Open | 15 Oct 2026 | — (reference for the [AI model lawfulness checklist](../checklists/ai-model-lawfulness-checklist.md) and the [EDPB AI models analysis](../../analyses/edpb-ai-models.md)) | <https://allthingsopen.org/articles/open-source-ai-vs-open-weights> (CC BY-SA 4.0); OSAID: <https://opensource.org/ai/open-source-ai-definition> |
+| 9 | The world must act to stop a cyber-disaster (Leaders) | The Economist | 5 Nov 2026 | [economist-cyber-disaster-leader-2026.md](../../analyses/economist-cyber-disaster-leader-2026.md) | <https://www.economist.com/leaders/> (paywalled; summarised, not reproduced) |
 
 ## Abstracts
 
@@ -27,3 +28,4 @@ Original documents (or public versions) underlying the analyses in [`../../analy
 ## Adding a source
 
 Add a row to the table and a numbered abstract (two to three sentences). Link to the analysis once written. If the document is not public, say so and give the publisher's landing page.
+9. **The Economist, Black October leader.** Argues that AI has, for now, tipped cyber-security toward attackers (PHP2Shell, eMudhra weak CA keys, European refrigeration attacks) because defenders lack access to frontier cyber-capable models that are gated by US government approval (Project Glasswing and its OpenAI counterpart), patches are reverse-engineered into exploits within hours, and automated exploitation punishes ordinary carelessness at scale. Prescribes a deliberate capability imbalance in defenders' favour, faster approval of programme members, resourcing for weak infrastructure operators (Texas Project Watershed 250) and, longer term, formal verification.

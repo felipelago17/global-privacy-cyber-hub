@@ -62,6 +62,10 @@ The incident is part of a wider European wave. On 4 November 2026 the **European
 | **NIST CSF 2.0 / SP 800-82r3** | GV.SC (supply chain), DE.CM (continuous monitoring of OT), OT-specific guidance |
 | **ISO/IEC 27001:2022** | A.5.19–5.22 supplier relationships; A.8.16 monitoring activities |
 
+## Related
+
+- [The Economist on Black October (Nov 2026)](../analyses/economist-cyber-disaster-leader-2026.md) — places the refrigeration wave in the wider October 2026 incident cluster and the defender-access policy debate
+
 ## Sources
 
 - Cyber Security News — [French Blood Plasma Freezers Hacked: Temperatures Pushed to 110 °C](https://cybersecuritynews.com/french-blood-plasma-freezers-hacked/) (Guru Baran, 4 Nov 2026), drawing on Cyberattaque and *Le Canard enchaîné*
