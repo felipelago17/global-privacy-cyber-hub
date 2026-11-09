@@ -157,29 +157,36 @@ def repair_xml(raw: bytes) -> bytes:
 
 
 def parse_feed(feed: dict):
-    """Download a feed ourselves (browser-like UA), parse it, and repair it if malformed."""
+    """Download and parse a feed, trying the project's own User-Agent first and a
+    browser-like one second; repair malformed XML before giving up."""
     import urllib.request
-    req = urllib.request.Request(feed["url"], headers={
-        "User-Agent": BROWSER_UA,
-        "Accept": "application/rss+xml, application/atom+xml, application/xml;q=0.9, text/xml;q=0.8, */*;q=0.5",
-    })
-    try:
-        with urllib.request.urlopen(req, timeout=30) as r:
-            raw = r.read()
-            ctype = r.headers.get("Content-Type", "")
-    except Exception as exc:  # noqa: BLE001
-        return None, f"{feed['source']}: unreachable ({exc})"
-    parsed = feedparser.parse(raw)
-    if parsed.entries:
-        return parsed, None
-    head = raw[:2000].lower()
-    if b"<html" in head and b"<rss" not in head and b"<feed" not in head:
-        return None, f"{feed['source']}: returned an HTML page instead of a feed ({ctype or 'no content-type'}) - likely bot protection or a moved URL"
-    repaired = feedparser.parse(repair_xml(raw))
-    if repaired.entries:
-        print(f"[info] {feed['source']}: malformed XML repaired ({getattr(parsed, 'bozo_exception', '')})", file=sys.stderr)
-        return repaired, None
-    return None, f"{feed['source']}: feed unavailable ({getattr(parsed, 'bozo_exception', 'parse error')})"
+    agents = ["global-privacy-cyber-hub digest/1.0", BROWSER_UA]
+    last_err = "parse error"
+    for ua in agents:
+        req = urllib.request.Request(feed["url"], headers={
+            "User-Agent": ua,
+            "Accept": "application/rss+xml, application/atom+xml, application/xml;q=0.9, text/xml;q=0.8, */*;q=0.5",
+        })
+        try:
+            with urllib.request.urlopen(req, timeout=30) as r:
+                raw = r.read()
+                ctype = r.headers.get("Content-Type", "")
+        except Exception as exc:  # noqa: BLE001
+            last_err = f"unreachable ({exc})"
+            continue
+        parsed = feedparser.parse(raw)
+        if parsed.entries:
+            return parsed, None
+        repaired = feedparser.parse(repair_xml(raw))
+        if repaired.entries:
+            print(f"[info] {feed['source']}: malformed XML repaired ({getattr(parsed, 'bozo_exception', '')})", file=sys.stderr)
+            return repaired, None
+        head = raw[:2000].lower()
+        if b"<html" in head and b"<rss" not in head and b"<feed" not in head:
+            last_err = f"returned an HTML page instead of a feed ({ctype or 'no content-type'}) - likely bot protection or a moved URL"
+        else:
+            last_err = f"feed unavailable ({getattr(parsed, 'bozo_exception', 'parse error')})"
+    return None, f"{feed['source']}: {last_err}"
 
 
 def fetch(feed: dict, since: datetime, seen: dict[str, str]) -> tuple[list[dict], str | None]:
