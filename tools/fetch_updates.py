@@ -74,11 +74,11 @@ FEEDS = [
 # Regulator-specific feeds (EDPB, ICO, CNIL, ENISA, CISA, IAPP, FPF) are kept whole.
 UNFILTERED = {"IAPP", "Future of Privacy Forum", "EDPB", "EDPB (via Google News)", "CNIL", "ENISA (via Google News)", "ICO (via Google News)", "CISA (via Google News)", "UK NCSC"}
 # Tighter filter for high-volume threat-intel sites: incidents, OT/critical infrastructure, regulators, data exposure
-INCIDENT_AI_SECURITY_KEYWORDS = re.compile(
+AI_SECURITY_KEYWORDS = re.compile(
     r"\b(prompt injection|jailbreak|exfiltrat|security|vulnerab|sandbox|agent|lethal trifecta|data leak|privacy|malicious)\b",
     re.IGNORECASE,
 )
-KEYWORDS = re.compile(
+INCIDENT_KEYWORDS = re.compile(
     r"\b(hacked|breach|leak|ransomware attack|data (theft|exposure|stolen)|"
     r"hospital|health|blood|medical|water|energy|grid|pipeline|refrigerat|ics|scada|ot\b|plc|critical infrastructure|"
     r"cert-fr|anssi|enisa|cisa|ncsc|ico\b|cnil|edpb|ftc|gdpr|nis2|regulator|fine[sd]?\b|sanction|"
