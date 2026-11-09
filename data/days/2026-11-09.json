@@ -1,0 +1,119 @@
+[
+ {
+  "uid": "https://cybersecuritynews.com/jailbroken-deepseek-ai-agent-breach/",
+  "source": "Cyber Security News",
+  "category": "Cyber incidents & threat intel",
+  "title": "Jailbroken DeepSeek AI Agent Breaches European Telecom and Accesses Millions of Patient Records",
+  "link": "https://cybersecuritynews.com/jailbroken-deepseek-ai-agent-breach/",
+  "date": "2026-11-09",
+  "summary": "A jailbroken DeepSeek AI agent spent more than two weeks breaking into a European telecom provider and 13 companies hosted on its systems. It reportedly reached millions of healthcare records along the way. Researchers at Malbear Labs call the campaign “Operation Snowball.” They…"
+ },
+ {
+  "uid": "https://cybersecuritynews.com/sonicwall-sonicos-sslvpn-vulnerability-exploited/",
+  "source": "Cyber Security News",
+  "category": "Cyber incidents & threat intel",
+  "title": "CISA Warns of SonicWall SonicOS SSLVPN Vulnerability Exploited in Attacks",
+  "link": "https://cybersecuritynews.com/sonicwall-sonicos-sslvpn-vulnerability-exploited/",
+  "date": "2026-11-09",
+  "summary": "CISA added a SonicWall SonicOS SSLVPN vulnerability, CVE-2026-19868, to its Known Exploited Vulnerabilities catalog, warning that valid-credential users can bypass SAML authentication controls and potentially evade multi-factor authentication. CISA added the vulnerability on Nov…"
+ },
+ {
+  "uid": "https://cybersecuritynews.com/cisa-warns-critical-flaws-in-powersystem-center/",
+  "source": "Cyber Security News",
+  "category": "Cyber incidents & threat intel",
+  "title": "CISA Warns Two Critical 9.0 Flaws in PowerSYSTEM Center Allow Unauthorized Access and SQL Injection",
+  "link": "https://cybersecuritynews.com/cisa-warns-critical-flaws-in-powersystem-center/",
+  "date": "2026-11-09",
+  "summary": "CISA warned that two critical PowerSYSTEM Center flaws (CVSS 9.0) could let authenticated users access administrator resources or execute unauthorized database commands, affecting energy and manufacturing sectors worldwide. The agency released advisory ICSA-26-307-01 on November…"
+ },
+ {
+  "uid": "https://cybersecuritynews.com/artex-ai-azure-key-vault-secrets/",
+  "source": "Cyber Security News",
+  "category": "Cyber incidents & threat intel",
+  "title": "Hackers Use ARTEX AI to Steal Azure Key Vault Secrets Just 5 Minutes After Scanning GitHub",
+  "link": "https://cybersecuritynews.com/artex-ai-azure-key-vault-secrets/",
+  "date": "2026-11-09",
+  "summary": "Microsoft says threat actors are using an AI tool called ARTEX to find secrets in public GitHub code and use them against cloud accounts. In one case, the AI agent went from searching GitHub to pulling data from Azure Key Vault in only five minutes. ARTEX AI Azure Key Vault secr…"
+ },
+ {
+  "uid": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBSbEJHRHZTTkJIOVFrb1pHWmxhRWFlbEJpNGs5Qktxc1NWaHBPTGNPNDVud2tEUkRMdWp4S19rdlNjZlhNanYxcmVQZEszYTNhenFmQ3E4UHlqTFh2dS13NE5CVTY0eWtsYUVB?oc=5",
+  "source": "ENISA (via Google News)",
+  "category": "EU cybersecurity",
+  "title": "EUVD-2026-118967",
+  "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBSbEJHRHZTTkJIOVFrb1pHWmxhRWFlbEJpNGs5Qktxc1NWaHBPTGNPNDVud2tEUkRMdWp4S19rdlNjZlhNanYxcmVQZEszYTNhenFmQ3E4UHlqTFh2dS13NE5CVTY0eWtsYUVB?oc=5",
+  "date": "2026-11-07",
+  "summary": "EUVD-2026-118967 EUVD"
+ },
+ {
+  "uid": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB4UURTcWZRYkxBZGJ4Vk1TeF9DYkxLOU9Eb2w5M2dmaFRvUHY4eXhBMi1aNFBGWUJRcVdxS3d3cDB1WUhBRkRRYjlhU3IyZC16ZTYydk5NUGVDNGxPZlFqdWVLbDBQX0VtMVlj?oc=5",
+  "source": "ENISA (via Google News)",
+  "category": "EU cybersecurity",
+  "title": "EUVD-2026-118941",
+  "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB4UURTcWZRYkxBZGJ4Vk1TeF9DYkxLOU9Eb2w5M2dmaFRvUHY4eXhBMi1aNFBGWUJRcVdxS3d3cDB1WUhBRkRRYjlhU3IyZC16ZTYydk5NUGVDNGxPZlFqdWVLbDBQX0VtMVlj?oc=5",
+  "date": "2026-11-07",
+  "summary": "EUVD-2026-118941 EUVD"
+ },
+ {
+  "uid": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8yV25hOThHZ2w1b3ZhbEdFaXJGNFRYNG1QMmIwQXBHVXdLcHk2d3piMk9RZ0pKYkRPTXJmai1LZ0l5YTdfNlNLVE5EdkpEbkJZNU5lMjFsX00xUzJTMXdfMkNxOUdJbGNzSVpv?oc=5",
+  "source": "ENISA (via Google News)",
+  "category": "EU cybersecurity",
+  "title": "EUVD-2026-119282",
+  "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8yV25hOThHZ2w1b3ZhbEdFaXJGNFRYNG1QMmIwQXBHVXdLcHk2d3piMk9RZ0pKYkRPTXJmai1LZ0l5YTdfNlNLVE5EdkpEbkJZNU5lMjFsX00xUzJTMXdfMkNxOUdJbGNzSVpv?oc=5",
+  "date": "2026-11-07",
+  "summary": "EUVD-2026-119282 EUVD"
+ },
+ {
+  "uid": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBKT3dSQWtsdUZFUzcySGU0Q2dXT1FZWlJqVXRkdFYtU2VyVnBQZDFrdVI2NDVLd2M0WkNEcVphUmNXQW9qVkIxNUQtY1V1Ynd0N1pFTjFreFdDU2tySjc1LXFidlpyQlIxZ3VV?oc=5",
+  "source": "ENISA (via Google News)",
+  "category": "EU cybersecurity",
+  "title": "EUVD-2026-119210",
+  "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBKT3dSQWtsdUZFUzcySGU0Q2dXT1FZWlJqVXRkdFYtU2VyVnBQZDFrdVI2NDVLd2M0WkNEcVphUmNXQW9qVkIxNUQtY1V1Ynd0N1pFTjFreFdDU2tySjc1LXFidlpyQlIxZ3VV?oc=5",
+  "date": "2026-11-07",
+  "summary": "EUVD-2026-119210 EUVD"
+ },
+ {
+  "uid": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9ZS1k1T1B4WUJzaTNuSjJUcGdoZHl5aXJqZzRhQlphZVdxcHFjMXlRUVltZ2ZWWGdsZGl3NXBkQlVhZXgtUE44NmhTOThVcEg3Ym5XbGFFdFpwMVdtM3EzUDM5a0dhSFUyV2Ew?oc=5",
+  "source": "ENISA (via Google News)",
+  "category": "EU cybersecurity",
+  "title": "EUVD-2026-118769",
+  "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9ZS1k1T1B4WUJzaTNuSjJUcGdoZHl5aXJqZzRhQlphZVdxcHFjMXlRUVltZ2ZWWGdsZGl3NXBkQlVhZXgtUE44NmhTOThVcEg3Ym5XbGFFdFpwMVdtM3EzUDM5a0dhSFUyV2Ew?oc=5",
+  "date": "2026-11-07",
+  "summary": "EUVD-2026-118769 EUVD"
+ },
+ {
+  "uid": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9DeTByaWFFYXVocF9hMGZZUl9lYjY0UDBodDFnZEZWb3NXVGlzbGNTeHhRempEb2piY1lVaDZtVmRWWTZ2d0ZjanRzQ3JmZGlkZkJ6VWJoZGhZNGZfc2ZqVW5uZjNtcjczM3hJ?oc=5",
+  "source": "ENISA (via Google News)",
+  "category": "EU cybersecurity",
+  "title": "EUVD-2026-119246",
+  "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9DeTByaWFFYXVocF9hMGZZUl9lYjY0UDBodDFnZEZWb3NXVGlzbGNTeHhRempEb2piY1lVaDZtVmRWWTZ2d0ZjanRzQ3JmZGlkZkJ6VWJoZGhZNGZfc2ZqVW5uZjNtcjczM3hJ?oc=5",
+  "date": "2026-11-07",
+  "summary": "EUVD-2026-119246 EUVD"
+ },
+ {
+  "uid": "https://news.google.com/rss/articles/CBMia0FVX3lxTE93SDlNOWx6NkxwQ1l0U3BIYlFxZjhkM01LVVIwbTBYVzRZSEpnSmk4cHdENzliZ256UTA0eDlpaURnXzNOVE5aSUlCcHFnZHl2S0V4aWljOUpWSGVPSHlROE9FTmFGZEp3Wjk0?oc=5",
+  "source": "ENISA (via Google News)",
+  "category": "EU cybersecurity",
+  "title": "EUVD-2026-119213",
+  "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE93SDlNOWx6NkxwQ1l0U3BIYlFxZjhkM01LVVIwbTBYVzRZSEpnSmk4cHdENzliZ256UTA0eDlpaURnXzNOVE5aSUlCcHFnZHl2S0V4aWljOUpWSGVPSHlROE9FTmFGZEp3Wjk0?oc=5",
+  "date": "2026-11-07",
+  "summary": "EUVD-2026-119213 EUVD"
+ },
+ {
+  "uid": "https://news.google.com/rss/articles/CBMia0FVX3lxTE80blJpcnlsVEMyeU1zenJjNFhlci0zZkw4Q3dUcHpCMU1OZUpuUmVQOUJoUFZBWDBBTmVad1pKaEtoTV9yb3RyMlFfNzlNMWE1a2s5bDYyZ25Ic3d6SjBvTzVQRTlkVy0tZllB?oc=5",
+  "source": "ENISA (via Google News)",
+  "category": "EU cybersecurity",
+  "title": "EUVD-2026-119359",
+  "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE80blJpcnlsVEMyeU1zenJjNFhlci0zZkw4Q3dUcHpCMU1OZUpuUmVQOUJoUFZBWDBBTmVad1pKaEtoTV9yb3RyMlFfNzlNMWE1a2s5bDYyZ25Ic3d6SjBvTzVQRTlkVy0tZllB?oc=5",
+  "date": "2026-11-09",
+  "summary": "EUVD-2026-119359 EUVD"
+ },
+ {
+  "uid": "https://www.cnil.fr/fr/sanctions-cybersecurite-collectivites-territoriales",
+  "source": "CNIL",
+  "category": "EU data protection",
+  "title": "Cybersécurité des collectivités territoriales : la CNIL prononce dix sanctions",
+  "link": "https://www.cnil.fr/fr/sanctions-cybersecurite-collectivites-territoriales",
+  "date": "2026-11-09",
+  "summary": "En novembre 2026, la CNIL a prononcé dix sanctions simplifiées à l’encontre de collectivités territoriales et d’un établissement public, pour des manquements relatifs à la cybersécurité."
+ }
+]

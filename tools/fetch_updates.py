@@ -46,7 +46,7 @@ FEEDS = [
     # High-volume vendor/vuln news site — kept only where it touches incidents, critical infrastructure/OT, regulators or data
     {"source": "Cyber Security News", "url": "https://cybersecuritynews.com/feed/", "category": "Cyber incidents & threat intel", "filter": "incident"},
     # EU
-    {"source": "EDPB", "url": "https://www.edpb.europa.eu/feed/news_en", "category": "EU data protection"},
+    {"source": "EDPB", "url": "https://www.edpb.europa.eu/feed/news_en", "category": "EU data protection", "fallback": "EDPB (via Google News)"},
     {"source": "EDPB (via Google News)", "url": gnews("site:edpb.europa.eu"), "category": "EU data protection"},
     {"source": "CNIL", "url": "https://www.cnil.fr/fr/rss.xml", "category": "EU data protection"},
     {"source": "ENISA (via Google News)", "url": gnews("site:enisa.europa.eu"), "category": "EU cybersecurity"},
@@ -138,15 +138,56 @@ def fetch_iapp_html(feed: dict, seen: dict[str, str]) -> tuple[list[dict], str |
     return items, None
 
 
+BROWSER_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36 global-privacy-cyber-hub-digest/1.1"
+_CTRL = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f]")
+_BARE_AMP = re.compile(r"&(?!#\d+;|#x[0-9a-fA-F]+;|[A-Za-z][A-Za-z0-9]*;)")
+
+
+def repair_xml(raw: bytes) -> bytes:
+    """Fix the faults that most often make regulator feeds unparseable:
+    control characters, bare ampersands and leading junk before the XML declaration."""
+    text = raw.decode("utf-8", "replace")
+    start = text.find("<?xml")
+    if start == -1:
+        start = min([i for i in (text.find("<rss"), text.find("<feed")) if i != -1] or [0])
+    text = text[start:]
+    text = _CTRL.sub("", text)
+    text = _BARE_AMP.sub("&amp;", text)
+    return text.encode("utf-8")
+
+
+def parse_feed(feed: dict):
+    """Download a feed ourselves (browser-like UA), parse it, and repair it if malformed."""
+    import urllib.request
+    req = urllib.request.Request(feed["url"], headers={
+        "User-Agent": BROWSER_UA,
+        "Accept": "application/rss+xml, application/atom+xml, application/xml;q=0.9, text/xml;q=0.8, */*;q=0.5",
+    })
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r:
+            raw = r.read()
+            ctype = r.headers.get("Content-Type", "")
+    except Exception as exc:  # noqa: BLE001
+        return None, f"{feed['source']}: unreachable ({exc})"
+    parsed = feedparser.parse(raw)
+    if parsed.entries:
+        return parsed, None
+    head = raw[:2000].lower()
+    if b"<html" in head and b"<rss" not in head and b"<feed" not in head:
+        return None, f"{feed['source']}: returned an HTML page instead of a feed ({ctype or 'no content-type'}) - likely bot protection or a moved URL"
+    repaired = feedparser.parse(repair_xml(raw))
+    if repaired.entries:
+        print(f"[info] {feed['source']}: malformed XML repaired ({getattr(parsed, 'bozo_exception', '')})", file=sys.stderr)
+        return repaired, None
+    return None, f"{feed['source']}: feed unavailable ({getattr(parsed, 'bozo_exception', 'parse error')})"
+
+
 def fetch(feed: dict, since: datetime, seen: dict[str, str]) -> tuple[list[dict], str | None]:
     if feed.get("type") == "iapp_html":
         return fetch_iapp_html(feed, seen)
-    try:
-        parsed = feedparser.parse(feed["url"], request_headers={"User-Agent": "global-privacy-cyber-hub digest/1.0"})
-    except Exception as exc:  # noqa: BLE001
-        return [], f"{feed['source']}: {exc}"
-    if parsed.bozo and not parsed.entries:
-        return [], f"{feed['source']}: feed unavailable ({getattr(parsed, 'bozo_exception', 'parse error')})"
+    parsed, err = parse_feed(feed)
+    if err:
+        return [], err
 
     items = []
     for e in parsed.entries:
@@ -274,8 +315,11 @@ def main() -> int:
     for feed in FEEDS:
         items, err = fetch(feed, since, seen)
         if err:
-            errors.append(err)
             print(f"[warn] {err}", file=sys.stderr)
+            if feed.get("fallback"):
+                print(f"[info] {feed['source']}: covered by fallback source '{feed['fallback']}'; not reported in digest", file=sys.stderr)
+            else:
+                errors.append(err)
         else:
             print(f"[ok] {feed['source']}: {len(items)} new")
         all_items.extend(items)
@@ -288,6 +332,18 @@ def main() -> int:
     for it in all_items:
         seen[it["uid"]] = day
     save_seen(seen)
+    day_store = DATA / "days" / f"{day}.json"
+    day_store.parent.mkdir(parents=True, exist_ok=True)
+    earlier = []
+    if day_store.exists():
+        try:
+            earlier = json.loads(day_store.read_text())
+        except json.JSONDecodeError:
+            earlier = []
+    known = {i["uid"] for i in earlier}
+    merged = earlier + [i for i in all_items if i["uid"] not in known]
+    day_store.write_text(json.dumps(merged, indent=1, ensure_ascii=False))
+    all_items = merged
     path = write_digest(day, all_items, errors)
     write_index()
     print(f"Wrote {path} with {len(all_items)} items")
