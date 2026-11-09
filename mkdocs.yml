@@ -49,12 +49,16 @@ nav:
       - Transatlantic transfers after FTC ruling: analyses/transatlantic-transfers-ftc.md
       - IAPP 10 Tips for Global Compliance: analyses/iapp-global-compliance-tips.md
       - The Economist on Black October (Nov 2026): analyses/economist-cyber-disaster-leader-2026.md
+      - Export controls × cybersecurity convergence (Aug 2026): analyses/export-controls-cybersecurity-convergence-aug2026.md
+      - UAE Cybercrime Law — what counts as an offence: analyses/uae-cybercrime-law-offences.md
+      - Brazil — ABToken VASP compliance & cyber guide: analyses/brazil-abtoken-spsav-compliance-cyber-guide.md
   - Resources:
       - Source papers: resources/papers/links.md
       - Summaries: resources/papers/summaries/README.md
       - Frameworks:
           - Index: resources/frameworks/README.md
           - ISO/IEC 27090 AI security: resources/frameworks/iso-27090-ai-security.md
+          - NIST IR 8596 Cyber AI Profile (draft): resources/frameworks/nist-ir-8596-cyber-ai-profile.md
       - Tools: resources/tools/README.md
       - Checklists:
           - Index: resources/checklists/README.md
