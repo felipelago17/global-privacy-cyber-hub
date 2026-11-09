@@ -160,14 +160,5 @@
   "link": "https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/",
   "date": "2026-11-07",
   "summary": "In October 2026, the financially motivated threat actor Storm-3358 began targeting organizations in the financial sector using the agentic AI offensive framework ARTEX. The post ARTEX abuse expands as cybercriminals target financial sector appeared first on Microsoft Security Bl…"
- },
- {
-  "uid": "https://simonwillison.net/2026/Nov/9/details-summary/",
-  "source": "Simon Willison",
-  "category": "AI & agent security",
-  "title": "Hide your slop PR descriptions behind",
-  "link": "https://simonwillison.net/2026/Nov/9/details-summary/",
-  "date": "2026-11-09",
-  "summary": "Most of the changes I make to my projects these days come in the form of PRs opened for me by Claude Code or Codex. The PR is my unit of work - I use them to bundle commits together, iterating on them until a feature is complete, document decisions and then merge the finished re…"
  }
 ]

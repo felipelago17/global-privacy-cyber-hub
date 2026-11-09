@@ -75,7 +75,7 @@ FEEDS = [
 UNFILTERED = {"IAPP", "Future of Privacy Forum", "EDPB", "EDPB (via Google News)", "CNIL", "ENISA (via Google News)", "ICO (via Google News)", "CISA (via Google News)", "UK NCSC"}
 # Tighter filter for high-volume threat-intel sites: incidents, OT/critical infrastructure, regulators, data exposure
 AI_SECURITY_KEYWORDS = re.compile(
-    r"\b(prompt injection|jailbreak|exfiltrat|security|vulnerab|sandbox|agent|lethal trifecta|data leak|privacy|malicious)\b",
+    r"(prompt[- ]injection|jailbreak|exfiltrat|vulnerab|sandbox escape|lethal trifecta|data leak|malicious (package|prompt|instruction)|security (flaw|hole|issue|bug))",
     re.IGNORECASE,
 )
 INCIDENT_KEYWORDS = re.compile(
