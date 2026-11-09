@@ -45,6 +45,16 @@ FEEDS = [
     {"source": "EFF Deeplinks", "url": "https://www.eff.org/rss/updates.xml", "category": "Privacy & digital rights"},
     # High-volume vendor/vuln news site — kept only where it touches incidents, critical infrastructure/OT, regulators or data
     {"source": "Cyber Security News", "url": "https://cybersecuritynews.com/feed/", "category": "Cyber incidents & threat intel", "filter": "incident"},
+    # Curated from zer0yu/CyberSecurityRSS (tiny.opml / CyberSecurityRSS.opml, Sep 2026) - in-scope subset only
+    {"source": "Krebs on Security", "url": "https://krebsonsecurity.com/feed/", "category": "Cyber incidents & threat intel", "filter": "incident", "max": 3},
+    {"source": "SecurityWeek", "url": "https://www.securityweek.com/feed/", "category": "Cyber incidents & threat intel", "filter": "incident", "max": 4},
+    {"source": "Dark Reading", "url": "https://www.darkreading.com/rss.xml", "category": "Cyber incidents & threat intel", "filter": "incident", "max": 4},
+    {"source": "Infosecurity Magazine", "url": "http://www.infosecurity-magazine.com/rss/news/", "category": "Cyber incidents & threat intel", "filter": "incident", "max": 4},
+    {"source": "Claroty Team82", "url": "https://claroty.com/team82/disclosure-dashboard/feed/atom", "category": "Critical infrastructure & OT", "max": 3},
+    {"source": "Microsoft Security Blog", "url": "https://www.microsoft.com/security/blog/feed/", "category": "Vendor threat research", "max": 2},
+    {"source": "Google Online Security Blog", "url": "http://feeds.feedburner.com/GoogleOnlineSecurityBlog?format=xml", "category": "Vendor threat research", "max": 2},
+    {"source": "Trail of Bits", "url": "https://blog.trailofbits.com/feed/", "category": "AI & agent security", "max": 2},
+    {"source": "Simon Willison", "url": "https://simonwillison.net/atom/everything/", "category": "AI & agent security", "filter": "ai_security", "max": 2},
     # EU
     {"source": "EDPB", "url": "https://www.edpb.europa.eu/feed/news_en", "category": "EU data protection", "fallback": "EDPB (via Google News)"},
     {"source": "EDPB (via Google News)", "url": gnews("site:edpb.europa.eu"), "category": "EU data protection"},
@@ -64,7 +74,11 @@ FEEDS = [
 # Regulator-specific feeds (EDPB, ICO, CNIL, ENISA, CISA, IAPP, FPF) are kept whole.
 UNFILTERED = {"IAPP", "Future of Privacy Forum", "EDPB", "EDPB (via Google News)", "CNIL", "ENISA (via Google News)", "ICO (via Google News)", "CISA (via Google News)", "UK NCSC"}
 # Tighter filter for high-volume threat-intel sites: incidents, OT/critical infrastructure, regulators, data exposure
-INCIDENT_KEYWORDS = re.compile(
+INCIDENT_AI_SECURITY_KEYWORDS = re.compile(
+    r"\b(prompt injection|jailbreak|exfiltrat|security|vulnerab|sandbox|agent|lethal trifecta|data leak|privacy|malicious)\b",
+    re.IGNORECASE,
+)
+KEYWORDS = re.compile(
     r"\b(hacked|breach|leak|ransomware attack|data (theft|exposure|stolen)|"
     r"hospital|health|blood|medical|water|energy|grid|pipeline|refrigerat|ics|scada|ot\b|plc|critical infrastructure|"
     r"cert-fr|anssi|enisa|cisa|ncsc|ico\b|cnil|edpb|ftc|gdpr|nis2|regulator|fine[sd]?\b|sanction|"
@@ -217,6 +231,9 @@ def fetch(feed: dict, since: datetime, seen: dict[str, str]) -> tuple[list[dict]
         if feed.get("filter") == "incident":
             if not INCIDENT_KEYWORDS.search(text):
                 continue
+        elif feed.get("filter") == "ai_security":
+            if not AI_SECURITY_KEYWORDS.search(text):
+                continue
         elif feed["source"] not in UNFILTERED and not KEYWORDS.search(text):
             continue
         items.append(
@@ -230,7 +247,7 @@ def fetch(feed: dict, since: datetime, seen: dict[str, str]) -> tuple[list[dict]
                 "summary": clean(e.get("summary", "")),
             }
         )
-        if len(items) >= MAX_PER_SOURCE:
+        if len(items) >= feed.get("max", MAX_PER_SOURCE):
             break
     return items, None
 

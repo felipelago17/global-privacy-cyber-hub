@@ -21,6 +21,7 @@ Projects worth starring, forking or referencing. This mirrors the "awesome list"
 | Flower | <https://github.com/adap/flower> | Federated-learning framework |
 | OpenMined PySyft | <https://github.com/OpenMined/PySyft> | Privacy-preserving ML and remote data science |
 | Google Differential Privacy | <https://github.com/google/differential-privacy> | Reference DP libraries |
+| CyberSecurityRSS (zer0yu) | <https://github.com/zer0yu/CyberSecurityRSS> | Curated OPML of ~1,250 security RSS/Atom feeds (tiny.opml ~500). **Referenced, not forked**: the daily digest uses a 9-feed in-scope subset (Krebs, SecurityWeek, Dark Reading, Infosecurity Magazine, Claroty Team82, Microsoft and Google security blogs, Trail of Bits, Simon Willison). Most of the list is offensive-security content outside this hub's scope; the repo carries no licence file, so feeds are cited individually rather than the OPML being copied |
 | GDPR / compliance-automation projects | various | Policy generators, cookie-consent and records-of-processing tooling; evaluate individually |
 | OneTrust-style workflow simulations and templates | various | Open templates for DSAR, consent and vendor-risk workflows; link rather than copy |
 
