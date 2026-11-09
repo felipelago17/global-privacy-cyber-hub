@@ -143,6 +143,9 @@ _CTRL = re.compile(r"[\x00-\x08\x0b\x0c\x0e-\x1f]")
 _BARE_AMP = re.compile(r"&(?!#\d+;|#x[0-9a-fA-F]+;|[A-Za-z][A-Za-z0-9]*;)")
 
 
+BARE_ID = re.compile(r"^\s*(EUVD|CVE|GHSA)-[\w-]+\s*$", re.I)
+
+
 def repair_xml(raw: bytes) -> bytes:
     """Fix the faults that most often make regulator feeds unparseable:
     control characters, bare ampersands and leading junk before the XML declaration."""
@@ -208,6 +211,8 @@ def fetch(feed: dict, since: datetime, seen: dict[str, str]) -> tuple[list[dict]
         title = clean(e.get("title", ""), 200)
         if "news.google.com" in feed["url"]:
             title = re.sub(r"\s+-\s+[^-]{2,60}$", "", title)
+        if BARE_ID.match(title):
+            continue  # vulnerability-database stubs (e.g. ENISA "EUVD-2026-119359") carry no news value
         text = title + " " + e.get("summary", "")
         if feed.get("filter") == "incident":
             if not INCIDENT_KEYWORDS.search(text):
