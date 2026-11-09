@@ -175,8 +175,8 @@ def parse_feed(feed: dict):
             last_err = f"unreachable ({exc})"
             continue
         parsed = feedparser.parse(raw)
-        if parsed.entries:
-            return parsed, None
+        if parsed.entries or (not parsed.bozo and parsed.get("feed")):
+            return parsed, None  # includes valid feeds that simply have no items today
         repaired = feedparser.parse(repair_xml(raw))
         if repaired.entries:
             print(f"[info] {feed['source']}: malformed XML repaired ({getattr(parsed, 'bozo_exception', '')})", file=sys.stderr)
