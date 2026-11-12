@@ -43,6 +43,7 @@ nav:
   - Analyses:
       - GCP DPIA (2026): analyses/gcp-dpia-summary.md
       - EDPB Opinion 28/2024 on AI models: analyses/edpb-ai-models.md
+      - EDPB Guidelines 1/2024 on legitimate interest: analyses/edpb-guidelines-legitimate-interest.md
       - Three Layers of Agent Security: analyses/agent-security-three-layers.md
       - Medical AI under the EU AI Act: analyses/medical-ai-act-safeguards.md
       - India DPDP in Practice: analyses/india-dpdp-practice.md
