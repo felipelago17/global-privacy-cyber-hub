@@ -214,5 +214,167 @@
   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOejVZeWxNcWZZbHI4QTlHX24yZV9LSVdfenVZYjA2TjhTTTdjRm9xMlFZWXZKNkszN3daVnlMbGRBYTd2d1lVX21wTXZkNmJ6OW5yakpIQWkxMUZOVnNmVnJtdnZXNzg4YktoMGM2dXNFVmREbEpLc29pVm15UExPSmZyM2JNUE95aVBVSURDZ2ZpRzZh?oc=5",
   "date": "2026-11-11",
   "summary": "ANCHOR-CI Roles and Responsibilities CISA (.gov)"
+ },
+ {
+  "uid": "https://cybersecuritynews.com/?p=171922",
+  "source": "Cyber Security News",
+  "category": "Cyber incidents & threat intel",
+  "title": "CISA Warns of Google Chromium 0-Day Vulnerability Actively Exploited in Attacks",
+  "link": "https://cybersecuritynews.com/google-chromium-0-day-vulnerability-exploited/",
+  "date": "2026-11-12",
+  "summary": "CISA has added a new Google Chromium zero-day CVE-2026-125350 to its Known Exploited Vulnerabilities (KEV) catalog and says attackers are already using it. It sits in the browser’s XML component and could let a remote attacker run code through a specially crafted webpage. Anyone…"
+ },
+ {
+  "uid": "https://cybersecuritynews.com/?p=171758",
+  "source": "Cyber Security News",
+  "category": "Cyber incidents & threat intel",
+  "title": "Hackers Breach Global Shipping Giant Maersk and Claim Theft of 100GB of Logistics Data",
+  "link": "https://cybersecuritynews.com/hackers-breach-maersk/",
+  "date": "2026-11-12",
+  "summary": "A.P. Moller–Maersk has confirmed that hackers accessed an older IT system and extracted data, as a group calling itself WhiteArmor claims it stole 100GB of logistics records. The shipping giant disclosed the incident on November 11, 2026, but has not confirmed the attackers’ ide…"
+ },
+ {
+  "uid": "https://www.securityweek.com/?p=50718",
+  "source": "SecurityWeek",
+  "category": "Cyber incidents & threat intel",
+  "title": "Maersk Confirms Data Theft Amid $5 Million Extortion Attempt",
+  "link": "https://www.securityweek.com/maersk-confirms-data-theft-amid-5-million-extortion-attempt/",
+  "date": "2026-11-12",
+  "summary": "The WhiteArmor ransomware group claims it stole 100GB of data from the shipping giant’s systems. The post Maersk Confirms Data Theft Amid $5 Million Extortion Attempt appeared first on SecurityWeek ."
+ },
+ {
+  "uid": "https://www.darkreading.com/cyberattacks-data-breaches/inside-ai-attack-us-retailer",
+  "source": "Dark Reading",
+  "category": "Cyber incidents & threat intel",
+  "title": "Inside an AI Attack Against a US Retailer",
+  "link": "https://www.darkreading.com/cyberattacks-data-breaches/inside-ai-attack-us-retailer",
+  "date": "2026-11-12",
+  "summary": "When hand-typed commands failed to breach a US retailer, the attacker turned to AI-generated scripts, achieving lateral movement in minutes."
+ },
+ {
+  "uid": "https://www.infosecurity-magazine.com/news/ncsc-cyber-adversary-testing-boost/",
+  "source": "Infosecurity Magazine",
+  "category": "Cyber incidents & threat intel",
+  "title": "NCSC Launches Cyber Adversary Testing to Boost Resilience",
+  "link": "https://www.infosecurity-magazine.com/news/ncsc-cyber-adversary-testing-boost/",
+  "date": "2026-11-12",
+  "summary": "The UK’s National Cyber Security Centre has launched a new Cyber Adversary Simulation (CyAS) scheme"
+ },
+ {
+  "uid": "https://www.infosecurity-magazine.com/news/maersk-data-breach-extortion-group/",
+  "source": "Infosecurity Magazine",
+  "category": "Cyber incidents & threat intel",
+  "title": "Maersk Reveals Data Breach as Extortion Group Demands $5m",
+  "link": "https://www.infosecurity-magazine.com/news/maersk-data-breach-extortion-group/",
+  "date": "2026-11-12",
+  "summary": "Maersk has revealed a threat actor extracted data from one of its legacy systems"
+ },
+ {
+  "uid": "CBMiwAFBVV95cUxNN2pEQ0dlNUdZRkJicmN4b2ZETndscnJxcllJamZLTkt6a3VpRGZfTXZ1RUE3dzJmYm9zeEJFTllrWFZGMlRuaWRmTG1SV3gyQlg4cnpFZ2xGbVdSOWhaNzEzVk5CLVRFR3JpRnVCRG1yZGhiUXdaNVowRVk3WnJJVUx5UGZaZEVpR3J0RVBWRHFGNUlmZlQ3SzhrSkpNWm5BRVN3MGZfTnIweC1ndEJIN1F5eG5NSkp6VlV1TzJVQ24",
+  "source": "EDPB (via Google News)",
+  "category": "EU data protection",
+  "title": "Guidelines 1/2024 on processing of personal data based on Article 6(1)(f) GDPR",
+  "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNN2pEQ0dlNUdZRkJicmN4b2ZETndscnJxcllJamZLTkt6a3VpRGZfTXZ1RUE3dzJmYm9zeEJFTllrWFZGMlRuaWRmTG1SV3gyQlg4cnpFZ2xGbVdSOWhaNzEzVk5CLVRFR3JpRnVCRG1yZGhiUXdaNVowRVk3WnJJVUx5UGZaZEVpR3J0RVBWRHFGNUlmZlQ3SzhrSkpNWm5BRVN3MGZfTnIweC1ndEJIN1F5eG5NSkp6VlV1TzJVQ24?oc=5",
+  "date": "2026-11-10",
+  "summary": "Guidelines 1/2024 on processing of personal data based on Article 6(1)(f) GDPR European Data Protection Board"
+ },
+ {
+  "uid": "CBMidEFVX3lxTE1rUEhUTjFPRnBmV0p4TFozbWprSndVNlF2VEsyME1WRjVWSURLYklNU3JGNDhZV001aGxBWEdvTzc4a2pzT09NM3U2NUxkNVhxeGZpNjRpQ0l1Y05ySDlhTUsxMVlMcGZGbTVCbzg0YnM3djBC",
+  "source": "EDPB (via Google News)",
+  "category": "EU data protection",
+  "title": "Contact form",
+  "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1rUEhUTjFPRnBmV0p4TFozbWprSndVNlF2VEsyME1WRjVWSURLYklNU3JGNDhZV001aGxBWEdvTzc4a2pzT09NM3U2NUxkNVhxeGZpNjRpQ0l1Y05ySDlhTUsxMVlMcGZGbTVCbzg0YnM3djBC?oc=5",
+  "date": "2026-11-12",
+  "summary": "Contact form European Data Protection Board"
+ },
+ {
+  "uid": "CBMiqwJBVV95cUxOaHpJVVRzMGhxZnVJdV83MHh3OFFySlBOMUdBM29UcW1tazVzTkhSMk5fVndtc1cxbExSX3psSWo2UG9CZWdBa3NmVFhpdE5adjQyeXNadWtXNG9DeXVNdmhwWFRheEYtRWVGeG9lcklUbUxhQTF3MkpzWXdobFJmdThTU2xfVXRaRmN5MXlid0ZJUUYyUm53M2MzYWZ5TXVSM1NyQUlUZFQ3Mm5peFRRNzNnQTJyV0FOZVFzSDJwTlJGVE1rQk5tcU56a2xtRUtMdVV3MzhyWW5keE9OUTdPRHZxMVQzd055Q2pPYVlBVDRyMnNaNWNudnRvR3U0UnNiM3ZvRmdhM2FReFk0Y0lGaVNmSXYwME4wbks4aXdESEVtUmxKQkozWThyNA",
+  "source": "EDPB (via Google News)",
+  "category": "EU data protection",
+  "title": "Search results",
+  "link": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxOaHpJVVRzMGhxZnVJdV83MHh3OFFySlBOMUdBM29UcW1tazVzTkhSMk5fVndtc1cxbExSX3psSWo2UG9CZWdBa3NmVFhpdE5adjQyeXNadWtXNG9DeXVNdmhwWFRheEYtRWVGeG9lcklUbUxhQTF3MkpzWXdobFJmdThTU2xfVXRaRmN5MXlid0ZJUUYyUm53M2MzYWZ5TXVSM1NyQUlUZFQ3Mm5peFRRNzNnQTJyV0FOZVFzSDJwTlJGVE1rQk5tcU56a2xtRUtMdVV3MzhyWW5keE9OUTdPRHZxMVQzd055Q2pPYVlBVDRyMnNaNWNudnRvR3U0UnNiM3ZvRmdhM2FReFk0Y0lGaVNmSXYwME4wbks4aXdESEVtUmxKQkozWThyNA?oc=5",
+  "date": "2026-11-11",
+  "summary": "Search results European Data Protection Board"
+ },
+ {
+  "uid": "CBMilAFBVV95cUxNdkRFWTYxNEpBVWFTVUk1UlFWS0tuODQ1bnpGSHRVZkVJSVkwd21QRy14QVQzMnFIekNQcWw5Rk1sSzhjMXEyMURvUWRObDMycURlc0VSTlEtS05lcEdVMjEtZDZLM0pwNDJGQllKbTBzaDA2T2VzM3R0M202eEcwenB0cWtKOW5SY2VMYkZ6STRaNDQw",
+  "source": "ENISA (via Google News)",
+  "category": "EU cybersecurity",
+  "title": "Joint Advisory on the Use of Frontier AI Models for Code Review",
+  "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdkRFWTYxNEpBVWFTVUk1UlFWS0tuODQ1bnpGSHRVZkVJSVkwd21QRy14QVQzMnFIekNQcWw5Rk1sSzhjMXEyMURvUWRObDMycURlc0VSTlEtS05lcEdVMjEtZDZLM0pwNDJGQllKbTBzaDA2T2VzM3R0M202eEcwenB0cWtKOW5SY2VMYkZ6STRaNDQw?oc=5",
+  "date": "2026-11-12",
+  "summary": "Joint Advisory on the Use of Frontier AI Models for Code Review ENISA"
+ },
+ {
+  "uid": "CBMipwFBVV95cUxPem9GS2g3ZGhtTGxtOTYxTkVCM0Vfel8wZDB1clZmU3l0RGdZVHN2Z3Y2cnQyeWJMaTd0XzdPSUZGdVFMWFhLZnFucl93M2NnUWt1TFB2djlpcWtXemJFdzFEOThyekd3X2JlUGZuS2I4elBQSVRMLWlBVzFZMm1ENFpsZm1oRjQ4VVRGdFdaSi1yQWFtZmVySUY4OWgzVk5IdFdEc0JoTQ",
+  "source": "ENISA (via Google News)",
+  "category": "EU cybersecurity",
+  "title": "Joint Advisory on the Use of Frontier AI Models for Code Review",
+  "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPem9GS2g3ZGhtTGxtOTYxTkVCM0Vfel8wZDB1clZmU3l0RGdZVHN2Z3Y2cnQyeWJMaTd0XzdPSUZGdVFMWFhLZnFucl93M2NnUWt1TFB2djlpcWtXemJFdzFEOThyekd3X2JlUGZuS2I4elBQSVRMLWlBVzFZMm1ENFpsZm1oRjQ4VVRGdFdaSi1yQWFtZmVySUY4OWgzVk5IdFdEc0JoTQ?oc=5",
+  "date": "2026-11-12",
+  "summary": "Joint Advisory on the Use of Frontier AI Models for Code Review ENISA"
+ },
+ {
+  "uid": "CBMi6AFBVV95cUxOQ21LeUgtd2I4U242LUwxLUpEcGoxVF9xQ29PendONFBudjk0M1NmdTk4YzRyLVFIb3dKdnZPektnTEUtcTN2WnFzcUp3UThSZ3BMTndnZEgtLUhlYXA3NkdQT3Uzak1HOVEwSDRFeldvQlJMNmZDMWFlQ0F5VnZuMkRoV2pjaWIzVGxnMGNhOTB0SmpHUWUyRTZ3MFJIUjV1QWppdTFSWThjVUNybm9OSkpQTjZMZHQ3bHQyOEM0ci0wVVdHRHNOZE9SdDY5QmJEd0F6WjF0QnFOMTBnY19td1oyYnp6dmo1",
+  "source": "ICO (via Google News)",
+  "category": "UK data protection",
+  "title": "Subject access requests generated by artificial intelligence",
+  "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOQ21LeUgtd2I4U242LUwxLUpEcGoxVF9xQ29PendONFBudjk0M1NmdTk4YzRyLVFIb3dKdnZPektnTEUtcTN2WnFzcUp3UThSZ3BMTndnZEgtLUhlYXA3NkdQT3Uzak1HOVEwSDRFeldvQlJMNmZDMWFlQ0F5VnZuMkRoV2pjaWIzVGxnMGNhOTB0SmpHUWUyRTZ3MFJIUjV1QWppdTFSWThjVUNybm9OSkpQTjZMZHQ3bHQyOEM0ci0wVVdHRHNOZE9SdDY5QmJEd0F6WjF0QnFOMTBnY19td1oyYnp6dmo1?oc=5",
+  "date": "2026-11-11",
+  "summary": "Subject access requests generated by artificial intelligence ICO"
+ },
+ {
+  "uid": "CBMiWEFVX3lxTE9la2dWeTZSVmZlZzBHQ2hiZV9KbWVHZnNFS1hSSFVkc282RmZnNmFqWE5qR3dON3dUYXJOVFpvTTFBYWxFUG5YWEZhZUNfOEdXSExpMkVlMnU",
+  "source": "ICO (via Google News)",
+  "category": "UK data protection",
+  "title": "Emma Technologies Ltd",
+  "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9la2dWeTZSVmZlZzBHQ2hiZV9KbWVHZnNFS1hSSFVkc282RmZnNmFqWE5qR3dON3dUYXJOVFpvTTFBYWxFUG5YWEZhZUNfOEdXSExpMkVlMnU?oc=5",
+  "date": "2026-11-12",
+  "summary": "Emma Technologies Ltd ICO"
+ },
+ {
+  "uid": "CBMiWEFVX3lxTE16TDZnNU1lak90U2tfaGY1Y2lpTGF6VlNoVUNMNDkxRmhiczFUd3lqc3JudnZPQXJxVW5zSlRXQUlWQXlXOTEtQUUtYkF5ZWFnMEtxZS1ydEw",
+  "source": "ICO (via Google News)",
+  "category": "UK data protection",
+  "title": "Fortem Information Technology Limited",
+  "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE16TDZnNU1lak90U2tfaGY1Y2lpTGF6VlNoVUNMNDkxRmhiczFUd3lqc3JudnZPQXJxVW5zSlRXQUlWQXlXOTEtQUUtYkF5ZWFnMEtxZS1ydEw?oc=5",
+  "date": "2026-11-11",
+  "summary": "Fortem Information Technology Limited ICO"
+ },
+ {
+  "uid": "CBMixgFBVV95cUxQUWUzQmFVR0Zyb1p3T2wtcXJteWh5RnFCWGtwZnlVUi04bTlteVRrdnRZbVl3YWg0Mk05X2RfYlQ4TVFQVWVveHcwejRVZXZXNmdUOXFrZGk3WmZQX0ZMVjdRd1FLeXdLTGt0d0cxUVVyU08yNldWUUpnR2Y2eGZucFR4WHlacXVzTS1yZ20wX0VOZnQ0c1RqMTF3SG1NTkZicnB6Qjcya3N2VTlIS2VneGR1Q0dHQU9IVHJIOTNYOXUtMmhONVE",
+  "source": "ICO (via Google News)",
+  "category": "UK data protection",
+  "title": "UK health sector warned to tackle medical record snooping",
+  "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUWUzQmFVR0Zyb1p3T2wtcXJteWh5RnFCWGtwZnlVUi04bTlteVRrdnRZbVl3YWg0Mk05X2RfYlQ4TVFQVWVveHcwejRVZXZXNmdUOXFrZGk3WmZQX0ZMVjdRd1FLeXdLTGt0d0cxUVVyU08yNldWUUpnR2Y2eGZucFR4WHlacXVzTS1yZ20wX0VOZnQ0c1RqMTF3SG1NTkZicnB6Qjcya3N2VTlIS2VneGR1Q0dHQU9IVHJIOTNYOXUtMmhONVE?oc=5",
+  "date": "2026-11-12",
+  "summary": "UK health sector warned to tackle medical record snooping ICO"
+ },
+ {
+  "uid": "CBMiWEFVX3lxTE9oSnBMWUxnSmMtQkZqWTBBOWNSekMxQTlQR1FQUU5BWkpUd1Fhc21URm5jVUltaDNlY0NKaXNiZlNkVlJzS21FcVBlWV9hb1pSYWhqQmRNZzY",
+  "source": "ICO (via Google News)",
+  "category": "UK data protection",
+  "title": "Merc Tech Maintenance Limited",
+  "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9oSnBMWUxnSmMtQkZqWTBBOWNSekMxQTlQR1FQUU5BWkpUd1Fhc21URm5jVUltaDNlY0NKaXNiZlNkVlJzS21FcVBlWV9hb1pSYWhqQmRNZzY?oc=5",
+  "date": "2026-11-11",
+  "summary": "Merc Tech Maintenance Limited ICO"
+ },
+ {
+  "uid": "CBMiWEFVX3lxTFBhZ1RhbHgyRUE1bUptZ254d3d6RVJJeEpBQjY4OTRqT3EwbUJpeFN6QjVNR2J6SW9wUEFZSEk2ZWl2bjVJSDhBdUFaM0w4enBLdXVGQnR1Ymo",
+  "source": "ICO (via Google News)",
+  "category": "UK data protection",
+  "title": "K Ajel Ltd",
+  "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBhZ1RhbHgyRUE1bUptZ254d3d6RVJJeEpBQjY4OTRqT3EwbUJpeFN6QjVNR2J6SW9wUEFZSEk2ZWl2bjVJSDhBdUFaM0w4enBLdXVGQnR1Ymo?oc=5",
+  "date": "2026-11-11",
+  "summary": "K Ajel Ltd ICO"
+ },
+ {
+  "uid": "CBMiuAFBVV95cUxNNlF6d0FZbUxpMnNJNEZSMm5DMXM4MjlwRnFEYVl6X2g0cTdQb2xwUzlSOXNFeGdYZmxpMkZNRC1CQXJWSTZMaHB2N1Zhb1pvMFY5WjlBTGEtaFc5aDVVSjBIWENFWXVfSVJOZGdrRUFmcWpSMjhnSGg3ejFJZWthV01OWjlaWFZqaG54aTlqd2V6WEFjcFVzYTJzQ1dybzlySFVzdDl4RVlxdGRuWkU5MXRHbFVmSzh2",
+  "source": "ICO (via Google News)",
+  "category": "UK data protection",
+  "title": "Value creation research",
+  "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNlF6d0FZbUxpMnNJNEZSMm5DMXM4MjlwRnFEYVl6X2g0cTdQb2xwUzlSOXNFeGdYZmxpMkZNRC1CQXJWSTZMaHB2N1Zhb1pvMFY5WjlBTGEtaFc5aDVVSjBIWENFWXVfSVJOZGdrRUFmcWpSMjhnSGg3ejFJZWthV01OWjlaWFZqaG54aTlqd2V6WEFjcFVzYTJzQ1dybzlySFVzdDl4RVlxdGRuWkU5MXRHbFVmSzh2?oc=5",
+  "date": "2026-11-12",
+  "summary": "Value creation research ICO"
  }
 ]
