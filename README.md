@@ -48,6 +48,7 @@ Focus areas: AI governance, cloud DPIAs, agent security, privacy-enhancing techn
 ## Frameworks spotlight
 
 - [ISO/IEC 27090:2026 — AI security](resources/frameworks/iso-27090-ai-security.md): the new ISO standard on security threats to AI systems (published 14 Oct 2026), with related publications and its relationship to 27001/42001/27091 and EU AI Act Art. 15.
+- [ISO/SAE TR 8477:2026 — Road vehicle cybersecurity V&V](resources/frameworks/iso-sae-tr-8477-cybersecurity-vv.md): informative technical report on planning and evidencing cybersecurity verification and validation under ISO/SAE 21434 (ISO page: under publication, Edition 1, Oct 2026), with links to PAS 8475 and SAE J3322.
 
 ## Connectors
 

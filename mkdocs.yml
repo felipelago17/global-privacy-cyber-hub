@@ -58,6 +58,7 @@ nav:
       - Frameworks:
           - Index: resources/frameworks/README.md
           - ISO/IEC 27090 AI security: resources/frameworks/iso-27090-ai-security.md
+          - ISO/SAE TR 8477 road vehicle cyber V&V: resources/frameworks/iso-sae-tr-8477-cybersecurity-vv.md
           - NIST IR 8596 Cyber AI Profile (draft): resources/frameworks/nist-ir-8596-cyber-ai-profile.md
       - Tools: resources/tools/README.md
       - Checklists:
