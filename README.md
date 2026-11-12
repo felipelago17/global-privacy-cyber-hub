@@ -40,6 +40,7 @@ Focus areas: AI governance, cloud DPIAs, agent security, privacy-enhancing techn
 | [DPIA on Google Cloud Platform](analyses/gcp-dpia-summary.md) | Dutch government DPIA (June 2026) finds 11 low risks across Compute Engine, Cloud SQL, Cloud Storage and BigQuery; useful template for cloud compliance checklists |
 | [EDPB Opinion 28/2024 on AI models](analyses/edpb-ai-models.md) | AI models trained on personal data are not automatically anonymous; three-step legitimate-interest test for development and deployment |
 | [EDPB Guidelines 1/2024 on legitimate interest](analyses/edpb-guidelines-legitimate-interest.md) | Three cumulative conditions, documented assessment, reasonable expectations; Version 2.0 adopted 10 Nov 2026 |
+| [EDPB 2027 enforcement on automated recruitment (Art. 22)](analyses/edpb-cef-2027-automated-recruitment-art22.md) | Reported CEF 2027 topic; Dun & Bradstreet and Universal Versand AG opinion on automated decisions |
 | [The Three Layers of Agent Security](analyses/agent-security-three-layers.md) | DeepMind's policy framework: secure individual agents, manage multi-agent risk, empower cyber defenders |
 | [High-risk without safeguards? (EU AI Act, medical AI)](analyses/medical-ai-act-safeguards.md) | Health Innovation Package proposals would keep medical AI "high-risk" on paper while stripping most AI Act safeguards |
 | [DPDP in Practice (India)](analyses/india-dpdp-practice.md) | Phased commencement to May 2027, narrow lawful bases, every breach reportable, high penalty ceilings |
