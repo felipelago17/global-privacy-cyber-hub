@@ -1,0 +1,218 @@
+[
+ {
+  "uid": "https://iapp.org/news/a/inside-greece-s-new-ai-act-framework",
+  "source": "IAPP",
+  "category": "Privacy & AI governance",
+  "title": "Inside Greece's new AI Act framework",
+  "link": "https://iapp.org/news/a/inside-greece-s-new-ai-act-framework",
+  "date": "",
+  "summary": ""
+ },
+ {
+  "uid": "https://iapp.org/news/a/centralized-or-decentralized-ai-governance",
+  "source": "IAPP",
+  "category": "Privacy & AI governance",
+  "title": "Centralized or decentralized AI governance?",
+  "link": "https://iapp.org/news/a/centralized-or-decentralized-ai-governance",
+  "date": "",
+  "summary": ""
+ },
+ {
+  "uid": "https://iapp.org/news/a/european-commission-releases-draft-proposal-for-digital-fairness-act",
+  "source": "IAPP",
+  "category": "Privacy & AI governance",
+  "title": "European Commission releases draft proposal for Digital Fairness Act",
+  "link": "https://iapp.org/news/a/european-commission-releases-draft-proposal-for-digital-fairness-act",
+  "date": "",
+  "summary": ""
+ },
+ {
+  "uid": "https://iapp.org/news/a/compliant-and-still-blind-what-article-72-monitoring-doesn-t-see",
+  "source": "IAPP",
+  "category": "Privacy & AI governance",
+  "title": "Compliant and still blind: What Article 72 monitoring doesn't see",
+  "link": "https://iapp.org/news/a/compliant-and-still-blind-what-article-72-monitoring-doesn-t-see",
+  "date": "",
+  "summary": ""
+ },
+ {
+  "uid": "https://iapp.org/news/a/edpb-puts-admt-based-recruitment-in-focus-under-coordinated-enforcement-framework",
+  "source": "IAPP",
+  "category": "Privacy & AI governance",
+  "title": "EDPB puts ADMT-based recruitment in focus under Coordinated Enforcement Framework",
+  "link": "https://iapp.org/news/a/edpb-puts-admt-based-recruitment-in-focus-under-coordinated-enforcement-framework",
+  "date": "",
+  "summary": ""
+ },
+ {
+  "uid": "112531 at https://www.eff.org",
+  "source": "EFF Deeplinks",
+  "category": "Privacy & digital rights",
+  "title": "🤕 Medicare's AI Experiment | EFFector 38.20",
+  "link": "https://www.eff.org/deeplinks/2026/11/medicares-ai-experiment-effector-3820",
+  "date": "2026-11-11",
+  "summary": "When we need medical care, we expect decisions about our treatment to be made by our doctors, not a tech company's algorithm. But in January, the federal government launched a program that uses AI to evaluate Medicare beneficiaries' requests for certain procedures. EFF sued for …"
+ },
+ {
+  "uid": "https://cybersecuritynews.com/?p=171745",
+  "source": "Cyber Security News",
+  "category": "Cyber incidents & threat intel",
+  "title": "Node.js Fixes 16 Security Flaws That Could Expose TLS Private Keys and Crash Servers Remotely",
+  "link": "https://cybersecuritynews.com/node-js-fixes-16-security-vulnerabilities/",
+  "date": "2026-11-12",
+  "summary": "The Node.js project has released fixes for 16 security flaws across its 22.x, 24.x and 26.x lines. Seven are rated high, six medium, and three low. The official advisory says the patched builds are v22.23.5, v24.22.3 and v26.13.1. The update also refreshes three bundled parts: l…"
+ },
+ {
+  "uid": "https://cybersecuritynews.com/?p=171731",
+  "source": "Cyber Security News",
+  "category": "Cyber incidents & threat intel",
+  "title": "Hackers Could Abuse Microsoft Entra AI Agents to Hijack Enterprise Accounts Without Stealing Passwords",
+  "link": "https://cybersecuritynews.com/hackers-could-abuse-microsoft-entra-ai-agents/",
+  "date": "2026-11-11",
+  "summary": "Researchers have shown that attackers can take over parts of a Microsoft 365 environment by tricking one person into approving a fake AI agent. No password is stolen and no login screen is faked. The technique is called BluePhishing. It targets Microsoft Entra Agent ID, the syst…"
+ },
+ {
+  "uid": "https://cybersecuritynews.com/?p=171613",
+  "source": "Cyber Security News",
+  "category": "Cyber incidents & threat intel",
+  "title": "Hackers Could Exploit MCP Server Supply Chain Weaknesses to Steal API Keys and Administrator Credentials",
+  "link": "https://cybersecuritynews.com/hackers-could-exploit-mcp-server/",
+  "date": "2026-11-11",
+  "summary": "Security teams that run AI coding assistants may be exposing their most powerful credentials without knowing it. A new study shows that Model Context Protocol (MCP) servers can quietly change their own code after they are set up. If an attacker poisons just one package in that c…"
+ },
+ {
+  "uid": "https://www.microsoft.com/en-us/security/blog/?p=150915",
+  "source": "Microsoft Security Blog",
+  "category": "Vendor threat research",
+  "title": "Lessons from 59 Linux Kernel Bug Reports",
+  "link": "https://www.microsoft.com/en-us/security/blog/2026/11/11/lessons-from-59-linux-kernel-bug-reports/",
+  "date": "2026-11-11",
+  "summary": "Microsoft FORGE Lab researchers used codename MDASH to investigate Linux kernel vulnerabilities, resulting in 59 upstream bug reports, 33 assigned CVEs, and 38 merged fixes. The research includes eight demonstrated local root privilege-escalation exploits and examines the challe…"
+ },
+ {
+  "uid": "https://simonwillison.net/2026/Nov/11/llm/",
+  "source": "Simon Willison",
+  "category": "AI & agent security",
+  "title": "llm 0.37.2",
+  "link": "https://simonwillison.net/2026/Nov/11/llm/",
+  "date": "2026-11-11",
+  "summary": "Release: llm 0.37.2 Fixes a security issue reported by Daniel de Araujo in GHSA-v9h7-jj4g-f862 and GHSA-r639-rr7r-x72w . LLM has a mechanism called extra-openai-models.yaml - now managed by the new-in-0.37 llm openai endpoint add command - for using LLM with OpenAI-compatible AP…"
+ },
+ {
+  "uid": "CBMixwFBVV95cUxPR3plU2xoaWpkYkdiS1FKTHhWZjAtSXlzUkdNQlFEbUQ0ZXlHbEpWTHNzUUdYMVZ1akN3SHdHb1MwYU1mTDhFeFVJdzRtTjBVaWtHRGNwZHlYQlpFZHVKN0piQ2dJWlNxUklmNlBsdGpBMDJSTzJTaWk3MFNQUXQtQTR0Z3p6OVRtZGd5VGZYVnBJUVY3QlJELXJ5aURxLUJMVE56OEUzbWMzdVBKQndUbV9XbS1CUDZqM1g3S2xPRmVuQ3ZUNUln",
+  "source": "EDPB (via Google News)",
+  "category": "EU data protection",
+  "title": "Statement 2/2026 on the first review of the functioning of the adequacy decision for the Republic of Korea",
+  "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPR3plU2xoaWpkYkdiS1FKTHhWZjAtSXlzUkdNQlFEbUQ0ZXlHbEpWTHNzUUdYMVZ1akN3SHdHb1MwYU1mTDhFeFVJdzRtTjBVaWtHRGNwZHlYQlpFZHVKN0piQ2dJWlNxUklmNlBsdGpBMDJSTzJTaWk3MFNQUXQtQTR0Z3p6OVRtZGd5VGZYVnBJUVY3QlJELXJ5aURxLUJMVE56OEUzbWMzdVBKQndUbV9XbS1CUDZqM1g3S2xPRmVuQ3ZUNUln?oc=5",
+  "date": "2026-11-10",
+  "summary": "Statement 2/2026 on the first review of the functioning of the adequacy decision for the Republic of Korea European Data Protection Board"
+ },
+ {
+  "uid": "CBMitAFBVV95cUxPQ2J0Y2E2QWJRU3JBQXFpdGotZ2FnZjJMUkFpblctN3ZJbzVHbldvZzAyYjJ2aTBmSzVpNHJSX3JmTGt2Ml84M2dvWUtCTzd1dFFUck5sa2x5eEpjRGxZbGR4eFVwOXdyTWNKbENqQTg2ZkQycEg1WDVLVkxkQXNQV0Z5R2R0ZEhrdzNGSFNkWVgyYWhoanNHcndLaDJCekd4VTF4Y0o2QnJrT1NVbTd2RUl6V3E",
+  "source": "EDPB (via Google News)",
+  "category": "EU data protection",
+  "title": "EDPB adopts statement on review of the Republic of Korea adequacy, processor BCR recommendations, and selects topic for 2027 coordinated enforcement action | European Data Protection Board",
+  "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQ2J0Y2E2QWJRU3JBQXFpdGotZ2FnZjJMUkFpblctN3ZJbzVHbldvZzAyYjJ2aTBmSzVpNHJSX3JmTGt2Ml84M2dvWUtCTzd1dFFUck5sa2x5eEpjRGxZbGR4eFVwOXdyTWNKbENqQTg2ZkQycEg1WDVLVkxkQXNQV0Z5R2R0ZEhrdzNGSFNkWVgyYWhoanNHcndLaDJCekd4VTF4Y0o2QnJrT1NVbTd2RUl6V3E?oc=5",
+  "date": "2026-11-11",
+  "summary": "EDPB adopts statement on review of the Republic of Korea adequacy, processor BCR recommendations, and selects topic for 2027 coordinated enforcement action | European Data Protection Board European Data Protection Board"
+ },
+ {
+  "uid": "CBMi3gVBVV95cUxOVkFBT2ktUUdBbzZ0SEh5QzVTNWtVMU1lMl9hZXZZZUNBelJneVlvMHpuaFctLVlPNzU4VG51QlZNN0xnNmVMQ3NzU3dxLXpwakpYSUE2X0R4QV9BbHRoc0l0V1JDVFh3WHlnVndValpHUDEwbkZRS3NKSEF5U2J5dmY2RkcyNkVNNUR2Q1FabGhLSmJTYUdSM3g5R0RpMnlXZzVhNVVyS21vT3BTU3RGSFBZNnAtbGhKMjRDajA2OHVBWUotN2tjWmJBX1ZKa0NQZjNoRjMxUnlIMmhDRXQ4eXhxUVJyMDNuMGZYRjBvd015UWIyNGtaNWlORWl1Tm1PZUdnZURGOWZieHBPM1QtUHVWMjZYbHp2eFNHQVppRXplbERDVmxSNGhGOXdCajNxdmRhRGhmeV9PSzZmR3diWi1qUGJXLWlJa1Y1em14T0FlbWJNaWhoVEtpNjBRUWdWT0pJZ3poZFR3bWtMbmJSeWRpOHRscnhmX2drWi1xRFp1blFFMm5ZaE5GZ0s4clpkVnY4dVI0aHFiQkEzUURXSU42QlRuNzFNNFktNVV3Zk9DOXQ4OUpRZlBqUXpGaFdjcm1yNmt1Ulp6UXdvd1NzOUhWN29UdERCMGsxTXVLSnlPRzM0R1RFeXBIbXlKbldYUjF4TlhHV1B6SFBaYm5aZ3MyVEhkZmFkbndvdHl2eU1HMlhPMmV2ZEVvZGlfQmdfUWhCb1QzMEhOWTdiSEdpNmRycGJnV3dYcEFEN2FlRjR6ZG9wRzlXTjdrcnl3S09DZXFhUFdJYy1RalM0eHNtOWJidUxnS1hfZUtzOEI1UEhSckk3Y2tZc2tJMEo1VEVCLTV0VVZBdFRPTVVfblJwNEpTNVdlT2I5Z1hsZHc5bVRMaUNCZ1pZYzVFdXNNTHJzYy0zeWtQNW4wU2NSaXdYZVV6d2pfaHc3QVJMZXBGTUlZQzFvOVM0ZnMzTHJwQQ",
+  "source": "EDPB (via Google News)",
+  "category": "EU data protection",
+  "title": "Search results",
+  "link": "https://news.google.com/rss/articles/CBMi3gVBVV95cUxOVkFBT2ktUUdBbzZ0SEh5QzVTNWtVMU1lMl9hZXZZZUNBelJneVlvMHpuaFctLVlPNzU4VG51QlZNN0xnNmVMQ3NzU3dxLXpwakpYSUE2X0R4QV9BbHRoc0l0V1JDVFh3WHlnVndValpHUDEwbkZRS3NKSEF5U2J5dmY2RkcyNkVNNUR2Q1FabGhLSmJTYUdSM3g5R0RpMnlXZzVhNVVyS21vT3BTU3RGSFBZNnAtbGhKMjRDajA2OHVBWUotN2tjWmJBX1ZKa0NQZjNoRjMxUnlIMmhDRXQ4eXhxUVJyMDNuMGZYRjBvd015UWIyNGtaNWlORWl1Tm1PZUdnZURGOWZieHBPM1QtUHVWMjZYbHp2eFNHQVppRXplbERDVmxSNGhGOXdCajNxdmRhRGhmeV9PSzZmR3diWi1qUGJXLWlJa1Y1em14T0FlbWJNaWhoVEtpNjBRUWdWT0pJZ3poZFR3bWtMbmJSeWRpOHRscnhmX2drWi1xRFp1blFFMm5ZaE5GZ0s4clpkVnY4dVI0aHFiQkEzUURXSU42QlRuNzFNNFktNVV3Zk9DOXQ4OUpRZlBqUXpGaFdjcm1yNmt1Ulp6UXdvd1NzOUhWN29UdERCMGsxTXVLSnlPRzM0R1RFeXBIbXlKbldYUjF4TlhHV1B6SFBaYm5aZ3MyVEhkZmFkbndvdHl2eU1HMlhPMmV2ZEVvZGlfQmdfUWhCb1QzMEhOWTdiSEdpNmRycGJnV3dYcEFEN2FlRjR6ZG9wRzlXTjdrcnl3S09DZXFhUFdJYy1RalM0eHNtOWJidUxnS1hfZUtzOEI1UEhSckk3Y2tZc2tJMEo1VEVCLTV0VVZBdFRPTVVfblJwNEpTNVdlT2I5Z1hsZHc5bVRMaUNCZ1pZYzVFdXNNTHJzYy0zeWtQNW4wU2NSaXdYZVV6d2pfaHc3QVJMZXBGTUlZQzFvOVM0ZnMzTHJwQQ?oc=5",
+  "date": "2026-11-10",
+  "summary": "Search results European Data Protection Board"
+ },
+ {
+  "uid": "CBMiV0FVX3lxTFBSZENkSVNYRnMwbDBVR0MwcE5PM3J4cHdfdDVNak41bWlsQzJKUDMwbVhocU5hRGNQZkFUSkd3bEFTXzd2RnExNl9sc2l4czd0VXhBa011NA",
+  "source": "ENISA (via Google News)",
+  "category": "EU cybersecurity",
+  "title": "Health regulatory compass",
+  "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBSZENkSVNYRnMwbDBVR0MwcE5PM3J4cHdfdDVNak41bWlsQzJKUDMwbVhocU5hRGNQZkFUSkd3bEFTXzd2RnExNl9sc2l4czd0VXhBa011NA?oc=5",
+  "date": "2026-11-11",
+  "summary": "Health regulatory compass ENISA"
+ },
+ {
+  "uid": "CBMizgFBVV95cUxPeW5LYW5qM05qTHJ3OE5EUjhtUDJteFJvMl9fQjRQTUFLU2FyMlJmZEt1VzF6UTEtQ21rUHZjMmVFbGRuSjd4ZzZ1Vk9meUxUUExscHNkbHptRGc3WXVZeHZLcHNuTmdBSXl6OTlDNzlFeW5mNkY5cFJtamhFSHB6M2V6ZFpKYUtGN1k3N3gtR3JIc0lRRXpmQWhMWThWamdMNWN1ZFNWVTlVdXZZb25BLVY3cDU1aHA2WHVJd0lDMWNpc2RnVlZTYkIwbks4Zw",
+  "source": "ICO (via Google News)",
+  "category": "UK data protection",
+  "title": "Subject access requests generated by artificial intelligence",
+  "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPeW5LYW5qM05qTHJ3OE5EUjhtUDJteFJvMl9fQjRQTUFLU2FyMlJmZEt1VzF6UTEtQ21rUHZjMmVFbGRuSjd4ZzZ1Vk9meUxUUExscHNkbHptRGc3WXVZeHZLcHNuTmdBSXl6OTlDNzlFeW5mNkY5cFJtamhFSHB6M2V6ZFpKYUtGN1k3N3gtR3JIc0lRRXpmQWhMWThWamdMNWN1ZFNWVTlVdXZZb25BLVY3cDU1aHA2WHVJd0lDMWNpc2RnVlZTYkIwbks4Zw?oc=5",
+  "date": "2026-11-11",
+  "summary": "Subject access requests generated by artificial intelligence ICO"
+ },
+ {
+  "uid": "CBMiWEFVX3lxTE54QVNFZUR5MXJ6bGR3Rk5ZMzhoRWJxNUwtNVdBOXB2S2pzUThnZzhiV3dIeFplSFU4dl9OSDI3dDZRdVJRam5SeFhLOXQwTUZMUkNFSi1IZ3Q",
+  "source": "ICO (via Google News)",
+  "category": "UK data protection",
+  "title": "Elmar Risk Management Limited",
+  "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE54QVNFZUR5MXJ6bGR3Rk5ZMzhoRWJxNUwtNVdBOXB2S2pzUThnZzhiV3dIeFplSFU4dl9OSDI3dDZRdVJRam5SeFhLOXQwTUZMUkNFSi1IZ3Q?oc=5",
+  "date": "2026-11-11",
+  "summary": "Elmar Risk Management Limited ICO"
+ },
+ {
+  "uid": "CBMiogFBVV95cUxPYVIyZHprVERELVBzTDI1aDlBbGZ5V1AzZzBKZTF2bnQyN0hRNENELV9WdWFkcndfWkRLc0hHU2YyaFpLUS1jQ011WXlsV29SVzRQWHk0LVlPU2dwX1RpZEZGbmhITFJicE1HYWZ3ZWFZRDlORnVCRGM5ekpPMGVsUGcyTjd3ZmJLT3hGeDZBLWMxOU1zX0d6T1BNT2VLWmhMaWc",
+  "source": "ICO (via Google News)",
+  "category": "UK data protection",
+  "title": "Guide to law enforcement processing – international transfers",
+  "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPYVIyZHprVERELVBzTDI1aDlBbGZ5V1AzZzBKZTF2bnQyN0hRNENELV9WdWFkcndfWkRLc0hHU2YyaFpLUS1jQ011WXlsV29SVzRQWHk0LVlPU2dwX1RpZEZGbmhITFJicE1HYWZ3ZWFZRDlORnVCRGM5ekpPMGVsUGcyTjd3ZmJLT3hGeDZBLWMxOU1zX0d6T1BNT2VLWmhMaWc?oc=5",
+  "date": "2026-11-09",
+  "summary": "Guide to law enforcement processing – international transfers ICO"
+ },
+ {
+  "uid": "CBMiyAJBVV95cUxNX21HVGtXWEhVVEF4cVExaGxYV2RZZTYyWlZXb0l0eDhfZGtPSzBGdlR6SF9ncldDTmdsSlNWTFRuY2wxZUhJMmFDYy11Znd5Y2tVY3cxOVZFYUxLRFBoYS1fVEd1dHBjY28ybTFDcndQUVBXMmNLcDVEdTA3WUJwLXJpVzdMdTVoR0g3b2ExTzl0YmVSdHlKamxXREVkQUdLcmh6d2J5NlJRamxGWWk3UmxnRGdwSC1mN09Sdkw4RlpmNHBEZmp0SHNHVmVpUjllQUhQNDZqeVo5Wjd4T05VNkRlTDdXbkhUZk1lRTRPRG1XYUt4RjVTMXdsOFlkMU8tM1R3ZVRfRkd1TnNZY1RqVTdYUFlRSlAtYlZObWp0RjI3NkFkZWhrbnp5NlpNRTIwd0o3cjdRR05tY0x1b1BhOXhJVGIxb2df",
+  "source": "ICO (via Google News)",
+  "category": "UK data protection",
+  "title": "Annex C: Lawful basis for processing",
+  "link": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxNX21HVGtXWEhVVEF4cVExaGxYV2RZZTYyWlZXb0l0eDhfZGtPSzBGdlR6SF9ncldDTmdsSlNWTFRuY2wxZUhJMmFDYy11Znd5Y2tVY3cxOVZFYUxLRFBoYS1fVEd1dHBjY28ybTFDcndQUVBXMmNLcDVEdTA3WUJwLXJpVzdMdTVoR0g3b2ExTzl0YmVSdHlKamxXREVkQUdLcmh6d2J5NlJRamxGWWk3UmxnRGdwSC1mN09Sdkw4RlpmNHBEZmp0SHNHVmVpUjllQUhQNDZqeVo5Wjd4T05VNkRlTDdXbkhUZk1lRTRPRG1XYUt4RjVTMXdsOFlkMU8tM1R3ZVRfRkd1TnNZY1RqVTdYUFlRSlAtYlZObWp0RjI3NkFkZWhrbnp5NlpNRTIwd0o3cjdRR05tY0x1b1BhOXhJVGIxb2df?oc=5",
+  "date": "2026-11-11",
+  "summary": "Annex C: Lawful basis for processing ICO"
+ },
+ {
+  "uid": "CBMimwFBVV95cUxOZXhvWkEzZUR1WEktTTZvTVpSY3FiWnd2VlhRdmVEUGl2RTNnbHcySnMtdWpYejAzNnQ5M0ZNVlRYWHpJRXVDODQwQ09yM2I4U2hadUNuR1dSNnBieE1wY3UyXzJkV2JPc0VNMXlPNlRWaXlORVMzZVRsalYyTVNxSkZ6TzVybTF0XzkxWk1rdDV4a1JQNi1GTTBLdw",
+  "source": "CISA (via Google News)",
+  "category": "Cybersecurity advisories",
+  "title": "ANCHOR-CI Critical Infrastructure Industry Councils",
+  "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZXhvWkEzZUR1WEktTTZvTVpSY3FiWnd2VlhRdmVEUGl2RTNnbHcySnMtdWpYejAzNnQ5M0ZNVlRYWHpJRXVDODQwQ09yM2I4U2hadUNuR1dSNnBieE1wY3UyXzJkV2JPc0VNMXlPNlRWaXlORVMzZVRsalYyTVNxSkZ6TzVybTF0XzkxWk1rdDV4a1JQNi1GTTBLdw?oc=5",
+  "date": "2026-11-11",
+  "summary": "ANCHOR-CI Critical Infrastructure Industry Councils CISA (.gov)"
+ },
+ {
+  "uid": "CBMijAFBVV95cUxOU0FLUkRBZjVHYXZvbGU3a1BOc2tsTG1fZkhsVF90anVjZWFnbUk2Qm1kU3FGOXl6WEZ5MnphQ3VleFptUHBublB5SE8yVXJRb2RQczI4Z2Rrd2ZYN0xSVEExdmtoVmZLeXFCdGUyZ2xhbkJidHliSU5idVlvQ0dBOWc1ZHg3NklrdGlzbg",
+  "source": "CISA (via Google News)",
+  "category": "Cybersecurity advisories",
+  "title": "ANCHOR-CI Regional Coordinating Councils",
+  "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOU0FLUkRBZjVHYXZvbGU3a1BOc2tsTG1fZkhsVF90anVjZWFnbUk2Qm1kU3FGOXl6WEZ5MnphQ3VleFptUHBublB5SE8yVXJRb2RQczI4Z2Rrd2ZYN0xSVEExdmtoVmZLeXFCdGUyZ2xhbkJidHliSU5idVlvQ0dBOWc1ZHg3NklrdGlzbg?oc=5",
+  "date": "2026-11-11",
+  "summary": "ANCHOR-CI Regional Coordinating Councils CISA (.gov)"
+ },
+ {
+  "uid": "CBMigAFBVV95cUxOUWRrZnZqcGljbjhNcVl0WWVKNHVBc3JhXzBXR3hPMFItdGYxNzFQVEdRQUdqTG9Oczh6WWt5SUxBRVJyUDhEUkZWczlPN011eV9NXzZZTXVwYkdoZS0tcWRWWmdGMEVPRWYwSmx3UENqVUFNeDlJLUZPSlA0aWVPTA",
+  "source": "CISA (via Google News)",
+  "category": "Cybersecurity advisories",
+  "title": "ANCHOR-CI Cross-Sector Councils",
+  "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUWRrZnZqcGljbjhNcVl0WWVKNHVBc3JhXzBXR3hPMFItdGYxNzFQVEdRQUdqTG9Oczh6WWt5SUxBRVJyUDhEUkZWczlPN011eV9NXzZZTXVwYkdoZS0tcWRWWmdGMEVPRWYwSmx3UENqVUFNeDlJLUZPSlA0aWVPTA?oc=5",
+  "date": "2026-11-11",
+  "summary": "ANCHOR-CI Cross-Sector Councils CISA (.gov)"
+ },
+ {
+  "uid": "CBMimAFBVV95cUxOeFcxUWZZRVFfU1NSOTUyQUswbEZxeFRRU3FydWE3U2NDeERHbW14SnNWTkJaRmJ0VGJNeGNMTDB1UE81cEg3ei1LOW16Z3k2WmQ5ZDMzbGtCajhtTDZQTmVHUXNUS2ttZDZxczFXbldDQnBuWHJMOTdQZGdiam1NVzRZTjltYzBzY3B5RFdqZk5XZ0l4d24zWQ",
+  "source": "CISA (via Google News)",
+  "category": "Cybersecurity advisories",
+  "title": "ANCHOR-CI Critical Infrastructure Sector Councils",
+  "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOeFcxUWZZRVFfU1NSOTUyQUswbEZxeFRRU3FydWE3U2NDeERHbW14SnNWTkJaRmJ0VGJNeGNMTDB1UE81cEg3ei1LOW16Z3k2WmQ5ZDMzbGtCajhtTDZQTmVHUXNUS2ttZDZxczFXbldDQnBuWHJMOTdQZGdiam1NVzRZTjltYzBzY3B5RFdqZk5XZ0l4d24zWQ?oc=5",
+  "date": "2026-11-11",
+  "summary": "ANCHOR-CI Critical Infrastructure Sector Councils CISA (.gov)"
+ },
+ {
+  "uid": "CBMilAFBVV95cUxOejVZeWxNcWZZbHI4QTlHX24yZV9LSVdfenVZYjA2TjhTTTdjRm9xMlFZWXZKNkszN3daVnlMbGRBYTd2d1lVX21wTXZkNmJ6OW5yakpIQWkxMUZOVnNmVnJtdnZXNzg4YktoMGM2dXNFVmREbEpLc29pVm15UExPSmZyM2JNUE95aVBVSURDZ2ZpRzZh",
+  "source": "CISA (via Google News)",
+  "category": "Cybersecurity advisories",
+  "title": "ANCHOR-CI Roles and Responsibilities",
+  "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOejVZeWxNcWZZbHI4QTlHX24yZV9LSVdfenVZYjA2TjhTTTdjRm9xMlFZWXZKNkszN3daVnlMbGRBYTd2d1lVX21wTXZkNmJ6OW5yakpIQWkxMUZOVnNmVnJtdnZXNzg4YktoMGM2dXNFVmREbEpLc29pVm15UExPSmZyM2JNUE95aVBVSURDZ2ZpRzZh?oc=5",
+  "date": "2026-11-11",
+  "summary": "ANCHOR-CI Roles and Responsibilities CISA (.gov)"
+ }
+]
