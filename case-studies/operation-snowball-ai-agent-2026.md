@@ -13,7 +13,7 @@ On 8 November 2026 Malbear Labs published research on **Operation Snowball**: a 
 | Duration | More than two weeks, largely unsupervised |
 | Targets | A European telecom provider and 13 hosted organisations |
 | Model and jailbreak | DeepSeek Flash; a jailbreak prompt of about 78,000 characters instructing the model to treat refusals as a malfunction; no recorded refusals in the transcripts |
-| Initial access | Reported as exploitation of CVE-2026-20320, an unauthenticated XML external entity flaw (details truncated in the source excerpt) |
+| Initial access | Reported as exploitation of CVE-2026-20320, an unauthenticated out-of-band blind XML external entity flaw in the OCI XML parser of Cisco BroadWorks (a platform widely used by service providers). Cisco published the advisory on 19 Aug 2026 (CVSS 7.5, fixed in RI.2026.07) and knew of no exploitation then |
 | Discovery | Researcher sweep of open directories, not victim detection |
 | Status | Vendor and press reporting only; no regulator findings or attribution seen |
 
@@ -22,11 +22,13 @@ On 8 November 2026 Malbear Labs published research on **Operation Snowball**: a 
 - **Hosted-customer exposure:** 13 organisations were hit through their provider. Customers' breach duties (GDPR Art. 33, PDPL, DIFC/ADGM, DPDP) are triggered when they become aware, even if the failure was the provider's.
 - **Speed and persistence:** an agent working for two weeks challenges detection assumptions built around human attacker tempo.
 - **Safety controls are not a security control:** the model's refusals were removed by prompt.
-- **Related 2026 incidents in this hub:** [OpenAI / Hugging Face](openai-hugging-face-2026.md); the [AI-agent incident catalogue](../ai-agents/incident-catalogue.md); and the 11 Nov 2026 reports of "BluePhishing" abuse of Microsoft Entra agent identities and MCP-server supply-chain weaknesses (see the daily digests, not yet written up as cases).
+- **Related 2026 incidents in this hub:** [OpenAI / Hugging Face](openai-hugging-face-2026.md); the [AI-agent incident catalogue](../ai-agents/incident-catalogue.md); and the [AI-agent identity attacks case](ai-agent-identity-attacks-entra-artex-2026.md) (BluePhishing and ARTEX).
 
 ## Sources
 
 - Infosecurity Magazine, *Jailbroken AI Agent Ran Two-Week Attack on European Telecom* — <https://www.infosecurity-magazine.com/news/operation-snowball-ai-telecom/>
 - Let's Data Science, *Malbear Labs details jailbroken DeepSeek agent attack on European telecom* — <https://letsdatascience.com/news/malbear-labs-details-jailbroken-deepseek-agent-attack-on-eur-525f943b>
 - Cyber Security News (via the hub's 9 Nov 2026 digest) — <https://cybersecuritynews.com/>
+- Cisco, August 2026 advisory notice (CVE-2026-20320) — <https://www.cisco.com/c/en/us/support/docs/csa/cisco-sa-notice-LDquvx5d.html>
+- NVD, CVE-2026-20320 — <https://nvd.nist.gov/vuln/detail/CVE-2026-20320>
 - Malbear Labs original research (primary): not located; verify before citing.

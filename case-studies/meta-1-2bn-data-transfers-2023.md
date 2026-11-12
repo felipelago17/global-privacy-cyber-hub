@@ -12,6 +12,10 @@ On 22 May 2023 the Irish DPC fined Meta Platforms Ireland **€1.2bn**, the larg
 - The decision held that Meta's supplementary measures on top of SCCs did not cure the deficiencies, so SCCs alone were not an adequate Article 46 safeguard in that setting.
 - The fine was imposed by the DPC by reference to the EDPB's determinations; Meta publicly objected to the process.
 
+## Status in 2026
+
+Meta said it would appeal. MLex reported that the appeal was unlocked after the EU's highest court ruled in the related WhatsApp v EDPB case (February 2026), so the fine should be treated as under appeal. Confirm the current stage before quoting.
+
 ## Why it matters for the UAE session
 
 - **Transfers are a breach-liability issue too:** data held with a processor or group company overseas may be reachable by foreign authorities.
@@ -23,4 +27,6 @@ On 22 May 2023 the Irish DPC fined Meta Platforms Ireland **€1.2bn**, the larg
 - Slaughter and May, *Irish DPC Meta (Facebook) data transfers decision* — <https://thelens.slaughterandmay.com/post/102if8q/irish-dpc-meta-facebook-data-transfers-decision-record-1-2-billion-gdpr-fine>
 - Pinsent Masons, *Record GDPR fine issued over data transfers* — <https://www.pinsentmasons.com/out-law/news/record-gdpr-fine-issued-data-transfers>
 - SCL, *Irish DPC announces €1.2 billion fine* — <https://www.scl.org/12899-irish-data-protection-commission-announces-1-2-billion-fine-on-conclusion-of-inquiry-into-meta-ireland/>
+- MLex, *Meta's appeal against record-high GDPR fine unlocked after EU court ruling* — <https://www.mlex.com/mlex/articles/2440197>
+- DAC Beachcroft, *Challenging EDPB decisions: WhatsApp v EDPB* — <https://www.dacbeachcroft.com/en/what-we-think/challenging-european-data-protection-board-decisions-whatsapp-v-edpb>
 - IAPP, *Meta fined GDPR-record 1.2 billion euros* — <https://iapp.org/news/a/meta-fined-gdpr-record-1-2-billion-euros-in-data-transfer-case>

@@ -16,6 +16,8 @@ Two deals show what an undiscovered breach costs the acquirer. **Marriott** boug
 | Scope of fine | Only the period from GDPR coming into force on 25 May 2018; the ICO acted as lead authority for the EU and the penalty was approved through the GDPR cooperation process |
 | Finding | Failure to put in place appropriate technical or organisational measures |
 
+**US follow-up (2024).** On 9 October 2024 the FTC and 49 state attorneys general plus DC announced parallel settlements covering three breaches between 2014 and 2020 (more than 344m guest records). The states received US$52m; the FTC has no power to impose a penalty, but its order (finalised 20 December 2024) requires a comprehensive information security programme with outside assessments for 20 years. The FTC complaint relied on the timeline of Marriott's due diligence on Starwood to hold Marriott responsible for Starwood's pre-acquisition security.
+
 **Lesson:** the acquirer inherits the target's security failures once it controls the systems; post-closing monitoring of acquired networks is part of "reasonable measures".
 
 ## Verizon / Yahoo
@@ -34,7 +36,8 @@ Two deals show what an undiscovered breach costs the acquirer. **Marriott** boug
 - Ask for incident history, regulator correspondence and penetration-test reports, and test their completeness.
 - Add breach-specific representations, indemnities and an MAE position.
 - Plan day-one integration: credentials, network segmentation, logging.
-- Hiring and firing in deals: remove access promptly for departing staff.
+- Hiring, firing and insider access (checklist from a supplementary research note, not a sourced case): revoke access immediately, including API keys, service accounts and AI-agent credentials; monitor for exfiltration during the notice period; back technical controls with contractual ones (NDA, return of data, non-compete where enforceable). Long-lived credentials and AI agents make offboarding harder.
+- Diligence questions: historical incidents, target architecture and access controls, insurance limits, warranties and indemnities, escrow or holdback, post-close security integration plan.
 
 ## Sources
 
@@ -43,4 +46,7 @@ Two deals show what an undiscovered breach costs the acquirer. **Marriott** boug
 - Travelmole, *Marriott fined £18.4m for security breach* — <https://www.travelmole.com/news/marriott-fined-18-4m-for-security-breach>
 - GeekWire, *Verizon pays $350M less for Yahoo following data breach disclosures* — <https://www.geekwire.com/2017/verizon-pays-350m-less-yahoo-following-data-breach-disclosures/>
 - NextTV, *Verizon, Yahoo agree to slash merger price by $350M* — <https://www.nexttv.com/news/verizon-yahoo-agree-slash-merger-price-350m-163481>
+- Hunton Andrews Kurth, *FTC and coalition of state AGs announce settlements with Marriott* — <https://huntonak.com/privacy-and-information-security-law/ftc-and-coalition-of-state-attorneys-general-announce-settlements-with-marriott-over-guest-data-breaches>
+- JD Supra, *FTC and State AGs settle with Marriott over Starwood data breaches* — <https://www.jdsupra.com/legalnews/ftc-and-state-ags-settle-with-marriott-7890550>
+- NYU Compliance & Enforcement, *FTC's consent order against Marriott* — <https://wp.nyu.edu/compliance_enforcement/2025/02/25/ftcs-consent-order-against-marriott-expectations-for-reasonable-security>
 - ICO decision page (primary) — search "ICO Marriott monetary penalty notice" at <https://ico.org.uk/>

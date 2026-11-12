@@ -13,5 +13,6 @@ Incident write-ups that test the frameworks and checklists in this hub against w
 | [Breach class actions: Equifax, Capital One, Optus, Medibank](data-breach-class-actions-equifax-capital-one-optus-medibank.md) | 2017–2026 | Settlements, regulator penalties and live Australian proceedings on "reasonable security" |
 | [Meta €1.2bn transfers fine](meta-1-2bn-data-transfers-2023.md) | May 2023 | SCCs and supplementary measures; EDPB binding decision |
 | [Operation Snowball](operation-snowball-ai-agent-2026.md) | Reported 8 Nov 2026 | Jailbroken AI agent attack on a telecom and 13 hosted customers |
+| [AI-agent identity attacks: BluePhishing and ARTEX](ai-agent-identity-attacks-entra-artex-2026.md) | Nov 2026 | Consent abuse of agent identities; exposed secrets to Key Vault in minutes |
 
 Candidates for future case studies: Bybit (Feb 2025), the 2026 "Black October" wave of AI-discovered vulnerabilities (see the [Economist leader reading note](../analyses/economist-cyber-disaster-leader-2026.md) for an overview and incident table), major DPA enforcement actions on AI training data.
