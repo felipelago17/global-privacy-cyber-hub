@@ -59,6 +59,7 @@ nav:
           - Index: resources/frameworks/README.md
           - ISO/IEC 27090 AI security: resources/frameworks/iso-27090-ai-security.md
           - ISO/SAE TR 8477 road vehicle cyber V&V: resources/frameworks/iso-sae-tr-8477-cybersecurity-vv.md
+          - Breach liability regimes (UAE, DIFC, ADGM, India): resources/frameworks/breach-liability-regimes-uae-difc-adgm-india.md
           - NIST IR 8596 Cyber AI Profile (draft): resources/frameworks/nist-ir-8596-cyber-ai-profile.md
       - Tools: resources/tools/README.md
       - Checklists:
@@ -78,6 +79,12 @@ nav:
       - Binance hack (Oct 2026): case-studies/binance-2026-hack.md
       - OpenAI / Hugging Face (Jul 2026): case-studies/openai-hugging-face-2026.md
       - EFS blood-plasma freezers (Nov 2026): case-studies/efs-coolworld-refrigeration-2026.md
+      - Uber CSO conviction (Sullivan): case-studies/uber-sullivan-ciso-obstruction.md
+      - SEC v. SolarWinds and its CISO: case-studies/solarwinds-sec-ciso.md
+      - Cyber risk in M&A (Marriott, Yahoo): case-studies/cyber-risk-in-m-and-a-marriott-yahoo.md
+      - Breach class actions (Equifax, Capital One, Optus, Medibank): case-studies/data-breach-class-actions-equifax-capital-one-optus-medibank.md
+      - Meta EUR 1.2bn transfers fine: case-studies/meta-1-2bn-data-transfers-2023.md
+      - Operation Snowball (Nov 2026): case-studies/operation-snowball-ai-agent-2026.md
   - Daily updates: updates/index.md
   - Connectors: connectors/external-hubs.md
   - Related forks: related-forks.md
