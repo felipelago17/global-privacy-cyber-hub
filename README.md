@@ -43,6 +43,7 @@ Focus areas: AI governance, cloud DPIAs, agent security, privacy-enhancing techn
 | [High-risk without safeguards? (EU AI Act, medical AI)](analyses/medical-ai-act-safeguards.md) | Health Innovation Package proposals would keep medical AI "high-risk" on paper while stripping most AI Act safeguards |
 | [DPDP in Practice (India)](analyses/india-dpdp-practice.md) | Phased commencement to May 2027, narrow lawful bases, every breach reportable, high penalty ceilings |
 | [Transatlantic transfers after the FTC ruling](analyses/transatlantic-transfers-ftc.md) | US Supreme Court ruling on FTC independence reopens uncertainty for the EU–US DPF and UK–US Data Bridge |
+| [Cybersecurity of sensitive non-personal data](analyses/sensitive-non-personal-data-security.md) | Trade secrets, OT/process data, CUI, model weights and research data: five legal hooks beyond privacy law, with a verification table (Nov 2026) |
 | [10 Tips for Global Compliance (IAPP)](analyses/iapp-global-compliance-tips.md) | Practical operating model for multi-jurisdictional privacy programmes |
 
 ## Frameworks spotlight
