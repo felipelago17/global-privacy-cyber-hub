@@ -49,6 +49,7 @@ Focus areas: AI governance, cloud DPIAs, agent security, privacy-enhancing techn
 | [Transatlantic transfers after the FTC ruling](analyses/transatlantic-transfers-ftc.md) | US Supreme Court ruling on FTC independence reopens uncertainty for the EU–US DPF and UK–US Data Bridge |
 | [Luxembourg NIS2: ILR annual security-measures reporting](analyses/nis2-luxembourg-ilr-security-measures-reporting-2027.md) | ILR Regulation N26/10 (26 Oct 2026): essential entities file measures, risk scenarios and multi-year plan by 15 Mar 2027; single-source, gaps flagged |
 | [The AI model distillation paradox (Lawfare)](analyses/ai-model-distillation-paradox-lawfare-2026.md) | Fair use for training vs "malicious" distillation: IP, terms of service, export controls and data-protection angles (Oct 2026 commentary) |
+| [Cloud concentration: the "centrality menace" revisited (TechnoLlama)](analyses/cloud-centrality-menace-technollama-2026.md) | Microsoft 365 outage as a case for minimum viable service, identity resilience, digital sovereignty and DORA/CTP-style oversight (Nov 2026 commentary) |
 | [Cybersecurity of sensitive non-personal data](analyses/sensitive-non-personal-data-security.md) | Trade secrets, OT/process data, CUI, model weights and research data: five legal hooks beyond privacy law, with a verification table (Nov 2026) |
 | [10 Tips for Global Compliance (IAPP)](analyses/iapp-global-compliance-tips.md) | Practical operating model for multi-jurisdictional privacy programmes |
 
