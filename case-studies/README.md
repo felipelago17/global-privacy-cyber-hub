@@ -16,6 +16,7 @@ Incident write-ups that test the frameworks and checklists in this hub against w
 | [Mata v. Avianca and ABA Formal Opinion 512](mata-avianca-aba-512-ai-citations.md) | Jun 2023; Jul 2024 | Fabricated AI citations; sanctions; verification as a control |
 | [Operation Snowball](operation-snowball-ai-agent-2026.md) | Reported 8 Nov 2026 | Jailbroken AI agent attack on a telecom and 13 hosted customers |
 | [DOJ actions on North Korean crypto theft (FaceStealer, Binance)](dprk-facestealer-binance-doj-actions-2026.md) | Nov 2026 | Deepfake meeting lures, USD 400m+ stolen; USD 6bn Binance theft, USD 2.7bn frozen |
+| [Maersk: inherited legacy system and WhiteArmor extortion](maersk-legacy-system-whitearmor-extortion-2026.md) | Nov 2026 | Data extracted from an acquired legacy system; claimed 100 GB and USD 5m demand; Maersk reports no sensitive data disclosed so far |
 | [Anthropic / Claude: South Korean PIPC investigation](anthropic-claude-korea-pipc-investigation-2026.md) | Oct–Nov 2026 | Vendor-software intrusion during a bug bounty; ~100+ Korean enterprise accounts; account metadata only; formal PIPC investigation |
 | [Shukran loyalty data breach (Landmark Group)](shukran-loyalty-data-breach-landmark-2026.md) | Nov 2026 | Names, contacts and dates of birth accessed; cards and points unaffected; investigation ongoing |
 | [AI-agent identity attacks: BluePhishing and ARTEX](ai-agent-identity-attacks-entra-artex-2026.md) | Nov 2026 | Consent abuse of agent identities; exposed secrets to Key Vault in minutes |
