@@ -13,6 +13,7 @@ Incident write-ups that test the frameworks and checklists in this hub against w
 | [Breach class actions: Equifax, Capital One, Optus, Medibank](data-breach-class-actions-equifax-capital-one-optus-medibank.md) | 2017–2026 | Settlements, regulator penalties and live Australian proceedings on "reasonable security" |
 | [Meta €1.2bn transfers fine](meta-1-2bn-data-transfers-2023.md) | May 2023 | SCCs and supplementary measures; EDPB binding decision |
 | [Operation Snowball](operation-snowball-ai-agent-2026.md) | Reported 8 Nov 2026 | Jailbroken AI agent attack on a telecom and 13 hosted customers |
+| [DOJ actions on North Korean crypto theft (FaceStealer, Binance)](dprk-facestealer-binance-doj-actions-2026.md) | Nov 2026 | Deepfake meeting lures, USD 400m+ stolen; USD 6bn Binance theft, USD 2.7bn frozen |
 | [Shukran loyalty data breach (Landmark Group)](shukran-loyalty-data-breach-landmark-2026.md) | Nov 2026 | Names, contacts and dates of birth accessed; cards and points unaffected; investigation ongoing |
 | [AI-agent identity attacks: BluePhishing and ARTEX](ai-agent-identity-attacks-entra-artex-2026.md) | Nov 2026 | Consent abuse of agent identities; exposed secrets to Key Vault in minutes |
 
