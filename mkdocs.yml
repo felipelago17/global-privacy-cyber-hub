@@ -101,6 +101,7 @@ nav:
       - Irreversibility trap in fine-tuning (analytical case): case-studies/irreversibility-trap-fine-tuning.md
       - Operation Snowball (Nov 2026): case-studies/operation-snowball-ai-agent-2026.md
       - AI-agent identity attacks (BluePhishing, ARTEX): case-studies/ai-agent-identity-attacks-entra-artex-2026.md
+      - SQL Server hijacking with Gh0st RAT (Nov 2026): case-studies/mssql-brute-force-xp-cmdshell-gh0st-rat-2026.md
       - GPU monitoring manipulation and cryptomining (Nov 2026): case-studies/gpu-monitoring-manipulation-ray-cryptomining-2026.md
       - Uber driver data via AI vendor Fireworks AI (Nov 2026): case-studies/uber-fireworks-ai-vendor-breach-2026.md
       - Maersk inherited legacy system and WhiteArmor extortion (Nov 2026): case-studies/maersk-legacy-system-whitearmor-extortion-2026.md
