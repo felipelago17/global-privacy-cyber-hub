@@ -46,6 +46,7 @@ FEEDS = [
     # High-volume vendor/vuln news site — kept only where it touches incidents, critical infrastructure/OT, regulators or data
     {"source": "Cyber Security News", "url": "https://cybersecuritynews.com/feed/", "category": "Cyber incidents & threat intel", "filter": "incident"},
     # Curated from zer0yu/CyberSecurityRSS (tiny.opml / CyberSecurityRSS.opml, Sep 2026) - in-scope subset only
+    {"source": "GBHackers", "url": "https://gbhackers.com/feed/", "category": "Cyber incidents & threat intel", "filter": "incident", "max": 4},
     {"source": "Krebs on Security", "url": "https://krebsonsecurity.com/feed/", "category": "Cyber incidents & threat intel", "filter": "incident", "max": 3},
     {"source": "SecurityWeek", "url": "https://www.securityweek.com/feed/", "category": "Cyber incidents & threat intel", "filter": "incident", "max": 4},
     {"source": "Dark Reading", "url": "https://www.darkreading.com/rss.xml", "category": "Cyber incidents & threat intel", "filter": "incident", "max": 4},
@@ -314,7 +315,7 @@ def write_index() -> None:
         "# Daily updates",
         "",
         "Automated daily digest of privacy, cybersecurity and AI-governance developments from regulators, "
-        "standards bodies and trusted practitioner sources (IAPP, FPF, EDPB, ICO, CNIL, ENISA, NCSC, FTC, NIST, CISA, EFF, Cyber Security News — some via Google News site-feeds where the regulator blocks automated access). "
+        "standards bodies and trusted practitioner sources (IAPP, FPF, EDPB, ICO, CNIL, ENISA, NCSC, FTC, NIST, CISA, EFF, Cyber Security News, GBHackers — some via Google News site-feeds where the regulator blocks automated access). "
         "Each item is reported once, on the day it is first seen. Sources and filters are defined in "
         "[`tools/fetch_updates.py`](https://github.com/felipelago17/global-privacy-cyber-hub/blob/main/tools/fetch_updates.py).",
         "",
