@@ -58,7 +58,7 @@ The ESAs explain how existing EU rules apply to the cyber risks that advanced fr
 
 ## Why it matters
 
-- It is the first joint ESA position on frontier-AI cyber risk and ties it to binding DORA duties, so supervisors can test firms against it even though the statement creates no new obligation.
+- It ties frontier-AI cyber risk to binding DORA duties, so supervisors can test firms against it even though the statement creates no new obligation.
 - Dependency and asset inventories, patch speed and backup isolation are the practical points an examiner is likely to ask about.
 - The CTPP angle matters for cloud and AI providers serving EU financial entities: their preparedness will be examined in 2027.
 - Read with this hub's [OpenAI / Hugging Face](../case-studies/openai-hugging-face-2026.md) and [Operation Snowball](../case-studies/operation-snowball-ai-agent-2026.md) cases, the [MoFo incident-response note](mofo-privacy-minute-ai-agent-incident-response-2026.md) and the [export-controls and cybersecurity convergence analysis](export-controls-cybersecurity-convergence-aug2026.md).
