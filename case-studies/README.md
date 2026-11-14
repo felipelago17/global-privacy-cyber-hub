@@ -21,5 +21,6 @@ Incident write-ups that test the frameworks and checklists in this hub against w
 | [Shukran loyalty data breach (Landmark Group)](shukran-loyalty-data-breach-landmark-2026.md) | Nov 2026 | Names, contacts and dates of birth accessed; cards and points unaffected; investigation ongoing |
 | [AI-agent identity attacks: BluePhishing and ARTEX](ai-agent-identity-attacks-entra-artex-2026.md) | Nov 2026 | Consent abuse of agent identities; exposed secrets to Key Vault in minutes |
 | [Johnson Controls False Claims Act settlement](johnson-controls-fca-cybersecurity-settlement-2026.md) | 13 Nov 2026 | USD 5m over alleged failure to meet contract cybersecurity requirements (NIST SP 800-171); two whistleblower actions; no breach alleged |
+| [XAI for disease classification: 105 studies (Memon et al.)](xai-disease-classification-readiness-memon-2026.md) | 2026 | Systematic review: explanations rarely tested or clinically validated; no study met all 13 readiness items; transparency and validation evidence for clinical AI |
 
 Candidates for future case studies: Bybit (Feb 2025), the 2026 "Black October" wave of AI-discovered vulnerabilities (see the [Economist leader reading note](../analyses/economist-cyber-disaster-leader-2026.md) for an overview and incident table), major DPA enforcement actions on AI training data.
