@@ -1,0 +1,200 @@
+[
+ {
+  "uid": "https://iapp.org/news/a/the-barbados-guyana-digital-identity-card-travel-initiative-identifying-the-data-protection-gaps",
+  "source": "IAPP",
+  "category": "Privacy & AI governance",
+  "title": "The Barbados-Guyana Digital Identity Card Travel Initiative: Identifying the data protection gaps",
+  "link": "https://iapp.org/news/a/the-barbados-guyana-digital-identity-card-travel-initiative-identifying-the-data-protection-gaps",
+  "date": "",
+  "summary": ""
+ },
+ {
+  "uid": "https://iapp.org/news/a/notes-from-the-iapp-canada-accountability-should-outweigh-consent-with-connected-vehicles",
+  "source": "IAPP",
+  "category": "Privacy & AI governance",
+  "title": "Notes from the IAPP Canada: Accountability should outweigh consent with connected vehicles",
+  "link": "https://iapp.org/news/a/notes-from-the-iapp-canada-accountability-should-outweigh-consent-with-connected-vehicles",
+  "date": "",
+  "summary": ""
+ },
+ {
+  "uid": "112537 at https://www.eff.org",
+  "source": "EFF Deeplinks",
+  "category": "Privacy & digital rights",
+  "title": "Tech Companies Are Trying to Shift the Entire Concept of Privacy (Again)",
+  "link": "https://www.eff.org/deeplinks/2026/11/tech-companies-are-trying-shift-entire-concept-privacy-again",
+  "date": "2026-11-13",
+  "summary": "Privacy, which companies were once happy to claim was all about personal choice, is now primed to affect everyone around you even more than it already did. Meta and Google’s smart glasses can record anything the owner is looking at or use artificial intelligence to describe it. …"
+ },
+ {
+  "uid": "https://cybersecuritynews.com/?p=172187",
+  "source": "Cyber Security News",
+  "category": "Cyber incidents & threat intel",
+  "title": "Microsoft Warns of Active Password Stealing Attack Exploiting the Microsoft 365 Service Disruption",
+  "link": "https://cybersecuritynews.com/active-password-stealing-attack-microsoft-365/",
+  "date": "2026-11-14",
+  "summary": "Microsoft has warned of an active phishing campaign using the November 12 Microsoft 365 service disruption to lure users into opening fake email recovery links. The messages copy Microsoft service health notices and cite the real Exchange Online incident EX1550543, making the re…"
+ },
+ {
+  "uid": "https://cybersecuritynews.com/?p=172184",
+  "source": "Cyber Security News",
+  "category": "Cyber incidents & threat intel",
+  "title": "Cursor Reveals How a Leaked Fireworks AI Key Led to a Backdoored Claude Code Extension",
+  "link": "https://cybersecuritynews.com/cursor-data-breach/",
+  "date": "2026-11-14",
+  "summary": "Cursor has traced its October security breach to an access key exposed by Fireworks AI. The attacker used that key to steal historical coding agent records, find more credentials, and eventually place backdoored Claude Code extensions in Cursor’s marketplace cache. Its November …"
+ },
+ {
+  "uid": "https://cybersecuritynews.com/?p=172154",
+  "source": "Cyber Security News",
+  "category": "Cyber incidents & threat intel",
+  "title": "CISA Warns of Check Point 0-Day Vulnerability Exploited to Gain Root Access",
+  "link": "https://cybersecuritynews.com/check-point-0-day-vulnerability/",
+  "date": "2026-11-14",
+  "summary": "CISA has warned that attackers are exploiting a Check Point security flaw that lets a local user gain root access on affected appliances. The agency added CVE-2026-123039 to its Known Exploited Vulnerabilities catalog on November 13, 2026, confirming that the vulnerability is be…"
+ },
+ {
+  "uid": "https://cybersecuritynews.com/?p=172150",
+  "source": "Cyber Security News",
+  "category": "Cyber incidents & threat intel",
+  "title": "Uber Confirms Data Breach – Hackers Stole Users’ Personal Information",
+  "link": "https://cybersecuritynews.com/uber-confirms-data-breach/",
+  "date": "2026-11-14",
+  "summary": "Uber has confirmed a data breach involving the personal information of thousands of U.S. drivers after hackers accessed records held by Fireworks AI, a third-party technology provider. The exposed information includes driver’s license details. Uber is notifying affected people, …"
+ },
+ {
+  "uid": "https://cybersecuritynews.com/?p=172124",
+  "source": "Cyber Security News",
+  "category": "Cyber incidents & threat intel",
+  "title": "Hackers Use 2,700 Passwords to Break Into Microsoft SQL Servers and Deploy Remote Access Malware",
+  "link": "https://cybersecuritynews.com/break-into-microsoft-sql-servers/",
+  "date": "2026-11-13",
+  "summary": "A new campaign is guessing its way into internet-facing Microsoft SQL Server systems. The attackers use a list of more than 2,700 passwords and then install a cryptocurrency miner and a remote access trojan (RAT) on the hacked machines. The campaign has been running since at lea…"
+ },
+ {
+  "uid": "https://gbhackers.com/?p=207221",
+  "source": "GBHackers",
+  "category": "Cyber incidents & threat intel",
+  "title": "CISA Warns of Actively Exploited Check Point Zero-Day Vulnerability Allowing Attackers to Gain Root Access",
+  "link": "https://gbhackers.com/cisa-check-point-zero-day-vulnerability/",
+  "date": "2026-11-14",
+  "summary": "CISA has reportedly added CVE-2026-123039, a Check Point Gaia OS permission flaw, to its Known Exploited Vulnerabilities catalog following active exploitation. The entry supplied for this report lists November 13, 2026, as the addition date and November 16 as the remediation dea…"
+ },
+ {
+  "uid": "https://gbhackers.com/?p=207218",
+  "source": "GBHackers",
+  "category": "Cyber incidents & threat intel",
+  "title": "Hackers Use Stolen LLM API Keys to Power ARTEX AI Agents and Continue Credential Theft",
+  "link": "https://gbhackers.com/hackers-llm-api-keys-artex-ai-agents/",
+  "date": "2026-11-14",
+  "summary": "Chinese-nexus threat actors used ARTEX, an open-source agentic penetration-testing framework, to steal large language model API credentials and feed them back into infrastructure powering further attacks. Amazon Threat Intelligence uncovered the financially motivated campaigns a…"
+ },
+ {
+  "uid": "https://gbhackers.com/?p=207201",
+  "source": "GBHackers",
+  "category": "Cyber incidents & threat intel",
+  "title": "Uber Hacked – Hackers Steal Drivers’ License Personal Data",
+  "link": "https://gbhackers.com/uber-hacked-hackers-steal-drivers-license-personal-data/",
+  "date": "2026-11-14",
+  "summary": "Thousands of Uber drivers in the United States are being told that their personal and driver’s license information was stolen. The data was taken in an October breach at Fireworks AI, a third-party technology provider that held Uber records. Uber disclosed the incident in breach…"
+ },
+ {
+  "uid": "https://www.securityweek.com/?p=50780",
+  "source": "SecurityWeek",
+  "category": "Cyber incidents & threat intel",
+  "title": "In Other News: New CISA Director Nominee, Connected Car Hacking, Baker Tilly Data Breach",
+  "link": "https://www.securityweek.com/in-other-news-new-cisa-director-nominee-connected-car-hacking-baker-tilly-data-breach/",
+  "date": "2026-11-13",
+  "summary": "Noteworthy stories that might have slipped under the radar: Siemens details security advisory policy, OpenAI Codex backdoor risk, Microsoft warns of model weight backdoors. The post In Other News: New CISA Director Nominee, Connected Car Hacking, Baker Tilly Data Breach appeared…"
+ },
+ {
+  "uid": "CBMixwFBVV95cUxPUDk1c1VBOW1ITUhkUlY1MXVncUw3VkxCWkowa0prTmhhOVctMVRramJEOUVSTGJVOXh4SjlPaGNxQ3EyNl8yNVZUd1RCQnZid1d4TWFFalNrenlDeVVGR3IxNUMyNmgxbUJMQmlqbXpxZ1JtNVVSRE9wdVVJcWNHcE9wZ0dCS1RZTmVZdkNxaEFrTzFMREIyT041a1p1bGVqT3dyUFZzU3ZjTEVJaFlDcHMtRVJXWFdvOTZnV29hWUN5cXVCWWI4",
+  "source": "EDPB (via Google News)",
+  "category": "EU data protection",
+  "title": "EDPB letter to the European Commission on the need for a legal basis for cross-regulatory exchange of information",
+  "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPUDk1c1VBOW1ITUhkUlY1MXVncUw3VkxCWkowa0prTmhhOVctMVRramJEOUVSTGJVOXh4SjlPaGNxQ3EyNl8yNVZUd1RCQnZid1d4TWFFalNrenlDeVVGR3IxNUMyNmgxbUJMQmlqbXpxZ1JtNVVSRE9wdVVJcWNHcE9wZ0dCS1RZTmVZdkNxaEFrTzFMREIyT041a1p1bGVqT3dyUFZzU3ZjTEVJaFlDcHMtRVJXWFdvOTZnV29hWUN5cXVCWWI4?oc=5",
+  "date": "2026-11-12",
+  "summary": "EDPB letter to the European Commission on the need for a legal basis for cross-regulatory exchange of information European Data Protection Board"
+ },
+ {
+  "uid": "CBMiVkFVX3lxTE9rNWIxZDUzTVY1V0VUYjBLRDlIQXBLekg1VWJ2dl9wN2w3c251cFd3c3dqS3dkczZHUU1EREtUSEI4OGRuSUZ1aHVKZmN1NGJTdjNmRjZR",
+  "source": "EDPB (via Google News)",
+  "category": "EU data protection",
+  "title": "Legal Notices",
+  "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9rNWIxZDUzTVY1V0VUYjBLRDlIQXBLekg1VWJ2dl9wN2w3c251cFd3c3dqS3dkczZHUU1EREtUSEI4OGRuSUZ1aHVKZmN1NGJTdjNmRjZR?oc=5",
+  "date": "2026-11-13",
+  "summary": "Legal Notices European Data Protection Board"
+ },
+ {
+  "uid": "CBMiVkFVX3lxTE93MU5YRE1Vb0dQdjNmNFF0blZIRTdfS2dtMkM5VXRIM1h2c3B2SFNENkZ3d0Y1cWJjOFJ3T1pnZ1F3WWVteGdGU2xXV3VtV21CS3pPZkJB",
+  "source": "EDPB (via Google News)",
+  "category": "EU data protection",
+  "title": "Legal Notices",
+  "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE93MU5YRE1Vb0dQdjNmNFF0blZIRTdfS2dtMkM5VXRIM1h2c3B2SFNENkZ3d0Y1cWJjOFJ3T1pnZ1F3WWVteGdGU2xXV3VtV21CS3pPZkJB?oc=5",
+  "date": "2026-11-13",
+  "summary": "Legal Notices European Data Protection Board"
+ },
+ {
+  "uid": "CBMiyAFBVV95cUxOMmw5VWw5UDZOMEZ2VV9ROEJmUnFLS3RBTUdmcjRIMnhMb291Z3RfemJfZ2pHQkJmRF9RWm9OZ2NJdTFoc1BBUzJOTWVPX0UyT1RDZWtqc3FuN2RULS01U1dKMkk5eWxQVXJfSzBvY2lDQVpZRUZJYWluSWd0UFJwS0pCMHpycTQtUHExWkY4dkVRbTRXQTZkSnZLRmV0d0l5WjFBLTVOSnc0aXI4OFdJZDgyQUxXVTQ5X2l0eUMzZHo0TjlzU1ViOA",
+  "source": "EDPB (via Google News)",
+  "category": "EU data protection",
+  "title": "Opinjoni Konġunta EDPB-EDPS [4/2026] dwar il-Proposta għal Att dwar iċĊibersigurtà 2 (CSA2) u l-Proposta dwar emendi għad-Direttiva Riveduta dwar is-Sigurtà tan-Networks u tas-Sistemi tal-Informazzjo…",
+  "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMmw5VWw5UDZOMEZ2VV9ROEJmUnFLS3RBTUdmcjRIMnhMb291Z3RfemJfZ2pHQkJmRF9RWm9OZ2NJdTFoc1BBUzJOTWVPX0UyT1RDZWtqc3FuN2RULS01U1dKMkk5eWxQVXJfSzBvY2lDQVpZRUZJYWluSWd0UFJwS0pCMHpycTQtUHExWkY4dkVRbTRXQTZkSnZLRmV0d0l5WjFBLTVOSnc0aXI4OFdJZDgyQUxXVTQ5X2l0eUMzZHo0TjlzU1ViOA?oc=5",
+  "date": "2026-11-12",
+  "summary": "Opinjoni Konġunta EDPB-EDPS [4/2026] dwar il-Proposta għal Att dwar iċĊibersigurtà 2 (CSA2) u l-Proposta dwar emendi għad-Direttiva Riveduta dwar is-Sigurtà tan-Networks u tas-Sistemi tal-Informazzjoni (NIS 2, Revised Directive on Security of Network a European Data Protection B…"
+ },
+ {
+  "uid": "CBMi0AVBVV95cUxOOFczdW1Wd3h0UjVIcGZ3dlp2ZVlQS2pLbEpZY0tmZlNuNlpjWTZJUXprWTlqd2hUYnR3ZkthaklBNlBHZnUzWEhpTElYVldvLXhwMkM1dV81ODNLaGxjcGRPejZFNkFzaExuS0ZOSkpHeVQ5UjJUUXVIMVpWcE15UXA1MGZNMWx1UzdZTkRMc0ZzM0FZSzdJQkFGVG9PWTA0S2VmeFEtRzlhQXdFXzFkTThZOGEtX2tyRWVORzJTNVU1ckNsT004clJaNlJoTjM3UjR3aGFKX2ZHaHVJeHcxUGVRai1CdGFNQmNPVkNRRTVCSUQta09GTEtHUTVyUWtyVDdLemllNWMwUGktTVlWVDdVUV91Qzc2ZDB3TTVxZDExRmlJclBhUWRiU05KUFBWUE5oUm5pMUE5ZmdleWRObVdXM19TQkZvZElZLUhLc0pZNzRkbmlZeFdydFNwbUV6ZDN0bEtxMVlETFg5OHNiVlZTUnA5YnBNcTBmTjFjc0x4SUExa25vRWNNei1uX2NSV0NHUXBhTUFscVdTVWZKU2NOUmxJYkxwVU5kYzJXRm9reUh6TmRHY3QtbXRXdjl0WU10RUxMa3p4RU9hRGhLTVI2YUtDWnVGV09pVW5HY0NtMjRyc1J2TDFSWlh3aGV4cHhsNmhxaktFeGhlTy1wNXI4clpWdVN1bXEwMkdQYlU4c1liY2xwRmVaZGVyVUpNT1prYU90WERtRThJV3ItUGhoUkpWMGpSX20wUmxiR2lNTUd1MTRqS3ZPNE5oNVgzYnpFZzFxLWlJUGlVREQ0eWhiZ1VKMEdEMkI3ZTY0cjNVbUdYbUNlM1EySXRSQU4wc25TUXQ3MlBNT09nVDEtckJWM3c0SVg1ZG51U0lueEJfQkM2eG5VNWJ0N0RNbmY3Mko4ZHhSLXhCLXo2ZU5NM0dSQzhiS3FPQ3BQY0VJdkk",
+  "source": "EDPB (via Google News)",
+  "category": "EU data protection",
+  "title": "Documents",
+  "link": "https://news.google.com/rss/articles/CBMi0AVBVV95cUxOOFczdW1Wd3h0UjVIcGZ3dlp2ZVlQS2pLbEpZY0tmZlNuNlpjWTZJUXprWTlqd2hUYnR3ZkthaklBNlBHZnUzWEhpTElYVldvLXhwMkM1dV81ODNLaGxjcGRPejZFNkFzaExuS0ZOSkpHeVQ5UjJUUXVIMVpWcE15UXA1MGZNMWx1UzdZTkRMc0ZzM0FZSzdJQkFGVG9PWTA0S2VmeFEtRzlhQXdFXzFkTThZOGEtX2tyRWVORzJTNVU1ckNsT004clJaNlJoTjM3UjR3aGFKX2ZHaHVJeHcxUGVRai1CdGFNQmNPVkNRRTVCSUQta09GTEtHUTVyUWtyVDdLemllNWMwUGktTVlWVDdVUV91Qzc2ZDB3TTVxZDExRmlJclBhUWRiU05KUFBWUE5oUm5pMUE5ZmdleWRObVdXM19TQkZvZElZLUhLc0pZNzRkbmlZeFdydFNwbUV6ZDN0bEtxMVlETFg5OHNiVlZTUnA5YnBNcTBmTjFjc0x4SUExa25vRWNNei1uX2NSV0NHUXBhTUFscVdTVWZKU2NOUmxJYkxwVU5kYzJXRm9reUh6TmRHY3QtbXRXdjl0WU10RUxMa3p4RU9hRGhLTVI2YUtDWnVGV09pVW5HY0NtMjRyc1J2TDFSWlh3aGV4cHhsNmhxaktFeGhlTy1wNXI4clpWdVN1bXEwMkdQYlU4c1liY2xwRmVaZGVyVUpNT1prYU90WERtRThJV3ItUGhoUkpWMGpSX20wUmxiR2lNTUd1MTRqS3ZPNE5oNVgzYnpFZzFxLWlJUGlVREQ0eWhiZ1VKMEdEMkI3ZTY0cjNVbUdYbUNlM1EySXRSQU4wc25TUXQ3MlBNT09nVDEtckJWM3c0SVg1ZG51U0lueEJfQkM2eG5VNWJ0N0RNbmY3Mko4ZHhSLXhCLXo2ZU5NM0dSQzhiS3FPQ3BQY0VJdkk?oc=5",
+  "date": "2026-11-13",
+  "summary": "Documents European Data Protection Board"
+ },
+ {
+  "uid": "CBMiVkFVX3lxTE5wWTNUQy1tTFBrdzJBeUNVS1poZ0o1Tms1WndhMkkyZHFPd2JNdHdEVXZsSTRUSDRzbjdzYjRqbFhWYnpMQzlRRVFYVktkald3cHJQTVNR",
+  "source": "EDPB (via Google News)",
+  "category": "EU data protection",
+  "title": "Legal Notices",
+  "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5wWTNUQy1tTFBrdzJBeUNVS1poZ0o1Tms1WndhMkkyZHFPd2JNdHdEVXZsSTRUSDRzbjdzYjRqbFhWYnpMQzlRRVFYVktkald3cHJQTVNR?oc=5",
+  "date": "2026-11-12",
+  "summary": "Legal Notices European Data Protection Board"
+ },
+ {
+  "uid": "CBMiWEFVX3lxTFBuTURFT2pnWlNxdm9FQVVFd2F4akEzTGNzbmVPZld0YXhaVm50YnUtbXpEbDE4eGpTa29HVmdWWVBlQUVlVzlXZkVmaU9SRzczN05oeXkwdXU",
+  "source": "ICO (via Google News)",
+  "category": "UK data protection",
+  "title": "Burwell Architects Limited",
+  "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBuTURFT2pnWlNxdm9FQVVFd2F4akEzTGNzbmVPZld0YXhaVm50YnUtbXpEbDE4eGpTa29HVmdWWVBlQUVlVzlXZkVmaU9SRzczN05oeXkwdXU?oc=5",
+  "date": "2026-11-13",
+  "summary": "Burwell Architects Limited ICO"
+ },
+ {
+  "uid": "CBMipwFBVV95cUxQYlZpbGlabWltZldCNFloZ2VpQTJDS2pTa2VGSWtFV1htMWRkd0RnVVRobVVlUEE5aXJWVjEwY19teTRqbGxIcUlUS1BkS1FwSjh1Zl9TT043c2pTYlE4YWszczVNR05Eb3VQNFRlZl90bzRzN2djOEFfZll3X0RycXRWdWNrS2oydjB2a1d3a1U1eDRLTWdaYjB5dnlRSTdfQ3lMQklGUQ",
+  "source": "CISA (via Google News)",
+  "category": "Cybersecurity advisories",
+  "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+  "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQYlZpbGlabWltZldCNFloZ2VpQTJDS2pTa2VGSWtFV1htMWRkd0RnVVRobVVlUEE5aXJWVjEwY19teTRqbGxIcUlUS1BkS1FwSjh1Zl9TT043c2pTYlE4YWszczVNR05Eb3VQNFRlZl90bzRzN2djOEFfZll3X0RycXRWdWNrS2oydjB2a1d3a1U1eDRLTWdaYjB5dnlRSTdfQ3lMQklGUQ?oc=5",
+  "date": "2026-11-13",
+  "summary": "CISA Adds Two Known Exploited Vulnerabilities to Catalog CISA (.gov)"
+ },
+ {
+  "uid": "CBMivgFBVV95cUxPdU9nWTRBWVltcm56YWoyQldBSTdFTU5manR4bi1IUlZpR1BycmFBazRnYjZRYl9BOGtyallSVFlBeldFTHJES1NsUk1wYXhtRWxxYW85b3VqOEdzM2I2ODcwOUVGQnlXeGtsTnluWnBJTmJaLWNoOVQ0emNqcVRWRXl0aC1PLXRuNkdha1dObkpJTG9YdHZYMjg3dk00RXFuYzlsd3BpMGtrelNfTG1aVUs3bTI0VUJCTFV6aEFB",
+  "source": "CISA (via Google News)",
+  "category": "Cybersecurity advisories",
+  "title": "Cybersecurity Training and Professional Development Opportunities for All",
+  "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPdU9nWTRBWVltcm56YWoyQldBSTdFTU5manR4bi1IUlZpR1BycmFBazRnYjZRYl9BOGtyallSVFlBeldFTHJES1NsUk1wYXhtRWxxYW85b3VqOEdzM2I2ODcwOUVGQnlXeGtsTnluWnBJTmJaLWNoOVQ0emNqcVRWRXl0aC1PLXRuNkdha1dObkpJTG9YdHZYMjg3dk00RXFuYzlsd3BpMGtrelNfTG1aVUs3bTI0VUJCTFV6aEFB?oc=5",
+  "date": "2026-11-12",
+  "summary": "Cybersecurity Training and Professional Development Opportunities for All NICCS (.gov)"
+ },
+ {
+  "uid": "CBMi3wFBVV95cUxQNWd4eEVwU3dUN1dQMTVMaDh4RVVuRUdhcElId1EtajhueUM0MUtBYmVObGF6d2ZzYS1pV2R0dTJ0MFdTVXZUTUZBdl9XQVhJbVN2RGFCeFRmcFQ2RVBwblNpTG00VFJheXZpZC15UFJldWl6Z2pjQU0tSUNUZFhxUzI2LXU2Skc0OG43Q29UX1BCSGxqNWh6b2h3bGZ6OW1rb3JhSHpNWEliSGdORFNfQlRtb0dzV3JHOG1nRzlEWmY1UVZ4TE4xT0pLM1VUbkYxSGFYOUtHOXBWT3JITzVr",
+  "source": "CISA (via Google News)",
+  "category": "Cybersecurity advisories",
+  "title": "Resources",
+  "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQNWd4eEVwU3dUN1dQMTVMaDh4RVVuRUdhcElId1EtajhueUM0MUtBYmVObGF6d2ZzYS1pV2R0dTJ0MFdTVXZUTUZBdl9XQVhJbVN2RGFCeFRmcFQ2RVBwblNpTG00VFJheXZpZC15UFJldWl6Z2pjQU0tSUNUZFhxUzI2LXU2Skc0OG43Q29UX1BCSGxqNWh6b2h3bGZ6OW1rb3JhSHpNWEliSGdORFNfQlRtb0dzV3JHOG1nRzlEWmY1UVZ4TE4xT0pLM1VUbkYxSGFYOUtHOXBWT3JITzVr?oc=5",
+  "date": "2026-11-12",
+  "summary": "Resources CISA (.gov)"
+ }
+]
