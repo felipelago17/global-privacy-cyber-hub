@@ -52,6 +52,7 @@ Focus areas: AI governance, cloud DPIAs, agent security, privacy-enhancing techn
 | [Cloud concentration: the "centrality menace" revisited (TechnoLlama)](analyses/cloud-centrality-menace-technollama-2026.md) | Microsoft 365 outage as a case for minimum viable service, identity resilience, digital sovereignty and DORA/CTP-style oversight (Nov 2026 commentary) |
 | [ENISA State of Cybersecurity in the Union 2026](analyses/enisa-state-of-cybersecurity-union-2026.md) | Threat level "substantial"; EU Cybersecurity Index 71.53/100; DDoS, public administration, AI as amplifier; NIS2 transposition gaps (10 Nov 2026) |
 | ["Your attackers' AI knows you better than yours does" (Forbes Tech Council)](analyses/ai-amplifies-security-posture-forbes-2026.md) | AI amplifies existing posture: Japan IDC Frontier and South Korea ARTEX examples checked against other reporting; vendor-authored opinion (Nov 2026) |
+| [PwC: securing OT against AI and geopolitical risk](analyses/pwc-ot-geopolitical-ai-risk-2026.md) | OT/ICS exposure, segmentation, vendor access and maturity tiers; incident examples as described by PwC, unverified (Nov 2026) |
 | [Cybersecurity of sensitive non-personal data](analyses/sensitive-non-personal-data-security.md) | Trade secrets, OT/process data, CUI, model weights and research data: five legal hooks beyond privacy law, with a verification table (Nov 2026) |
 | [10 Tips for Global Compliance (IAPP)](analyses/iapp-global-compliance-tips.md) | Practical operating model for multi-jurisdictional privacy programmes |
 
