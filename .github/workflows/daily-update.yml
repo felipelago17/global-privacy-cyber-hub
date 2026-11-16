@@ -64,5 +64,16 @@ jobs:
         with:
           path: site
 
+      # deploy-pages can briefly see 0 artifacts right after upload (seen 2026-11-16);
+      # wait and retry once before failing the run.
       - id: deployment
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+
+      - name: Retry deploy after short wait
+        if: steps.deployment.outcome == 'failure'
+        run: sleep 45
+
+      - id: deployment_retry
+        if: steps.deployment.outcome == 'failure'
         uses: actions/deploy-pages@v4
