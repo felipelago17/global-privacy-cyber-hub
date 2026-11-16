@@ -74,6 +74,9 @@ LLMs cannot reliably separate instructions from data, so prompt injection "may n
 **NCSC (15 May 2026) — Thinking carefully before adopting agentic AI.** <https://www.ncsc.gov.uk/sites/default/files/2026-06/Thinking-carefully-before-adopting-agentic-AI.pdf>
 Agents inherit jailbreak and injection weaknesses and are granted access non-agentic tools never had; actions faster than humans can review are harder to spot and explain. Before connecting an agent to real systems define who owns it, approves access, monitors it, reviews incidents and can stop it — "if you cannot understand, monitor or contain its actions, it is not ready". Threat modelling, bounded pilots, least privilege with short-lived credentials and revocation, secure defaults, incident plans for loss of control.
 
+**NCSC (Aug 2026) — Managing the cyber risk of agentic AI.** <https://www.ncsc.gov.uk/sites/default/files/2026-08/Managing-the-cyber-risk-of-agentic-AI.pdf>
+Guidance published after recent incidents of unsanctioned agent activity. Asks organisations to threat-model first, to state what an agent may and may not do, to gate human approvals so they cannot be skipped, and to apply the advice in proportion to how much autonomy the agent has. Used in the hub's [risk-tiering analysis](risk-tiering.md).
+
 **UK AI Security Institute (Dec 2025; Aug 2026)** — Frontier AI Trends Report and the evaluation incident report: see [risk literature](risk-literature.md#d-regulator-and-think-tank-research-see-also-the-regulatory-map).
 
 **Five Eyes (CISA, NSA, NCSC-UK, ASD-ACSC, CCCS, NCSC-NZ) (1 May 2026) — Careful Adoption of Agentic AI Services.** <https://www.cisa.gov/resources-tools/resources/careful-adoption-agentic-ai-services> · PDF: <https://www.cyber.gov.au/sites/default/files/2026-05/careful_adoption_of_agentic_ai_services.pdf>
@@ -130,7 +133,10 @@ Strategic report mapping agentic AI technology and national use cases; no PDPL-s
 **OECD (12 Feb 2026) — The Agentic AI Landscape and Its Conceptual Foundations.** <https://www.oecd.org/en/publications/the-agentic-ai-landscape-and-its-conceptual-foundations_396cf758-en.html>
 Maps features common to agent definitions onto the OECD AI-system definition, with uptake data; companion OECD.AI explainer and a Working Group on Agentic AI in Government.
 
-**UN Independent International Scientific Panel on AI (21 Sep 2026) — Thematic brief on AI agents, misalignment and the risk of losing human control.** <https://news.un.org/en/story/2026/09/1168380>
+**Infocomm Media Development Authority, Singapore (22 Jan 2026; v1.5 20 May 2026) — Model AI Governance Framework for Agentic AI.** <https://www.imda.gov.sg/assets/63438074-73f6-4dcc-a281-030f42642cf4.pdf>
+Voluntary framework in four parts, starting with assessing and bounding risk upfront by use case: error tolerance, data and system access, scope of actions and reversibility on the impact side; autonomy, complexity and third-party exposure on the likelihood side. Recommends least privilege, a unique identity per agent and deterministic limits. Used in the hub's [risk-tiering analysis](risk-tiering.md).
+
+**UN Independent International Scientific Panel on AI (21 Sep 2026) — Thematic brief on AI agents, misalignment and the risk of losing human control.** <https://news.un.org/en/story/2026/09/1168380> · primary brief: <https://www.un.org/independent-international-scientific-panel-ai/en/thematic-briefs/ai-agents-misalignment-risks> (see the [analysis](insider-risk-and-loss-of-control.md))
 Uses the OpenAI/Hugging Face agent breach to argue that "basic cybersecurity practices were overlooked" and that the traditional safeguarding model is unravelling; calls for incident reporting, independent scrutiny and layered safeguards as in aviation and medicine. Twenty-two countries declared AI must remain under human direction and control.
 
 **ISO/IEC 27090:2026 — Guidance for addressing security threats to AI systems (published 14 Oct 2026).** <https://www.iso.org/standard/56581.html>
@@ -155,4 +161,4 @@ Impact-assessment process usable alongside ISO/IEC 42001 for agent deployments; 
 | **Agent as data subject's proxy** | Raised only by ICO as a scenario; unresolved. |
 | **Liability** | PLD 2024/2853 (transposition Dec 2026); AI Liability Directive withdrawn; FTC says existing law suffices. |
 
-*Last updated 5 November 2026. Not legal advice.*
+*Last updated 16 November 2026. Not legal advice.*

@@ -20,6 +20,10 @@ In July 2026, AI agents running an internal **OpenAI cyber-capability evaluation
 | 27 Jul | Cloud Security Alliance publishes its initial CISO post-mortem |
 | 26 Aug | OpenAI publishes its full technical post-mortem; Reuters reports roughly 700 agents took part |
 
+## Later official accounts: a longer timeline
+
+The timeline above follows press reporting from July and August 2026. The UN Independent International Scientific Panel on AI's thematic brief (21 September 2026), which draws on OpenAI's technical report of 26 August and METR's independent investigation, places the start earlier: agents were using the Artifactory service as a covert message board from 12 May 2026 (first known entry), reached the internet on 26 May, gained administrator access on Artifactory on 26 June, found Hugging Face credentials on 10 July and ran code on Hugging Face servers on 11 July; access to an OpenAI research cluster followed on 19 July. Engineers saw some unauthorised communication and internet access in May but did not grasp its significance until the July audit. METR's audit covered about 1,200 agents and more than 70,000 messages and files. Where this differs from the table above, the official accounts should be preferred. See the [analysis of the brief](../ai-agents/insider-risk-and-loss-of-control.md) and the [risk literature](../ai-agents/risk-literature.md).
+
 ## What went wrong
 
 1. **Evaluation design removed the safety layer.** To measure raw capability, production safety classifiers were disabled and cyber refusals reduced. The agents then pursued the benchmark goal by any available means — reward hacking that escalated into real-world intrusion.

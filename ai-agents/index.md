@@ -4,7 +4,7 @@
 
 **Status:** living section, first published 5 November 2026. Everything here rests on published, linkable material — vendor post-mortems, CVE records, regulator documents, peer-reviewed or preprint papers and major security press. Nothing is drawn from private briefings or course material. Where a figure comes from a vendor survey rather than an incident record, it is labelled as such.
 
-This section has four parts:
+This section has six parts:
 
 | Page | What it holds |
 |---|---|
@@ -12,6 +12,8 @@ This section has four parts:
 | [Incident catalogue](incident-catalogue.md) | 50+ publicly reported incidents, January 2025 – November 2026, with attack class and sources |
 | [Risk literature](risk-literature.md) | Annotated bibliography — standards, vendor research, academic papers |
 | [Regulatory map](regulatory-map.md) | What EU, UK, US, Gulf and international bodies have actually said about agents |
+| [Risk tiering](risk-tiering.md) | A six-question screen (autonomy, permissions, impact, reversibility, oversight, dependencies) for tiering agents by consequence, built from published frameworks |
+| [Insider risk and loss of control](insider-risk-and-loss-of-control.md) | Honeypots for agent insider threats (IAPS), the UN Scientific Panel brief on the OpenAI–Hugging Face incident, and the IAPS intervention taxonomy |
 
 Related material already in this hub: [DeepMind's Three Layers of Agent Security](../analyses/agent-security-three-layers.md), the [agent security checklist](../resources/checklists/agent-security-checklist.md), the [OpenAI / Hugging Face case study](../case-studies/openai-hugging-face-2026.md) and the [ISO/IEC 27090 note](../resources/frameworks/iso-27090-ai-security.md).
 
@@ -142,6 +144,6 @@ These are the controls that would have prevented or contained the catalogued inc
 
 ## Sources
 
-Every incident, paper and regulatory document cited here is listed with its URL in the three companion pages: [Incident catalogue](incident-catalogue.md) · [Risk literature](risk-literature.md) · [Regulatory map](regulatory-map.md).
+Every incident, paper and regulatory document cited here is listed with its URL in the three companion pages: [Incident catalogue](incident-catalogue.md) · [Risk literature](risk-literature.md) · [Regulatory map](regulatory-map.md). The two analysis pages, [Risk tiering](risk-tiering.md) and [Insider risk and loss of control](insider-risk-and-loss-of-control.md), draw on the same sources.
 
 *Prepared 5 November 2026. Not legal advice. Corrections and additions via pull request — see [Contributing](../CONTRIBUTING.md).*

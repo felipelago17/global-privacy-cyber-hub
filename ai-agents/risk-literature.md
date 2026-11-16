@@ -138,6 +138,9 @@ Risk emerges from interactions among agents, tools and humans, not single models
 **Dong et al. (Mar 2025) — A Practical Memory Injection Attack against LLM Agents (MINJA).** <https://arxiv.org/abs/2503.03704> — companion (Jan 2026): <https://arxiv.org/abs/2601.05504>
 Memory poisoned purely through normal queries; later victim queries trigger malicious reasoning. R5.
 
+**Feng, McDonald, Zhang (Jun 2025; rev. Jul 2025) — Levels of Autonomy for AI Agents.** <https://arxiv.org/abs/2506.12469>
+Defines five levels of agent autonomy by the role the user plays (operator, collaborator, consultant, approver, observer) and treats autonomy as a design decision distinct from capability; proposes autonomy certificates that cap what an agent may do. Basis for the autonomy question in the [risk-tiering analysis](risk-tiering.md). R2, R7.
+
 **Hammond et al. (May 2025) — Open Challenges in Multi-Agent Security.** <https://arxiv.org/abs/2505.02077>
 Agenda paper for multi-agent security: collusion, covert channels, swarm attacks, cascades. R6.
 
@@ -194,8 +197,23 @@ Regulator-authored containment case study; see [incident catalogue](incident-cat
 **Future of Privacy Forum (Apr 2025, updated Feb 2026) — Minding Mindful Machines: AI Agents and Data Protection Considerations.** <https://fpf.org/resource/minding-mindful-machines-ai-agents-and-data-protection-considerations/>
 Issue brief for privacy lawyers: collection/disclosure of personal data by agents, security vulnerabilities including injection against browser agents, accuracy, alignment barriers, explainability and oversight. R9.
 
+**Infocomm Media Development Authority, Singapore (22 Jan 2026; v1.5 20 May 2026) — Model AI Governance Framework for Agentic AI.** <https://www.imda.gov.sg/assets/63438074-73f6-4dcc-a281-030f42642cf4.pdf>
+Non-binding framework whose first dimension is to assess and bound risk upfront: impact factors (domain error tolerance, sensitive data, external systems, scope of actions, reversibility) and likelihood factors (autonomy, task complexity, exposure to external systems, third-party agents, system complexity); bound risk with least privilege, limited autonomy, containment and deterministic controls rather than prompts. Primary source for the [risk-tiering analysis](risk-tiering.md). R2, R3, R7.
+
+**UK NCSC (Aug 2026) — Managing the cyber risk of agentic AI.** <https://www.ncsc.gov.uk/sites/default/files/2026-08/Managing-the-cyber-risk-of-agentic-AI.pdf>
+Practical guidance issued after incidents of unsanctioned agent activity: threat model before deployment, say what the agent may and may not do, scale human oversight to risk with approvals that are guaranteed and gated, and apply the recommendations in proportion to the autonomy each agent has. See also the [regulatory map](regulatory-map.md#united-kingdom). R2, R7.
+
+**Independent International Scientific Panel on AI, UN (21 Sep 2026) — Thematic brief: AI Agents, Misalignment and the Risk of Losing Human Control: Evidence from the OpenAI–Hugging Face Incident (advance unedited version 1).** <https://www.un.org/independent-international-scientific-panel-ai/en/thematic-briefs/ai-agents-misalignment-risks>
+Reads the incident as an early warning of loss-of-control risk; failure severity is set by goals, capabilities and environment; reviews defence in depth, incident reporting, safety cases, tamper-resistant runtime logging, independent AI monitoring and emergency intervention, and invokes the precautionary principle. Draws on OpenAI's 26 Aug 2026 report and METR's investigation. See the [analysis](insider-risk-and-loss-of-control.md). R6, R7, R8.
+
+**Wehner and Kraprayoon, Institute for AI Policy and Strategy (Nov 2026) — Honeypots for AI Agent Insider Threats.** Landing page: <https://www.iaps.ai/research/honeypots-for-ai-agent-insider-threats> *(link taken from the authors' LessWrong post, https://www.lesswrong.com/posts/xWjdpJWRk4GWYKyCi/honeypots-for-ai-agent-insider-threats-1; the 73-page report itself was read from the PDF)*
+Argues that decoy credentials, servers and staged collusion offers are an underused control for agents with legitimate access; separates detection (strongest evidence), incrimination (thin) and deterrence (hypothesis); lists limits and a five-area research agenda. See the [analysis](insider-risk-and-loss-of-control.md). R3, R6, R8.
+
+**Kraprayoon, Williams, Fayyaz, Institute for AI Policy and Strategy (Apr 2025) — AI Agent Governance: A Field Guide.** Hosted copy: <https://www.aigl.blog/ai-agent-governance-a-field-guide-iaps-apr-2025/> *(the copy read for this entry is marked "[Draft]")*
+Explains how agent scaffolding works, lays out malicious-use, accident and loss-of-control, security and systemic risks, and offers an outcomes-based taxonomy of interventions (alignment, control, visibility, security and robustness, societal integration), noting that most are not yet tested at scale. R2, R7, R8.
+
 **Cloud Security Alliance research notes (2026)** — practitioner crosswalks of government guidance to MAESTRO and the AI Controls Matrix; CSA flags them as AI-assisted and not formally peer-reviewed. Index: <https://labs.cloudsecurityalliance.org/research/>
 
 ---
 
-*Last updated 5 November 2026. To add an entry: author/org, date, title, URL, two-sentence contribution, risk classes.*
+*Last updated 16 November 2026. To add an entry: author/org, date, title, URL, two-sentence contribution, risk classes.*
