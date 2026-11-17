@@ -1,0 +1,380 @@
+[
+ {
+  "uid": "112543 at https://www.eff.org",
+  "source": "EFF Deeplinks",
+  "category": "Privacy & digital rights",
+  "title": "EFF’s AI Cybersecurity Policy Framework",
+  "link": "https://www.eff.org/deeplinks/2026/11/effs-ai-cybersecurity-policy-framework",
+  "date": "2026-11-16",
+  "summary": "The news has been filled with stories recently of AI breaching the security of websites. And while it may feel like a new problem because of AI’s involvement, it turns out that there are longstanding existing cybersecurity safety best practices that these companies—some of the l…"
+ },
+ {
+  "uid": "112541 at https://www.eff.org",
+  "source": "EFF Deeplinks",
+  "category": "Privacy & digital rights",
+  "title": "Donate Equity to Support Digital Rights: Stocks, DAFs, and Giving",
+  "link": "https://www.eff.org/deeplinks/2026/11/how-donate-equity-support-digital-rights-stocks-dafs-and-charity",
+  "date": "2026-11-16",
+  "summary": "Do the holidays have you thinking about how you can support your favorite nonprofit? For 35 years, the Electronic Frontier Foundation has been advancing our digital rights, including defending security researchers , encrypting the web , and fighting illegal surveillance . Donati…"
+ },
+ {
+  "uid": "112539 at https://www.eff.org",
+  "source": "EFF Deeplinks",
+  "category": "Privacy & digital rights",
+  "title": "Amazon Ring’s New Indoor Surveillance Drone Is Not Compatible with Privacy",
+  "link": "https://www.eff.org/deeplinks/2026/11/amazon-rings-new-indoor-surveillance-drone-not-compatible-privacy",
+  "date": "2026-11-16",
+  "summary": "Amazon Ring has finally announced their long-dreaded indoor drone , a small flying surveillance device connected to their security suite of products that can fly around your house filming and recording things. The device is supposedly designed to fly preset paths across your hom…"
+ },
+ {
+  "uid": "https://cybersecuritynews.com/?p=172461",
+  "source": "Cyber Security News",
+  "category": "Cyber incidents & threat intel",
+  "title": "EU Accuses Temu of Failing to Stop Illegal Products, Citing Weak Security and Moderation Controls",
+  "link": "https://cybersecuritynews.com/temu-breaching-digital-services-act/",
+  "date": "2026-11-17",
+  "summary": "The European Commission has preliminarily found Temu in breach of the Digital Services Act (DSA), citing weak product checks, poor content moderation, and ineffective penalties against sellers. Announced on November 17, 2026, the findings question whether the marketplace takes e…"
+ },
+ {
+  "uid": "https://cybersecuritynews.com/?p=172438",
+  "source": "Cyber Security News",
+  "category": "Cyber incidents & threat intel",
+  "title": "Hackers Exploit Exposed AI Vendor Key to Breach 10 Barracuda Cloud Accounts in 44 Hours",
+  "link": "https://cybersecuritynews.com/barracuda-cloud-accounts/",
+  "date": "2026-11-17",
+  "summary": "Hackers used a cloud access key exposed through an AI vendor to reach approximately 10 Barracuda cloud accounts in roughly 44 hours. The intrusion moved through stored secrets, development systems, and Kubernetes clusters, showing how one forgotten credential can open a path acr…"
+ },
+ {
+  "uid": "https://cybersecuritynews.com/?p=172424",
+  "source": "Cyber Security News",
+  "category": "Cyber incidents & threat intel",
+  "title": "CNN, Zoom and Salesforce Websites Exposed to OPTIMJACK JavaScript Attack Targeting Crypto and Payment Data",
+  "link": "https://cybersecuritynews.com/cnn-zoom-and-salesforce/",
+  "date": "2026-11-17",
+  "summary": "A malicious JavaScript campaign named OPTIMJACK has exposed visitors to major websites to code designed to replace cryptocurrency wallet addresses and collect payment details. Observed on November 16, 2026, the activity involved third-party scripts loaded by trusted pages, creat…"
+ },
+ {
+  "uid": "https://cybersecuritynews.com/?p=172393",
+  "source": "Cyber Security News",
+  "category": "Cyber incidents & threat intel",
+  "title": "Claude Code’s Trusted API Could Help Attackers Hide Malicious Commands and Data Theft",
+  "link": "https://cybersecuritynews.com/claude-codes-trusted-api/",
+  "date": "2026-11-17",
+  "summary": "Researchers have shown that attackers can use the trusted Claude API to send hidden commands to AI coding agents and steal data. The traffic looks like normal AI activity, so many security tools would not flag it. This matters because AI agents now run inside many company networ…"
+ },
+ {
+  "uid": "https://gbhackers.com/?p=207673",
+  "source": "GBHackers",
+  "category": "Cyber incidents & threat intel",
+  "title": "OPTIMJACK Attack Injects Malicious JavaScript Into CNN, Zoom and Other Major Websites to Steal Data",
+  "link": "https://gbhackers.com/optimjack-attack/",
+  "date": "2026-11-17",
+  "summary": "OPTIMJACK, a malicious JavaScript delivery campaign observed on CNN, Zoom, and other prominent websites through a third-party script layer. Detected on November 16, the activity reportedly involved code designed to replace cryptocurrency wallet addresses, collect payment details…"
+ },
+ {
+  "uid": "https://gbhackers.com/?p=207648",
+  "source": "GBHackers",
+  "category": "Cyber incidents & threat intel",
+  "title": "Microsoft Warns Hackers Are Exploiting Microsoft 365 Outages to Launch Credential Phishing Attacks",
+  "link": "https://gbhackers.com/microsoft-warns-hackers-are-exploiting-microsoft-365-outages/",
+  "date": "2026-11-17",
+  "summary": "Microsoft Threat Intelligence observed a coordinated, high-volume phishing campaign on November 13, 2026, targeting organizations across multiple sectors worldwide. Attackers impersonated Microsoft 365 service-health notifications, claiming emails held during an outage would dis…"
+ },
+ {
+  "uid": "https://gbhackers.com/?p=207640",
+  "source": "GBHackers",
+  "category": "Cyber incidents & threat intel",
+  "title": "Hacker Behind Massive GTA 6 Leak Pleads Guilty to Breaching Rockstar Games",
+  "link": "https://gbhackers.com/hacker-behind-massive-gta-6-leak-pleads-guilty/",
+  "date": "2026-11-17",
+  "summary": "Arion Kurtaj, the hacker responsible for the massive Grand Theft Auto 6 leak, has pleaded guilty to breaching Rockstar Games and attempting to extort the developer. The 21-year-old from Oxford admitted the offenses at Woolwich Crown Court on November 16, alongside other cybercri…"
+ },
+ {
+  "uid": "https://www.securityweek.com/?p=50853",
+  "source": "SecurityWeek",
+  "category": "Cyber incidents & threat intel",
+  "title": "Fandango Warns Ticket Buyers of Payment Card Data Exposure",
+  "link": "https://www.securityweek.com/fandango-warns-ticket-buyers-of-payment-card-data-exposure/",
+  "date": "2026-11-17",
+  "summary": "Card numbers, CVVs, expiration dates, and email addresses used at Fandango’s ticketing checkout over four days in October may have been exposed. The post Fandango Warns Ticket Buyers of Payment Card Data Exposure appeared first on SecurityWeek ."
+ },
+ {
+  "uid": "https://www.securityweek.com/?p=50846",
+  "source": "SecurityWeek",
+  "category": "Cyber incidents & threat intel",
+  "title": "Access Dental Management Data Breach Impacts Over 340,000",
+  "link": "https://www.securityweek.com/access-dental-management-data-breach-impacts-over-340000/",
+  "date": "2026-11-17",
+  "summary": "Hackers breached Access Dental’s network and stole personal, health, and insurance information. The post Access Dental Management Data Breach Impacts Over 340,000 appeared first on SecurityWeek ."
+ },
+ {
+  "uid": "https://www.securityweek.com/?p=50831",
+  "source": "SecurityWeek",
+  "category": "Cyber incidents & threat intel",
+  "title": "Cursor Supply Chain Attack Started at Fireworks AI",
+  "link": "https://www.securityweek.com/cursor-supply-chain-attack-started-at-fireworks/",
+  "date": "2026-11-16",
+  "summary": "The attacker stole an access key from Fireworks and used it to exfiltrate credentials that enabled them to push malicious Claude Code extension copies. The post Cursor Supply Chain Attack Started at Fireworks AI appeared first on SecurityWeek ."
+ },
+ {
+  "uid": "https://www.darkreading.com/cyberattacks-data-breaches/china-nexus-actors-breach-10-organizations-ai-driven-attacks",
+  "source": "Dark Reading",
+  "category": "Cyber incidents & threat intel",
+  "title": "China-Nexus Actors Breach 10 Organizations in AI-Driven Attacks",
+  "link": "https://www.darkreading.com/cyberattacks-data-breaches/china-nexus-actors-breach-10-organizations-ai-driven-attacks",
+  "date": "2026-11-16",
+  "summary": "Attackers used Cairn once again in autonomous attacks that targeted advanced manufacturing and defense sectors, as well as civil and human rights organizations."
+ },
+ {
+  "uid": "https://www.infosecurity-magazine.com/news/ico-gta-6-scam-warning-release/",
+  "source": "Infosecurity Magazine",
+  "category": "Cyber incidents & threat intel",
+  "title": "ICO Issues GTA 6 Scam Warning as Release Date Nears",
+  "link": "https://www.infosecurity-magazine.com/news/ico-gta-6-scam-warning-release/",
+  "date": "2026-11-17",
+  "summary": "The UK's Information Commissioner’s Office has warned of Grand Theft Auto 6-related cyber-attacks"
+ },
+ {
+  "uid": "https://www.infosecurity-magazine.com/news/maileva-docaposte-22-million-breach/",
+  "source": "Infosecurity Magazine",
+  "category": "Cyber incidents & threat intel",
+  "title": "La Poste Subsidiary Maileva Breach Exposes 22 Million People",
+  "link": "https://www.infosecurity-magazine.com/news/maileva-docaposte-22-million-breach/",
+  "date": "2026-11-16",
+  "summary": "Maileva breach exposed names and postal addresses of 22 million people"
+ },
+ {
+  "uid": "CBMie0FVX3lxTE9QbHJYRHVRVjJIdVBrV3hQTlRhNXBBWGV0NWJuV2tPUEwyWEtyZXFPNHFFa0FTaDFNQmNfOGVpeWRSbUFsNFBzWThhSnMxdFFwM0FwYzY4d1BWbGpsWndMYV9WYjJsdTg0SHYtWjMyalJlVzlkWDVlU0NIRQ",
+  "source": "EDPB (via Google News)",
+  "category": "EU data protection",
+  "title": "Frequently Asked Questions",
+  "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9QbHJYRHVRVjJIdVBrV3hQTlRhNXBBWGV0NWJuV2tPUEwyWEtyZXFPNHFFa0FTaDFNQmNfOGVpeWRSbUFsNFBzWThhSnMxdFFwM0FwYzY4d1BWbGpsWndMYV9WYjJsdTg0SHYtWjMyalJlVzlkWDVlU0NIRQ?oc=5",
+  "date": "2026-11-16",
+  "summary": "Frequently Asked Questions European Data Protection Board"
+ },
+ {
+  "uid": "CBMidEFVX3lxTE9NZDhfbWdIcHZ3U1doM1BmYzRlUzhSSHZTcG1VMlJCemdPMlhSRzhqUVc0b1VsLS0zS0cxVlBodDBaVEFoUW1ZcEZOdW9raXk4dEVpNnVKRDdzQkRYNTFYbklDamdoQktvTzVzcmt3azNTbmQ0",
+  "source": "EDPB (via Google News)",
+  "category": "EU data protection",
+  "title": "Contact form",
+  "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9NZDhfbWdIcHZ3U1doM1BmYzRlUzhSSHZTcG1VMlJCemdPMlhSRzhqUVc0b1VsLS0zS0cxVlBodDBaVEFoUW1ZcEZOdW9raXk4dEVpNnVKRDdzQkRYNTFYbklDamdoQktvTzVzcmt3azNTbmQ0?oc=5",
+  "date": "2026-11-15",
+  "summary": "Contact form European Data Protection Board"
+ },
+ {
+  "uid": "CBMingFBVV95cUxOVTUzcFNOV2hWc2lFRTRrTDhIVmJINGpkcXdTZFNPelJsbG5vby1IWEZvX3ZSMUpWd3NPdGt2VzdENEFqRDRYaXp4RlVwVmI1d2lxZWY1c3FZcEExaG5yVlB6RjA2UVl4UTF5VWRWMVYyV1htd1ZPZUx1Um5TemRac3VFQTlSTkc3ek1zVWpzY0tYV1YtdGlieTZlOUFfUQ",
+  "source": "EDPB (via Google News)",
+  "category": "EU data protection",
+  "title": "L'Agence Privacy - educational manga series",
+  "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVTUzcFNOV2hWc2lFRTRrTDhIVmJINGpkcXdTZFNPelJsbG5vby1IWEZvX3ZSMUpWd3NPdGt2VzdENEFqRDRYaXp4RlVwVmI1d2lxZWY1c3FZcEExaG5yVlB6RjA2UVl4UTF5VWRWMVYyV1htd1ZPZUx1Um5TemRac3VFQTlSTkc3ek1zVWpzY0tYV1YtdGlieTZlOUFfUQ?oc=5",
+  "date": "2026-11-17",
+  "summary": "L'Agence Privacy - educational manga series European Data Protection Board"
+ },
+ {
+  "uid": "CBMidEFVX3lxTE5tTDFQakQyWm5zTHN5a1p1VnI3V2VxNllBLU9MWWNVdW5qU3BLRjFObkk5NVVnTm9lOVM2dVBUeEZvN0VPOEhFS0t0Tmg5X1k4TkswcmJHT1k0WEhxcVBpNjN1UGwySUdJckQwUUt0MzlZMEsw",
+  "source": "EDPB (via Google News)",
+  "category": "EU data protection",
+  "title": "Contact form",
+  "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5tTDFQakQyWm5zTHN5a1p1VnI3V2VxNllBLU9MWWNVdW5qU3BLRjFObkk5NVVnTm9lOVM2dVBUeEZvN0VPOEhFS0t0Tmg5X1k4TkswcmJHT1k0WEhxcVBpNjN1UGwySUdJckQwUUt0MzlZMEsw?oc=5",
+  "date": "2026-11-16",
+  "summary": "Contact form European Data Protection Board"
+ },
+ {
+  "uid": "CBMidEFVX3lxTE1zWW9ESUJSeElPTGl6V0J6Ymc1TXA4TnJlRk0yUVUyRU41N0RrOTlZOHNZNFkzRFFyNkV2dVpjOXZualpwWDVKTGtMaFZnTndkUlgtU0R3MThXOGN6ZklxbVNvS3dnSHgwSE5NUVJ5Wkxzeklm",
+  "source": "EDPB (via Google News)",
+  "category": "EU data protection",
+  "title": "Contact form",
+  "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1zWW9ESUJSeElPTGl6V0J6Ymc1TXA4TnJlRk0yUVUyRU41N0RrOTlZOHNZNFkzRFFyNkV2dVpjOXZualpwWDVKTGtMaFZnTndkUlgtU0R3MThXOGN6ZklxbVNvS3dnSHgwSE5NUVJ5Wkxzeklm?oc=5",
+  "date": "2026-11-15",
+  "summary": "Contact form European Data Protection Board"
+ },
+ {
+  "uid": "CBMidEFVX3lxTFBzY1JZM2s2VlFWTHo5ay1lWUlya2pGTTFFYXB6Y19ZMnpfMktjRW5yYlhOYjN4MXB3QXhDbzhkOW1hdU05NEJQZzh4ZnNISFRaVDFrNGN0c2g1aDdSR1ZweE8wVWpCUzlFc2pnS2RWeXQ2T3F1",
+  "source": "EDPB (via Google News)",
+  "category": "EU data protection",
+  "title": "Contact form",
+  "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBzY1JZM2s2VlFWTHo5ay1lWUlya2pGTTFFYXB6Y19ZMnpfMktjRW5yYlhOYjN4MXB3QXhDbzhkOW1hdU05NEJQZzh4ZnNISFRaVDFrNGN0c2g1aDdSR1ZweE8wVWpCUzlFc2pnS2RWeXQ2T3F1?oc=5",
+  "date": "2026-11-15",
+  "summary": "Contact form European Data Protection Board"
+ },
+ {
+  "uid": "CBMilAFBVV95cUxPcFBrY0FEVTJxOGtCYm91VVJJdE9WQkpSVTVNU1FhRXJNdmJ3SG5TRTdJR0RvN00tM3d6SG5aV24wTkdRQVl6eDl1TWZFeUxWVkM3UmlVcjRNWGZBa2xYcmNoNUJEdmJCdkdCTTZNelFibXJYZk5pUVphUXB4MlR4ZXp2NDNfOE40SlZGWi13cVZxYnhB",
+  "source": "EDPB (via Google News)",
+  "category": "EU data protection",
+  "title": "Croatia",
+  "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcFBrY0FEVTJxOGtCYm91VVJJdE9WQkpSVTVNU1FhRXJNdmJ3SG5TRTdJR0RvN00tM3d6SG5aV24wTkdRQVl6eDl1TWZFeUxWVkM3UmlVcjRNWGZBa2xYcmNoNUJEdmJCdkdCTTZNelFibXJYZk5pUVphUXB4MlR4ZXp2NDNfOE40SlZGWi13cVZxYnhB?oc=5",
+  "date": "2026-11-15",
+  "summary": "Croatia European Data Protection Board"
+ },
+ {
+  "uid": "CBMilAFBVV95cUxOQnVJVEluWkdfWmZHUktvTTZUSGZPZ2F4amtveExlY1NKSzBGenU4WGFMd0NPemNzTXpLcnM1OE14SUhNbXBFM19HbEh1Q3c0QXhTb0ZwYWxXV1FISk1leG94SDkzR2RFSHlLMkRELTlZTTVobF9Qc2xjWGFyODJxN2dVTTdjeXZLOU9lZU1Fb05tR09T",
+  "source": "EDPB (via Google News)",
+  "category": "EU data protection",
+  "title": "Finland",
+  "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOQnVJVEluWkdfWmZHUktvTTZUSGZPZ2F4amtveExlY1NKSzBGenU4WGFMd0NPemNzTXpLcnM1OE14SUhNbXBFM19HbEh1Q3c0QXhTb0ZwYWxXV1FISk1leG94SDkzR2RFSHlLMkRELTlZTTVobF9Qc2xjWGFyODJxN2dVTTdjeXZLOU9lZU1Fb05tR09T?oc=5",
+  "date": "2026-11-17",
+  "summary": "Finland European Data Protection Board"
+ },
+ {
+  "uid": "169161fr",
+  "source": "CNIL",
+  "category": "EU data protection",
+  "title": "La CNIL a prononcé 38 nouvelles sanctions en procédure simplifiée depuis juin 2026",
+  "link": "https://www.cnil.fr/fr/38-sanctions-simplifiees",
+  "date": "2026-11-17",
+  "summary": "Cookies, sécurité des données, prospection commerciale, non-coopération&nbsp;: entre juin et octobre 2026, la CNIL a prononcé 38&nbsp;nouvelles sanctions dans le cadre de la procédure simplifiée, dont 23 ont pour origine des plaintes."
+ },
+ {
+  "uid": "CBMimwFBVV95cUxPTXB6cHYwaVFWVkNOd3FLMmpMRWZsU1RfendBY1FWY3RyTXpTZ2VaMVdYVEppU2pUWWdETkRxSmlSVGNWUWZZR2JMSW5OWC1ENVM5M3g0ZnBob2dQUTJSRGppdGFaOFVXTWxGSVhFNEpwekIycUQtN2sxQzIwTnhoVFBOVjhsVU1CLUVxelBaMGRueGVIdDRQTTh5aw",
+  "source": "ENISA (via Google News)",
+  "category": "EU cybersecurity",
+  "title": "CRA-Module B and H: CABs accreditation for notification",
+  "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTXB6cHYwaVFWVkNOd3FLMmpMRWZsU1RfendBY1FWY3RyTXpTZ2VaMVdYVEppU2pUWWdETkRxSmlSVGNWUWZZR2JMSW5OWC1ENVM5M3g0ZnBob2dQUTJSRGppdGFaOFVXTWxGSVhFNEpwekIycUQtN2sxQzIwTnhoVFBOVjhsVU1CLUVxelBaMGRueGVIdDRQTTh5aw?oc=5",
+  "date": "2026-11-16",
+  "summary": "CRA-Module B and H: CABs accreditation for notification ENISA"
+ },
+ {
+  "uid": "CBMimgJBVV95cUxNQ05fUzU0SHJXaWlaRFp2VTlJTW9veXc5NnVQeEM3cEhCUzRtbHdNelg4dGlJQV9DY0c3cTRvMFQ2bmxyTVBaTlB2UE8xdFI1RnFEaEc4SU0wdTFoQ3VFbTBocWdCRXhGLWlhaDNiOC0yUzR5emtDdnI4TFh0ek0wcXRFTWFfa0lvWWx4UFJnZE9fQ2Y1c1hJdHlJUXlmdDVIeFZXTVpqck9aTk1ib0xFbFlPZ192WkxlTFhGNUdBVTdnSWh5TFQxWWwzMVpOYjY5aWNlc2pVQWJab3RzTnhrT01DNC1kbmJPSnJDWHF0b25tSHhpLWVOekFIeFpZSzg2cndJVGN0d2E4aUZsREhKMnBXczdIM181ZFE",
+  "source": "ENISA (via Google News)",
+  "category": "EU cybersecurity",
+  "title": "CRA-Module B and H: CABs accreditation for notification",
+  "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNQ05fUzU0SHJXaWlaRFp2VTlJTW9veXc5NnVQeEM3cEhCUzRtbHdNelg4dGlJQV9DY0c3cTRvMFQ2bmxyTVBaTlB2UE8xdFI1RnFEaEc4SU0wdTFoQ3VFbTBocWdCRXhGLWlhaDNiOC0yUzR5emtDdnI4TFh0ek0wcXRFTWFfa0lvWWx4UFJnZE9fQ2Y1c1hJdHlJUXlmdDVIeFZXTVpqck9aTk1ib0xFbFlPZ192WkxlTFhGNUdBVTdnSWh5TFQxWWwzMVpOYjY5aWNlc2pVQWJab3RzTnhrT01DNC1kbmJPSnJDWHF0b25tSHhpLWVOekFIeFpZSzg2cndJVGN0d2E4aUZsREhKMnBXczdIM181ZFE?oc=5",
+  "date": "2026-11-16",
+  "summary": "CRA-Module B and H: CABs accreditation for notification ENISA"
+ },
+ {
+  "uid": "17745 at https://digital-strategy.ec.europa.eu",
+  "source": "EU Digital Strategy",
+  "category": "EU digital policy",
+  "title": "Commission preliminarily finds Temu in breach of the Digital Services Act for failure to tackle the sale of illegal products",
+  "link": "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-temu-breach-digital-services-act-failure-tackle-sale-illegal",
+  "date": "2026-11-17",
+  "summary": "Commission preliminarily finds Temu in breach of the Digital Services Act for failure to tackle the sale of illegal products Anonymous (not verified) Tue, 11/17/2026 - 11:11 The European Commission preliminarily found Temu in breach of the Digital Services Act (DSA) obligation t…"
+ },
+ {
+  "uid": "17730 at https://digital-strategy.ec.europa.eu",
+  "source": "EU Digital Strategy",
+  "category": "EU digital policy",
+  "title": "Commission hosts Apply AI Summit to boost Europe’s AI innovation and uptake",
+  "link": "https://digital-strategy.ec.europa.eu/en/news/commission-hosts-apply-ai-summit-boost-europes-ai-innovation-and-uptake",
+  "date": "2026-11-16",
+  "summary": "Commission hosts Apply AI Summit to boost Europe’s AI innovation and uptake Anonymous (not verified) Mon, 11/16/2026 - 13:43 Nearly 1,000 high-level policymakers, start-ups, industry leaders and researchers will take part in the Apply AI Summit in Brussels tomorrow. They will di…"
+ },
+ {
+  "uid": "CBMiWEFVX3lxTE9VYm9LQmg1ZFZtMm9OLUxPRk5DNzlVZnBaeW5zUEdTdGhxTkxULVZvUEczX2xrcnNyanUxNV9GXzU1WXBwOXRSQ0h6THpWamcwbldQTHRxN2w",
+  "source": "ICO (via Google News)",
+  "category": "UK data protection",
+  "title": "Electract Limited",
+  "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9VYm9LQmg1ZFZtMm9OLUxPRk5DNzlVZnBaeW5zUEdTdGhxTkxULVZvUEczX2xrcnNyanUxNV9GXzU1WXBwOXRSQ0h6THpWamcwbldQTHRxN2w?oc=5",
+  "date": "2026-11-15",
+  "summary": "Electract Limited ICO"
+ },
+ {
+  "uid": "CBMiWEFVX3lxTFBzcGYwODBMZ3pIOGF5UDdrdEQ0MG9WVkxtYU5Ja0R0TERsYlVIekxUbkhHU2NxMldRWkJxSndBMTNCRFZuRkJESk0wZWF6Rm53bGNBcFFqUHk",
+  "source": "ICO (via Google News)",
+  "category": "UK data protection",
+  "title": "Lily Soutter Nutrition Ltd",
+  "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBzcGYwODBMZ3pIOGF5UDdrdEQ0MG9WVkxtYU5Ja0R0TERsYlVIekxUbkhHU2NxMldRWkJxSndBMTNCRFZuRkJESk0wZWF6Rm53bGNBcFFqUHk?oc=5",
+  "date": "2026-11-15",
+  "summary": "Lily Soutter Nutrition Ltd ICO"
+ },
+ {
+  "uid": "CBMiWEFVX3lxTE9jSzNOWU1hcUlaU3RLOVo1ZGZuR0lMNzhwZUoxREpyaFNZOGNONkJQVzBhQnMyS2wzZzNEX19xWEtlUXJ4akVMbXBtTldmTFhVeFp2REhfSXI",
+  "source": "ICO (via Google News)",
+  "category": "UK data protection",
+  "title": "Simms Cardiology Limited",
+  "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9jSzNOWU1hcUlaU3RLOVo1ZGZuR0lMNzhwZUoxREpyaFNZOGNONkJQVzBhQnMyS2wzZzNEX19xWEtlUXJ4akVMbXBtTldmTFhVeFp2REhfSXI?oc=5",
+  "date": "2026-11-16",
+  "summary": "Simms Cardiology Limited ICO"
+ },
+ {
+  "uid": "CBMiWEFVX3lxTE5aQ0lhZnBhSmlUZlUyVEhFd0NxQkZpOXVWVGNkcXNRU3FFU0dzUnhtZHNPdXdsRC1xdGlDNEowYy1VSEF1ekFBWlNINkNUNGxfOFM2dGJZejE",
+  "source": "ICO (via Google News)",
+  "category": "UK data protection",
+  "title": "Dunns Produce Limited",
+  "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5aQ0lhZnBhSmlUZlUyVEhFd0NxQkZpOXVWVGNkcXNRU3FFU0dzUnhtZHNPdXdsRC1xdGlDNEowYy1VSEF1ekFBWlNINkNUNGxfOFM2dGJZejE?oc=5",
+  "date": "2026-11-15",
+  "summary": "Dunns Produce Limited ICO"
+ },
+ {
+  "uid": "CBMiWEFVX3lxTE9HRWlpLWFJYklmUTloVm41VWtBWDdZclhlcW5PbkNXT0E5OTdrb0p0em45c3JFQUFZd25rbmRNRTV1dmtkMWhTdk1ycEl0WXRhZUZFMm4weWY",
+  "source": "ICO (via Google News)",
+  "category": "UK data protection",
+  "title": "Mossley Juniors F.C. Limited",
+  "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9HRWlpLWFJYklmUTloVm41VWtBWDdZclhlcW5PbkNXT0E5OTdrb0p0em45c3JFQUFZd25rbmRNRTV1dmtkMWhTdk1ycEl0WXRhZUZFMm4weWY?oc=5",
+  "date": "2026-11-16",
+  "summary": "Mossley Juniors F.C. Limited ICO"
+ },
+ {
+  "uid": "CBMiWEFVX3lxTE83TFhUWlRFblRrY053aFFlTTdobHhON09ZV0NwMWZMQm42QWV3NjZZTHFuVXkzdEMyWDVDby1nSWxHQUdMT3BxVFZZQlgxTlRES05SNW1OME8",
+  "source": "ICO (via Google News)",
+  "category": "UK data protection",
+  "title": "Arberi Limited",
+  "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE83TFhUWlRFblRrY053aFFlTTdobHhON09ZV0NwMWZMQm42QWV3NjZZTHFuVXkzdEMyWDVDby1nSWxHQUdMT3BxVFZZQlgxTlRES05SNW1OME8?oc=5",
+  "date": "2026-11-15",
+  "summary": "Arberi Limited ICO"
+ },
+ {
+  "uid": "CBMiWEFVX3lxTFBKMXRtVk5zMHA4NWdDTkhGMlQ1VjRMQVJBSGZWa3BKNTlfZ2Q2WWxqRGY3ckxhcDhEbUpfOW93OWZ5aG5wcS1VaXlTX1Job1ZuTW1ZOUpCTUY",
+  "source": "ICO (via Google News)",
+  "category": "UK data protection",
+  "title": "Brownings Funeral Directors Ltd",
+  "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBKMXRtVk5zMHA4NWdDTkhGMlQ1VjRMQVJBSGZWa3BKNTlfZ2Q2WWxqRGY3ckxhcDhEbUpfOW93OWZ5aG5wcS1VaXlTX1Job1ZuTW1ZOUpCTUY?oc=5",
+  "date": "2026-11-15",
+  "summary": "Brownings Funeral Directors Ltd ICO"
+ },
+ {
+  "uid": "CBMiWEFVX3lxTE10YWxSZGJwSDNTNkd3V0JYMmp5V3RZd3VJdTg0OFhzMXlteDFZdnpWVmhJUEw1WWlMa0tqenhWVURDa1N1b0FRc3dxX1drczVBNGIzbjdWdEI",
+  "source": "ICO (via Google News)",
+  "category": "UK data protection",
+  "title": "Tamworth Self Storage Limited",
+  "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE10YWxSZGJwSDNTNkd3V0JYMmp5V3RZd3VJdTg0OFhzMXlteDFZdnpWVmhJUEw1WWlMa0tqenhWVURDa1N1b0FRc3dxX1drczVBNGIzbjdWdEI?oc=5",
+  "date": "2026-11-16",
+  "summary": "Tamworth Self Storage Limited ICO"
+ },
+ {
+  "uid": "https://www.ncsc.gov.uk/blogs/why-threat-hunting-should-matter-to-every-board",
+  "source": "UK NCSC",
+  "category": "UK cybersecurity",
+  "title": "Why threat hunting should matter to every board",
+  "link": "https://www.ncsc.gov.uk/blogs/why-threat-hunting-should-matter-to-every-board",
+  "date": "2026-11-17",
+  "summary": "Monitoring alone cannot detect every threat. Proactive threat hunting can expose gaps in defences and help organisations learn from others facing common threats."
+ },
+ {
+  "uid": "CBMinAFBVV95cUxNckdMQ0NWNktmcDV0UVh0Y09veFhCN212bGlwMTVUVFcxdjRNdWNObmR3R0loWUNsNHNmeTVCWmVHVTA0bEhpejRLNk1UcEpoMmZfZVI2Y1hPeHFfb3g1bVZDM1ZGdjJDVWlVc0VCTXpiZnczRWxjRGxxZC1KRTR3N3dfVzFpZWRrVlQ5cTZLQ2k3bS1QSGtxY1Z4elc",
+  "source": "CISA (via Google News)",
+  "category": "Cybersecurity advisories",
+  "title": "CISA Vulnerability Review FY 2024/2025",
+  "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNckdMQ0NWNktmcDV0UVh0Y09veFhCN212bGlwMTVUVFcxdjRNdWNObmR3R0loWUNsNHNmeTVCWmVHVTA0bEhpejRLNk1UcEpoMmZfZVI2Y1hPeHFfb3g1bVZDM1ZGdjJDVWlVc0VCTXpiZnczRWxjRGxxZC1KRTR3N3dfVzFpZWRrVlQ5cTZLQ2k3bS1QSGtxY1Z4elc?oc=5",
+  "date": "2026-11-17",
+  "summary": "CISA Vulnerability Review FY 2024/2025 CISA (.gov)"
+ },
+ {
+  "uid": "CBMihAFBVV95cUxNbHlCQlc4T0xvRkNVVUNCTjhTb0d4Ny05andyaDBWRFNVSjhZSnVQTFY5aUo2MU5GTnhiU2cwZTM4WFhHQ2tEXzdTMG9HUGZ6NGlvaTFkc2lYQ094TkRDSHdubmRnb3BnZFFFVlFmd2FzZHc5QnRrN05vV1VMTmxvRWI2b3U",
+  "source": "CISA (via Google News)",
+  "category": "Cybersecurity advisories",
+  "title": "Dams Sector Cybersecurity Capability Maturity Model (C2M2)",
+  "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbHlCQlc4T0xvRkNVVUNCTjhTb0d4Ny05andyaDBWRFNVSjhZSnVQTFY5aUo2MU5GTnhiU2cwZTM4WFhHQ2tEXzdTMG9HUGZ6NGlvaTFkc2lYQ094TkRDSHdubmRnb3BnZFFFVlFmd2FzZHc5QnRrN05vV1VMTmxvRWI2b3U?oc=5",
+  "date": "2026-11-17",
+  "summary": "Dams Sector Cybersecurity Capability Maturity Model (C2M2) CISA (.gov)"
+ },
+ {
+  "uid": "CBMipgFBVV95cUxNR05BblI1YkpCR21yWjNJUUxlOWlZekxlZkh6ZjVGUHBsUWxNcmFsTkJoQnI3cXVaUTR2d2JyY1YtbkEzRndVdHo4TUEzdHQ3REVjQktkempnRHAyZ2xtS2hITmhSeXFodjZwejVYaTZSbVc0cWViRVlSVnVaaENvb3pXcV9HZ19LLWJZWjczZ29zWTJrUGNMS28wam1xU3RZTUlwaXJB",
+  "source": "CISA (via Google News)",
+  "category": "Cybersecurity advisories",
+  "title": "Dams Sector Cybersecurity Capability Maturity Model (C2M2)",
+  "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNR05BblI1YkpCR21yWjNJUUxlOWlZekxlZkh6ZjVGUHBsUWxNcmFsTkJoQnI3cXVaUTR2d2JyY1YtbkEzRndVdHo4TUEzdHQ3REVjQktkempnRHAyZ2xtS2hITmhSeXFodjZwejVYaTZSbVc0cWViRVlSVnVaaENvb3pXcV9HZ19LLWJZWjczZ29zWTJrUGNMS28wam1xU3RZTUlwaXJB?oc=5",
+  "date": "2026-11-16",
+  "summary": "Dams Sector Cybersecurity Capability Maturity Model (C2M2) CISA (.gov)"
+ },
+ {
+  "uid": "CBMioAFBVV95cUxQcS05aHo3MDFhOU41RjVBX1VBS2djMmJCM0V5dzFOTlZrSE5LX1lKOTFnajh5Qm91SWk5aDdzM2EyTXNkT0RCal9YWExpNDlpVm4wNGVXWHZVcGpZal82SG9WT1hmaUFiRFBwalkxS1MtTVYxcHp2YXJxZkZsYkV2YlM4OHZrOUZIbnpBQmpfc2pPeUpXUmhkendZcndCWER4",
+  "source": "CISA (via Google News)",
+  "category": "Cybersecurity advisories",
+  "title": "Dams Sector Cybersecurity Capability Maturity Model (C2M2) Implementation Guide",
+  "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcS05aHo3MDFhOU41RjVBX1VBS2djMmJCM0V5dzFOTlZrSE5LX1lKOTFnajh5Qm91SWk5aDdzM2EyTXNkT0RCal9YWExpNDlpVm4wNGVXWHZVcGpZal82SG9WT1hmaUFiRFBwalkxS1MtTVYxcHp2YXJxZkZsYkV2YlM4OHZrOUZIbnpBQmpfc2pPeUpXUmhkendZcndCWER4?oc=5",
+  "date": "2026-11-17",
+  "summary": "Dams Sector Cybersecurity Capability Maturity Model (C2M2) Implementation Guide CISA (.gov)"
+ }
+]
