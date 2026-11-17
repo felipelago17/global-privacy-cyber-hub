@@ -123,6 +123,10 @@ nav:
       - XAI for disease classification, 105 studies (Memon 2026): case-studies/xai-disease-classification-readiness-memon-2026.md
       - Shanghai LLM compute theft (Zong, Nov 2026): case-studies/shanghai-llm-compute-theft-zong-2026.md
       - Optimizely script compromise (Nov 2026): case-studies/optimizely-third-party-script-compromise-178-sites-2026.md
+  - Training labs:
+      - Overview: training-labs/README.md
+      - AI security and red-teaming labs: training-labs/ai-security-labs.md
+      - Foundations to defence labs: training-labs/cyber-labs-foundations-to-defence.md
   - Daily updates: updates/index.md
   - Connectors: connectors/external-hubs.md
   - Related forks: related-forks.md
