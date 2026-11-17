@@ -128,6 +128,7 @@ nav:
       - Overview: training-labs/README.md
       - AI security and red-teaming labs: training-labs/ai-security-labs.md
       - Foundations to defence labs: training-labs/cyber-labs-foundations-to-defence.md
+      - Twenty cybersecurity reference sites: training-labs/cyber-reference-sites-20.md
   - Daily updates: updates/index.md
   - Connectors: connectors/external-hubs.md
   - Related forks: related-forks.md

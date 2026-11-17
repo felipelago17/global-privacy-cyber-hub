@@ -6,6 +6,7 @@ Status as of 17 Nov 2026. A short guide to places where privacy, security and go
 |---|---|
 | [AI security and red-teaming labs](ai-security-labs.md) | Prompt-injection games, AI CTFs and web LLM labs; descriptions checked against operator or published sources where reachable |
 | [Foundations, offensive, cloud and defensive labs](cyber-labs-foundations-to-defence.md) | 17 general cybersecurity platforms from the same source list; pointers only, not individually checked |
+| [Twenty cybersecurity reference sites](cyber-reference-sites-20.md) | Vulnerability data, MITRE and OWASP frameworks, detection and threat-intelligence sites from a second social-media graphic; pointers only |
 
 ## Why a privacy and cyber hub lists labs
 
@@ -23,4 +24,4 @@ Status as of 17 Nov 2026. A short guide to places where privacy, security and go
 
 ## Source note
 
-The starting list came from a social-media post that collected 23 labs; it is not cited here. Entries were checked where noted on each page. No lab was run for this hub, and links were not tested.
+The starting lists came from social-media posts (one collecting 23 labs, one a 20-site reference graphic); they are not cited here. Entries were checked where noted on each page. No lab was run for this hub, and links were not tested.
