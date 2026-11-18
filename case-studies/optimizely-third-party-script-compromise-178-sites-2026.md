@@ -1,8 +1,8 @@
-# Optimizely third-party script compromise: 178 organisations, 188 scripts (Newsweek, 17 Nov 2026)
+# Optimizely third-party script compromise: 178 organisations, 188 scripts (Newsweek and Escudo Digital, 17 Nov 2026)
 
 `Web supply chain · Third-party JavaScript · Client-side skimming · Crypto-address swapping · Status: vendor says fixed, impact unknown`
 
-Status as of 17 Nov 2026. Everything below comes from one Newsweek article by Chris Matthews, published 17 Nov 2026 ("Cyber attack hits 178 major websites: full list of organizations"): <https://www.newsweek.com/cyber-attack-websites-affected-12725863>. I could not find Report URI's own write-up of this incident or Optimizely's status page, so the researcher findings and the vendor statement are second-hand. Newsweek paraphrases Optimizely rather than quoting it.
+Status as of 18 Nov 2026. This page now rests on two secondary sources. The first is a Newsweek article by Chris Matthews, published 17 Nov 2026 ("Cyber attack hits 178 major websites: full list of organizations"): <https://www.newsweek.com/cyber-attack-websites-affected-12725863>. The second is Alberto Payo, Escudo Digital (DigitalShield), 17 Nov 2026, 16:45 CET: <https://www.escudodigital.com/en/cybersecurity/supply-chain-attack-compromises-nearly-180-major-brands-including-bbc-cnn-ikea-and-zoom-through-optimizely.html>, which says it draws on Report URI, BleepingComputer, Bitquery and Optimizely's confirmation. Sections marked *(Escudo Digital)* below come only from that article. I could not find Report URI's own write-up of this incident or Optimizely's status page, so the researcher findings and the vendor statement are second-hand. Newsweek paraphrases Optimizely rather than quoting it.
 
 ## Summary
 
@@ -24,12 +24,24 @@ Attackers did not breach each organisation. Per Newsweek, they exploited a vulne
 
 Newsweek says it is unclear how many people, if any, had data stolen, and that visiting an affected site does not mean data was taken.
 
+## Added detail (Escudo Digital only, not in the Newsweek piece)
+
+- **Entry point.** Attackers exploited a flaw in the registration process of an Optimizely product to reach client accounts and inject code into customers' projects. Optimizely's own website and login portal were also affected. This is the article's account of the root cause; I have not seen Optimizely's statement.
+- **Behaviour.** The script watched payment forms and captured card numbers, expiry dates and CVVs as typed (external gateways such as Stripe and Adyen were reportedly out of reach); replaced wallet addresses in page text and the clipboard; took unprotected session cookies; and took hidden screenshots.
+- **Losses.** About USD 7,040 (about EUR 6,300) reached linked wallets, matching Newsweek's figure; forensic analysis reportedly attributes about USD 2,260 to 19 diverted victim payments (Report URI and Bitquery tracked the flows).
+- **iOS.** The script checked for iPhones and iPads and tried zero-click exploitation with two toolkits named Coruna (iOS 13 to 17) and DarkSword (iOS 18). Devices on iOS 26 reportedly had only technical data collected; devices on iOS 18.6 or earlier faced infection attempts, with hidden windows reloading the page every 60 seconds. Apple fixed the exploited gaps in iOS 18.7.3 and 26.3. The article says the DarkSword implant resides in memory, so a restart is advised, and that the number of compromised phones is unconfirmed.
+- **Naming and corroboration.** Some analysts call it the OPTIMJACK campaign; the article says BleepingComputer corroborated the reporting.
+- **Response.** Optimizely reportedly confirmed the incident, blocked the vulnerable access route, began cleanup on Monday night, and by 11 PM CET had restored practically all compromised snippets.
+- **Attribution.** None given.
+- **Internal inconsistency.** The article says "in the past few hours" yet also refers to "yesterday" and to cleanup "Monday night", so the exact exposure window is unclear. Newsweek's account (fix announced Tuesday) is not fully aligned with this one.
+
 ## Timeline
 
 | Date (2026) | Event |
 |---|---|
 | 16 Nov | Attack observed; Report URI identifies it; traced crypto payments dated to this day |
-| 17 Nov | Optimizely status update: fixed, malicious code removed; Newsweek publishes |
+| 16 Nov (Mon night) | Per Escudo Digital: cleanup begins; practically all snippets restored by 11 PM CET (timing unclear, see above) |
+| 17 Nov | Optimizely status update: fixed, malicious code removed (Newsweek); Newsweek and Escudo Digital publish |
 
 ## Why it matters
 
@@ -50,7 +62,7 @@ Newsweek says it is unclear how many people, if any, had data stolen, and that v
 
 ## Gaps and cautions
 
-- Single secondary source. Not checked: Report URI's findings, Optimizely's status page or root cause, the vulnerability type, which Optimizely product was involved, the duration of exposure, or whether any listed organisation has confirmed impact.
+- Two secondary sources, and the second is a single journalist's report that relays Report URI and BleepingComputer without links I could follow. Not checked: Report URI's findings, Optimizely's status page or root cause, the vulnerability type, which Optimizely product was involved, the duration of exposure, or whether any listed organisation has confirmed impact. The root cause, the card-capture details and the iOS exploit claims come from Escudo Digital alone and should be confirmed against Report URI or BleepingComputer.
 - "Affected" means the organisation's site loaded a tampered script, not that the organisation was breached or that data was stolen.
 - No CVE, no attribution, no regulator action reported.
 - Separate context, not part of this incident: Report URI's Scott Helme wrote on 6 Nov 2026 that Report URI had identified 15,579 sites serving malicious JavaScript (reported by secondary sites; I did not read the original post).
