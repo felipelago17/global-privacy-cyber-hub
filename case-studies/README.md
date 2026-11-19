@@ -30,3 +30,4 @@ Incident write-ups that test the frameworks and checklists in this hub against w
 | [Optimizely third-party script compromise (178 organisations)](optimizely-third-party-script-compromise-178-sites-2026.md) | 16–17 Nov 2026 | Website-testing service tampered with; malicious code on 178 organisations' sites (188 scripts); wallet swapping and card theft; vendor says fixed; root cause and iOS exploit detail from a second secondary source (Escudo Digital) |
 
 Candidates for future case studies: Bybit (Feb 2025), the 2026 "Black October" wave of AI-discovered vulnerabilities (see the [Economist leader reading note](../analyses/economist-cyber-disaster-leader-2026.md) for an overview and incident table), major DPA enforcement actions on AI training data.
+| [Equinor: cyberattack on IT systems](equinor-cyberattack-it-systems-2026.md) | 17 Nov 2026 | Ongoing attack on corporate IT; production and data reported unaffected; cause and scope undisclosed |
