@@ -2,7 +2,7 @@
 
 `Vulnerability · Java / OpenJDK · Remote code execution · Patch management · Source: trade press (The Hacker News)`
 
-Status as of 19 Nov 2026. The primary source is CISA's alert "Critical Java Vulnerability Requires Immediate Patching", released 17 Nov 2026: <https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching>. I read its full text, as pasted by the author because my own fetch of the page failed. The CVSS score, product list, Keycloak conditions and test results are not in the CISA alert; they come from a trade-press article, Ravie Lakshmanan, "CISA Urges Immediate Patching of Java4Shell Flaw That Could Allow Remote Code Execution", The Hacker News, 18 Nov 2026: <https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html>. I did not read the Oracle advisory, the Keycloak advisory or the Blackpoint Cyber research.
+Status as of 19 Nov 2026. The primary source is CISA's alert "Critical Java Vulnerability Requires Immediate Patching", released 17 Nov 2026: <https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching>. I read its full text, as pasted by the author because my own fetch of the page failed. The CVSS score, product list, Keycloak conditions and test results are not in the CISA alert; they come from a trade-press article, Ravie Lakshmanan, "CISA Urges Immediate Patching of Java4Shell Flaw That Could Allow Remote Code Execution", The Hacker News, 18 Nov 2026: <https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html>. The vendor source is Oracle's Critical Security Patch Update (CSPU) advisory for November 2026, Rev 1, 17 Nov 2026: <https://www.oracle.com/security-alerts/cspunov2026.html>. I read the advisory text as pasted by the author and did not open the URL myself. I did not read the Keycloak advisory or the Blackpoint Cyber research.
 
 ## What CISA's alert says (primary)
 
@@ -14,6 +14,18 @@ Status as of 19 Nov 2026. The primary source is CISA's alert "Critical Java Vuln
   4. Review Oracle's security advisory ("Critical Security Patch Update, November 2026") for affected products and versions.
   5. Monitor for suspicious activity, including rogue runtimes, unexpected JVM crashes and suspicious Java processes.
 - **What the alert does not say.** It gives no CVSS score, no list of affected third-party products, no Known Exploited Vulnerabilities listing, no deadline and no exploitation status.
+
+## What Oracle's advisory says (vendor, primary)
+
+- **Release.** The November 2026 CSPU (Rev 1, 17 Nov 2026) contains 655 new security patches across the listed product families. Oracle says patches are released on the third Tuesday of each month; the next dates it lists are 15 Dec 2026 (CSPU), 19 Jan 2027 (CPU), 16 Feb 2027 and 16 Mar 2027 (CSPU).
+- **Java SE.** 11 new Java SE patches, all described as remotely exploitable without authentication. CVE-2026-114938 has the highest base score of the eleven, 8.1 (CVSS 3.1; network vector, attack complexity high, no privileges, no user interaction, scope unchanged, high confidentiality, integrity and availability impact).
+- **Affected products as Oracle lists them for this CVE.** Oracle Java SE, Oracle GraalVM for JDK and Oracle GraalVM Enterprise Edition; component listed as "Compiler", protocol "Multiple". Versions listed: Java SE 8u511b33-perf, 17.0.21.0.3, 21.0.13.0.3, 25.0.5.0.3 and 27.0.1.0.3; GraalVM for JDK 17.0.21.0.3 and 21.0.13.0.3; GraalVM Enterprise Edition 21.3.20.0.3. Java 11 and the non-"perf" 8u511b33 build are not listed for this CVE, although they appear for other CVEs in the same update. How Oracle's version strings map to patched and unpatched builds should be read from its patch availability documents, which I did not see.
+- **Exploitation condition (Note 1).** Per Oracle, this vulnerability can only be exploited by supplying data to APIs in the affected component without using untrusted Java Web Start applications or applets, for example through a web service. That fits CISA's description of server-side exposure through crafted input.
+- **Credit.** Reported to Oracle by Albert Yang and by Quang Luong of Calif.io.
+- **Naming difference.** Oracle's risk matrix labels the component "Compiler", while CISA and the press describe the Base64 decoder of the x86-64 HotSpot JVM. Oracle's matrix uses generic component names, so this may be a labelling difference; I have not resolved it.
+- **Related.** Oracle says it issued earlier Security Alerts in October 2026 for CVE-2026-91403, CVE-2026-114820, CVE-2026-109618 and CVE-2026-109619, and that customers should apply those too.
+- **Support.** Patches are provided only for versions under Premier or Extended Support; Oracle recommends upgrading unsupported versions. It also points to Java Management Service for finding vulnerable Java installations.
+- **No exploitation statement.** The advisory text I have does not say whether the flaw is being exploited.
 
 ## What the trade-press article adds (secondary)
 
@@ -33,7 +45,8 @@ Status as of 19 Nov 2026. The primary source is CISA's alert "Critical Java Vuln
 
 ## Gaps and cautions
 
-- CVSS, products, Keycloak conditions and test results rest on the trade-press article alone.
+- The CVSS score is now confirmed by Oracle's risk matrix. The non-Oracle product list, Keycloak conditions and Blackpoint test results still rest on the trade-press article alone.
+- Oracle's version strings carry a ".0.3" suffix that I could not map to specific builds; use Oracle's patch availability documents.
 - The product list is described as coming from earlier reporting, not from vendors, and I did not verify any vendor's own statement beyond Keycloak's as relayed.
 - "No exploitation" was true at publication and may have changed.
 - Not legal or patching advice; confirm versions against the vendor advisories.
