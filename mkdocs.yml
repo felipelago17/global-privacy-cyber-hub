@@ -133,6 +133,7 @@ nav:
       - Shanghai LLM compute theft (Zong, Nov 2026): case-studies/shanghai-llm-compute-theft-zong-2026.md
       - Optimizely script compromise (Nov 2026): case-studies/optimizely-third-party-script-compromise-178-sites-2026.md
       - Equinor IT cyberattack (Nov 2026): case-studies/equinor-cyberattack-it-systems-2026.md
+      - FBI NCIC apparent breach (Nov 2026): case-studies/fbi-ncic-apparent-breach-2026.md
   - Training labs:
       - Overview: training-labs/README.md
       - AI security and red-teaming labs: training-labs/ai-security-labs.md

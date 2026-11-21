@@ -31,3 +31,4 @@ Incident write-ups that test the frameworks and checklists in this hub against w
 
 Candidates for future case studies: Bybit (Feb 2025), the 2026 "Black October" wave of AI-discovered vulnerabilities (see the [Economist leader reading note](../analyses/economist-cyber-disaster-leader-2026.md) for an overview and incident table), major DPA enforcement actions on AI training data.
 | [Equinor: cyberattack on IT systems](equinor-cyberattack-it-systems-2026.md) | 17 Nov 2026 | Ongoing attack on corporate IT; production and data reported unaffected; cause and scope undisclosed |
+| [FBI: apparent breach of the National Crime Information Center](fbi-ncic-apparent-breach-2026.md) | 20 Nov 2026 | Suspected intrusion into the shared law-enforcement database; anonymous sources; second FBI system incident in recent months |
