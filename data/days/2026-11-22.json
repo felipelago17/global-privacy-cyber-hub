@@ -1,0 +1,119 @@
+[
+ {
+  "uid": "https://cybersecuritynews.com/?p=173435",
+  "source": "Cyber Security News",
+  "category": "Cyber incidents & threat intel",
+  "title": "OpenRouter Users’ Private AI Chats Possibly Exposed Via Compromised Third-Party Providers",
+  "link": "https://cybersecuritynews.com/openrouter-ai-chat-leaks/",
+  "date": "2026-11-22",
+  "summary": "OpenRouter has removed three AI hosting providers and revoked Zero Data Retention eligibility for 125 endpoints after researchers found evidence that some providers had been compromised or had failed to follow their data policies. In its November 22 incident notice, OpenRouter s…"
+ },
+ {
+  "uid": "https://cybersecuritynews.com/?p=173424",
+  "source": "Cyber Security News",
+  "category": "Cyber incidents & threat intel",
+  "title": "Hackers Exploit Microsoft Entra Connect Health Flaw to Access Admin Emails and Organization Data",
+  "link": "https://cybersecuritynews.com/microsoft-entra-connect-health-flaw/",
+  "date": "2026-11-22",
+  "summary": "Attackers exploited a flaw in Microsoft Entra Connect Health to read administrator and technical contact email addresses, along with configuration data from affected organizations. A Microsoft customer notice shared on Reddit describes read-only access to those records, not acce…"
+ },
+ {
+  "uid": "CBMibkFVX3lxTFBsZnBJRzdiNWdVN29DRGhDYV8zejZITmxqSDI1ZjZzOVJvZlZfTS1TczlVQ09kVzBUeWUyRGhjTWJXcmRELVJYeWJPc2tzLW9RajJsalhDRmtURzMxVnNDNm9lT21ZYkdIR0FRbU13",
+  "source": "ENISA (via Google News)",
+  "category": "EU cybersecurity",
+  "title": "- ENISA",
+  "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBsZnBJRzdiNWdVN29DRGhDYV8zejZITmxqSDI1ZjZzOVJvZlZfTS1TczlVQ09kVzBUeWUyRGhjTWJXcmRELVJYeWJPc2tzLW9RajJsalhDRmtURzMxVnNDNm9lT21ZYkdIR0FRbU13?oc=5",
+  "date": "2026-11-21",
+  "summary": "ENISA"
+ },
+ {
+  "uid": "CBMibkFVX3lxTE1NUFBWVGx1WmNGc0l4VUIwbk1IV2xzOGJvWXp6ZWZFaFR2akVYdWRKb0VHYnozMjB2ZE10cEdQcW9JdTc5X05DQXc4SEU5Z1J5dEJYNFdVbzFNckpZR1ZMc0VMTGp4dzYzUV9xakdn",
+  "source": "ENISA (via Google News)",
+  "category": "EU cybersecurity",
+  "title": "- ENISA",
+  "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1NUFBWVGx1WmNGc0l4VUIwbk1IV2xzOGJvWXp6ZWZFaFR2akVYdWRKb0VHYnozMjB2ZE10cEdQcW9JdTc5X05DQXc4SEU5Z1J5dEJYNFdVbzFNckpZR1ZMc0VMTGp4dzYzUV9xakdn?oc=5",
+  "date": "2026-11-21",
+  "summary": "ENISA"
+ },
+ {
+  "uid": "CBMiWEFVX3lxTE5iTG5PNzBRWHBaV01sOHZkZVVMeXkwdVFyUTRNYjJtTlhYOTc3OEk1UWgxbWxGcl90TXB6X1ZCWXJONG1NdFloQ2dvX3E3Z29QR0hpMHZnbWo",
+  "source": "ICO (via Google News)",
+  "category": "UK data protection",
+  "title": "Principal Colour Limited",
+  "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5iTG5PNzBRWHBaV01sOHZkZVVMeXkwdVFyUTRNYjJtTlhYOTc3OEk1UWgxbWxGcl90TXB6X1ZCWXJONG1NdFloQ2dvX3E3Z29QR0hpMHZnbWo?oc=5",
+  "date": "2026-11-22",
+  "summary": "Principal Colour Limited ICO"
+ },
+ {
+  "uid": "CBMiWEFVX3lxTE5kbXBjdk02RjBfUHY2VjN6TEVTTDFWYUY2WjkzR1ZkOVdxTHNYOTVwUDJDdkc2VHNnZFpmLUVMbUw4LUlGbkQ4b0xlUjlEaW4tWlNxLUpHZDc",
+  "source": "ICO (via Google News)",
+  "category": "UK data protection",
+  "title": "Al - Muhsineen Ltd",
+  "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5kbXBjdk02RjBfUHY2VjN6TEVTTDFWYUY2WjkzR1ZkOVdxTHNYOTVwUDJDdkc2VHNnZFpmLUVMbUw4LUlGbkQ4b0xlUjlEaW4tWlNxLUpHZDc?oc=5",
+  "date": "2026-11-20",
+  "summary": "Al - Muhsineen Ltd ICO"
+ },
+ {
+  "uid": "CBMiWEFVX3lxTFBRUjFmV1Z3VHFVZmJQb3ZwWExvYThtUVVBQ3VjbmZMdW4wVEZIVVJnSk1HbmVEemxUVTYwVUlfTUVqZmdJdnNZdldCMnc4LUVaT3YtVVI3WXc",
+  "source": "ICO (via Google News)",
+  "category": "UK data protection",
+  "title": "Amwell House Ltd",
+  "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBRUjFmV1Z3VHFVZmJQb3ZwWExvYThtUVVBQ3VjbmZMdW4wVEZIVVJnSk1HbmVEemxUVTYwVUlfTUVqZmdJdnNZdldCMnc4LUVaT3YtVVI3WXc?oc=5",
+  "date": "2026-11-20",
+  "summary": "Amwell House Ltd ICO"
+ },
+ {
+  "uid": "CBMiWEFVX3lxTE40Mmo0OXB5MzR5QWZwNG9wSE1YXzJhRTdFTkZKYzNrMDV3aW50Vl9kWkNlcktiUHJkemQ0amZEaDdOYkZCNFhSYjFMQ2tjdk84WWtES1BtV0Y",
+  "source": "ICO (via Google News)",
+  "category": "UK data protection",
+  "title": "Classmax Ltd",
+  "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE40Mmo0OXB5MzR5QWZwNG9wSE1YXzJhRTdFTkZKYzNrMDV3aW50Vl9kWkNlcktiUHJkemQ0amZEaDdOYkZCNFhSYjFMQ2tjdk84WWtES1BtV0Y?oc=5",
+  "date": "2026-11-22",
+  "summary": "Classmax Ltd ICO"
+ },
+ {
+  "uid": "CBMiWEFVX3lxTE9zWmZpTmxhTmNsQW5lVklBSC1kTkJiWWRJY0pvWG5CT2tmZFYyS3p6bnRLU19HdFVkTlhxeHYwNk5Cb0FBc0dqb0FNMnJJZmVKYVo5UFZpRUc",
+  "source": "ICO (via Google News)",
+  "category": "UK data protection",
+  "title": "11 BRIDGE TRADE LIMITED",
+  "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9zWmZpTmxhTmNsQW5lVklBSC1kTkJiWWRJY0pvWG5CT2tmZFYyS3p6bnRLU19HdFVkTlhxeHYwNk5Cb0FBc0dqb0FNMnJJZmVKYVo5UFZpRUc?oc=5",
+  "date": "2026-11-21",
+  "summary": "11 BRIDGE TRADE LIMITED ICO"
+ },
+ {
+  "uid": "CBMiWEFVX3lxTFBRNHBUQVdYbzBDRDNTNFkzaEF6am44TkdndElNYTZnVFYwMjl6VTZSb2E1UFYyZW5oNExlNUZ0ZWNMQU5GTExPckQ4MUdxbnVTbXd1MmV4M2Y",
+  "source": "ICO (via Google News)",
+  "category": "UK data protection",
+  "title": "Linda Lewis Kitchens Ltd",
+  "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBRNHBUQVdYbzBDRDNTNFkzaEF6am44TkdndElNYTZnVFYwMjl6VTZSb2E1UFYyZW5oNExlNUZ0ZWNMQU5GTExPckQ4MUdxbnVTbXd1MmV4M2Y?oc=5",
+  "date": "2026-11-21",
+  "summary": "Linda Lewis Kitchens Ltd ICO"
+ },
+ {
+  "uid": "CBMiWEFVX3lxTE9NeXF5aUFCU1B4Vy1sYkZnNXNZbm1TWU5ZOEVDVVhvV0NabVVzaDg3RjZ2YlFlVm8zM2JzYzREdXJvakFBWjd5SjNvNExJby1xbjRNbWJMeUk",
+  "source": "ICO (via Google News)",
+  "category": "UK data protection",
+  "title": "Northern Industrial Flooring Contractors Ltd",
+  "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9NeXF5aUFCU1B4Vy1sYkZnNXNZbm1TWU5ZOEVDVVhvV0NabVVzaDg3RjZ2YlFlVm8zM2JzYzREdXJvakFBWjd5SjNvNExJby1xbjRNbWJMeUk?oc=5",
+  "date": "2026-11-21",
+  "summary": "Northern Industrial Flooring Contractors Ltd ICO"
+ },
+ {
+  "uid": "CBMiWEFVX3lxTE1HT1lQYjRvS09UM0JBR3cwOFc5QzBnU1hoOFl4TkVPTXpsTFRqbWV5Z0JxUjdROTlvYzZINUhGUTFFSjJSNUMtdWotYmtlaElDbkVMRjFjeE8",
+  "source": "ICO (via Google News)",
+  "category": "UK data protection",
+  "title": "The Resident Liverpool LLP",
+  "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1HT1lQYjRvS09UM0JBR3cwOFc5QzBnU1hoOFl4TkVPTXpsTFRqbWV5Z0JxUjdROTlvYzZINUhGUTFFSjJSNUMtdWotYmtlaElDbkVMRjFjeE8?oc=5",
+  "date": "2026-11-22",
+  "summary": "The Resident Liverpool LLP ICO"
+ },
+ {
+  "uid": "CBMipAFBVV95cUxQUDRGNmZGcTlXYXNoZnRYNzdSUzB1dnV1eC1HNy1TVUliRGNZVHVtS1llb1AzYkZqVEJHSnNTSnhKbjlITTVVTlM2eFhBZWgyLWp1VmdTaXVuQ3dTRmdKMWprS3VNTWgzdGxJNEY1VXk3X3NwUUZBQ0s4ZGV5aGlnYWdvOUZGdFdOdVRTOWtYOTFaV2NXTWNpUTNvYzMtUHAwSEVFXw",
+  "source": "CISA (via Google News)",
+  "category": "Cybersecurity advisories",
+  "title": "Shop Smart, Stay Secure: Cybersecurity Tips for the Holidays",
+  "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUDRGNmZGcTlXYXNoZnRYNzdSUzB1dnV1eC1HNy1TVUliRGNZVHVtS1llb1AzYkZqVEJHSnNTSnhKbjlITTVVTlM2eFhBZWgyLWp1VmdTaXVuQ3dTRmdKMWprS3VNTWgzdGxJNEY1VXk3X3NwUUZBQ0s4ZGV5aGlnYWdvOUZGdFdOdVRTOWtYOTFaV2NXTWNpUTNvYzMtUHAwSEVFXw?oc=5",
+  "date": "2026-11-20",
+  "summary": "Shop Smart, Stay Secure: Cybersecurity Tips for the Holidays NICCS (.gov)"
+ }
+]
