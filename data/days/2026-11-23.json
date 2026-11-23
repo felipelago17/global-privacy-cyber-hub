@@ -1,0 +1,182 @@
+[
+ {
+  "uid": "https://iapp.org/news/a/thought-for-the-week-human-beings-not-human-doings-flourishing-in-the-age-of-ai",
+  "source": "IAPP",
+  "category": "Privacy & AI governance",
+  "title": "Thought for the week: Human beings, not human doings: Flourishing in the age of AI",
+  "link": "https://iapp.org/news/a/thought-for-the-week-human-beings-not-human-doings-flourishing-in-the-age-of-ai",
+  "date": "",
+  "summary": ""
+ },
+ {
+  "uid": "https://cybersecuritynews.com/?p=173667",
+  "source": "Cyber Security News",
+  "category": "Cyber incidents & threat intel",
+  "title": "Hackers Plant 13 ClickFix Traps on Compromised WordPress Site to Trick Visitors Into Running Malware",
+  "link": "https://cybersecuritynews.com/hackers-plant-13-clickfix-traps/",
+  "date": "2026-11-23",
+  "summary": "A single hacked WordPress site was found carrying 13 separate ClickFix traps from three different malware kits. Each trap shows visitors a fake security check. It then talks them into pasting a harmful command on their own computer. The site sat in a poor state because several g…"
+ },
+ {
+  "uid": "https://cybersecuritynews.com/?p=173633",
+  "source": "Cyber Security News",
+  "category": "Cyber incidents & threat intel",
+  "title": "Jailbroken AI Agent Helps Hacker Steal Customer Data and 8.6GB of European Government Files",
+  "link": "https://cybersecuritynews.com/jailbroken-ai-agent/",
+  "date": "2026-11-23",
+  "summary": "A low-skilled hacker used a jailbroken AI agent to steal an insurer’s customer database and about 8.6GB of files from European municipalities. The operator, known as BabidiGhost, worked for nine days in November 2026. He typed plain, misspelled French orders and let the agent do…"
+ },
+ {
+  "uid": "https://gbhackers.com/?p=209409",
+  "source": "GBHackers",
+  "category": "Cyber incidents & threat intel",
+  "title": "Weekly Cybersecurity Newsletter – Top 50 Biggest Cybersecurity Stories of the Week",
+  "link": "https://gbhackers.com/weekly-cybersecurity-newsletter-november-16-20-2026/",
+  "date": "2026-11-23",
+  "summary": "JPMorgan & KPMG Breaches, ARTEX AI Hits EU Commission, Fugaku Supercomputer Hacked, Windows 11 Zero-Day, Ruby2Shell & NGINX2ROOT RCE & More Welcome to this week’s edition of the GBHackers cybersecurity newsletter your weekly cybersecurity bulletin covering the 50 most important …"
+ },
+ {
+  "uid": "https://gbhackers.com/?p=209467",
+  "source": "GBHackers",
+  "category": "Cyber incidents & threat intel",
+  "title": "CISA Warns Hackers Are Actively Exploiting Cisco, VMware, SAP, and Apache Vulnerabilities",
+  "link": "https://gbhackers.com/cisa-warns-hackers-are-actively-exploiting/",
+  "date": "2026-11-23",
+  "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added four vulnerabilities affecting Cisco Expressway, VMware vCenter, SAP NetWeaver, and Apache Roller to its Known Exploited Vulnerabilities (KEV) Catalog on November 20, 2026. The agency cited evidence of active…"
+ },
+ {
+  "uid": "https://www.securityweek.com/?p=51013",
+  "source": "SecurityWeek",
+  "category": "Cyber incidents & threat intel",
+  "title": "Azure Flaw Exploited to Target Secrets at Norwegian Energy Firms",
+  "link": "https://www.securityweek.com/azure-flaw-exploited-to-target-secrets-at-norwegian-energy-firms/",
+  "date": "2026-11-23",
+  "summary": "Microsoft closed an Azure API Management flaw exploited to target secrets at Norwegian energy companies, with other sectors also affected. The post Azure Flaw Exploited to Target Secrets at Norwegian Energy Firms appeared first on SecurityWeek ."
+ },
+ {
+  "uid": "https://www.securityweek.com/?p=50999",
+  "source": "SecurityWeek",
+  "category": "Cyber incidents & threat intel",
+  "title": "SAP NetWeaver, Cisco Expressway Flaws Exploited in Attacks",
+  "link": "https://www.securityweek.com/sap-netweaver-cisco-expressway-flaws-exploited-in-attacks/",
+  "date": "2026-11-23",
+  "summary": "Threat actors could exploit them to leak or modify server information and to execute commands as root. The post SAP NetWeaver, Cisco Expressway Flaws Exploited in Attacks appeared first on SecurityWeek ."
+ },
+ {
+  "uid": "https://www.infosecurity-magazine.com/news/secrethunting-trafficai-agent/",
+  "source": "Infosecurity Magazine",
+  "category": "Cyber incidents & threat intel",
+  "title": "Bots Hide Behind AI Agent Names to Hunt for Secrets",
+  "link": "https://www.infosecurity-magazine.com/news/secrethunting-trafficai-agent/",
+  "date": "2026-11-23",
+  "summary": "Cequence found bots using AI agent names to probe for secrets as agents moved from reading to acting"
+ },
+ {
+  "uid": "https://www.infosecurity-magazine.com/news/us-lawmakers-bill-cisa-review/",
+  "source": "Infosecurity Magazine",
+  "category": "Cyber incidents & threat intel",
+  "title": "US Lawmakers Propose CISA Board to Review Major Cyber Incidents",
+  "link": "https://www.infosecurity-magazine.com/news/us-lawmakers-bill-cisa-review/",
+  "date": "2026-11-23",
+  "summary": "Two Congressmen have proposed to establish a cyber incident review board within the US Cybersecurity and Infrastructure Security Agency"
+ },
+ {
+  "uid": "169191fr",
+  "source": "CNIL",
+  "category": "EU data protection",
+  "title": "Trophées des classes 2027 - Ensemble, tous protégés sur Internet !",
+  "link": "https://www.cnil.fr/fr/trophees-des-classes-2027",
+  "date": "2026-11-23",
+  "summary": "Le ministère de l’Éducation nationale et la CNIL organisent le concours Trophées des classes dont la thématique, pour cette édition 2027, est&nbsp;: «&nbsp;Comment je sécurise mes données personnelles en ligne&nbsp;?&nbsp;»."
+ },
+ {
+  "uid": "169188fr",
+  "source": "CNIL",
+  "category": "EU data protection",
+  "title": "Découvrez les lauréats du concours Trophées des classes 2026 « Comment je protège ma vie privée en ligne ? »",
+  "link": "https://www.cnil.fr/fr/trophees-des-classes-2026-laureats",
+  "date": "2026-11-23",
+  "summary": "La CNIL et le ministère de l’Éducation nationale dévoilent les classes gagnantes de l’édition 2026 des «&nbsp;Trophées des classes&nbsp;», un concours pour sensibiliser les élèves à leurs droits numériques et à la citoyenneté en ligne."
+ },
+ {
+  "uid": "CBMiZ0FVX3lxTE5mb0RrVG9EZ1B2UlVTMENRQ2xYR19DRUR4TzlndG1seUxDMHpXRjkzN0JmbUgtOHdJZ2VVRTZUZWVaSlIwWEcyZk5WTU1JUXFqMmJrTG1RZG56eFV3VEd2eUtrTFlWTEE",
+  "source": "ENISA (via Google News)",
+  "category": "EU cybersecurity",
+  "title": "Search",
+  "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5mb0RrVG9EZ1B2UlVTMENRQ2xYR19DRUR4TzlndG1seUxDMHpXRjkzN0JmbUgtOHdJZ2VVRTZUZWVaSlIwWEcyZk5WTU1JUXFqMmJrTG1RZG56eFV3VEd2eUtrTFlWTEE?oc=5",
+  "date": "2026-11-22",
+  "summary": "Search EUVD"
+ },
+ {
+  "uid": "CBMiWEFVX3lxTE1VV0JURlgydTdOYTBFY1VpWm55b1pjT2lZV0RCRW9aalJ6Z3I4N2x6ek9sLUlFRU1ZNzBoV1U4X1FWSDdBZjh2Q0x0d3RTX3FLbkhKYTd2dDk",
+  "source": "ICO (via Google News)",
+  "category": "UK data protection",
+  "title": "The College Company Ltd",
+  "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1VV0JURlgydTdOYTBFY1VpWm55b1pjT2lZV0RCRW9aalJ6Z3I4N2x6ek9sLUlFRU1ZNzBoV1U4X1FWSDdBZjh2Q0x0d3RTX3FLbkhKYTd2dDk?oc=5",
+  "date": "2026-11-22",
+  "summary": "The College Company Ltd ICO"
+ },
+ {
+  "uid": "CBMiWEFVX3lxTE1lR19QUHlJTlBlOFpsSjBsV2VYbUdOd3VCVWdhOU9zN3FDZzJUMUtfT0VOY3h1MUFMVGJpMUFidmljb2ZYU3A0dXVlMDNXX25iRFMtdGdBZHA",
+  "source": "ICO (via Google News)",
+  "category": "UK data protection",
+  "title": "3D Environmental Limited",
+  "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1lR19QUHlJTlBlOFpsSjBsV2VYbUdOd3VCVWdhOU9zN3FDZzJUMUtfT0VOY3h1MUFMVGJpMUFidmljb2ZYU3A0dXVlMDNXX25iRFMtdGdBZHA?oc=5",
+  "date": "2026-11-22",
+  "summary": "3D Environmental Limited ICO"
+ },
+ {
+  "uid": "CBMiWEFVX3lxTE5iZHl2LVN3ZW44NFU2Z0p0a19fNTNUUUdLY1FMUDdBS2VrcWE2ejV1d3htLThzSEhHQl9SNU5UZHJMRHd4U050MkNTYmplc3dOT010REVCeXM",
+  "source": "ICO (via Google News)",
+  "category": "UK data protection",
+  "title": "Svella Connect Limited",
+  "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5iZHl2LVN3ZW44NFU2Z0p0a19fNTNUUUdLY1FMUDdBS2VrcWE2ejV1d3htLThzSEhHQl9SNU5UZHJMRHd4U050MkNTYmplc3dOT010REVCeXM?oc=5",
+  "date": "2026-11-22",
+  "summary": "Svella Connect Limited ICO"
+ },
+ {
+  "uid": "CBMiWEFVX3lxTE1hY2tlZFlNMWkzcUJtazNOMzB4UGcwWXJSMkZ6NlE5ei0zYk16X3NqZXNGTEgxQjBKSVVTSHJGQmFoNnladGoyNHE3SzlzUGpzamhTQVBjcXI",
+  "source": "ICO (via Google News)",
+  "category": "UK data protection",
+  "title": "R3 Real Estate Ltd",
+  "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1hY2tlZFlNMWkzcUJtazNOMzB4UGcwWXJSMkZ6NlE5ei0zYk16X3NqZXNGTEgxQjBKSVVTSHJGQmFoNnladGoyNHE3SzlzUGpzamhTQVBjcXI?oc=5",
+  "date": "2026-11-20",
+  "summary": "R3 Real Estate Ltd ICO"
+ },
+ {
+  "uid": "CBMiWEFVX3lxTE9adGJQN251ajRjQm9JNWhscnpKU1Jya1ZmeEwtbzQ3QXc5WnhRcVVMRE84N2ZENnFWaktJUElKOC12ZTZGanpPWjZXY1RybHFsSG1rTmNGZ2w",
+  "source": "ICO (via Google News)",
+  "category": "UK data protection",
+  "title": "BRADLEY HARE INN LTD",
+  "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9adGJQN251ajRjQm9JNWhscnpKU1Jya1ZmeEwtbzQ3QXc5WnhRcVVMRE84N2ZENnFWaktJUElKOC12ZTZGanpPWjZXY1RybHFsSG1rTmNGZ2w?oc=5",
+  "date": "2026-11-21",
+  "summary": "BRADLEY HARE INN LTD ICO"
+ },
+ {
+  "uid": "CBMiWEFVX3lxTFBVU1ZpNVV4ZVVqeUdqTFA0WUNVQnVwMzV1bGY4TG5fbGFFNUxiejVxcHA0eTFrdnFaRksySWtXWWQ5T0o5Um5uSlk1ZHZHZUIyQ3FkWFYwLVM",
+  "source": "ICO (via Google News)",
+  "category": "UK data protection",
+  "title": "ROC Transitions Limited",
+  "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBVU1ZpNVV4ZVVqeUdqTFA0WUNVQnVwMzV1bGY4TG5fbGFFNUxiejVxcHA0eTFrdnFaRksySWtXWWQ5T0o5Um5uSlk1ZHZHZUIyQ3FkWFYwLVM?oc=5",
+  "date": "2026-11-22",
+  "summary": "ROC Transitions Limited ICO"
+ },
+ {
+  "uid": "CBMiWEFVX3lxTFB6QUpIalk4RnM1enRIbndYR2xfMUR3dTBjMWktRnpwdTY4c1ZyVWlVbkVwWE1Kd0QzYTI4bHgzb2pFa3NRdW83SVJhTGtyNWFtS3l2SEthNHk",
+  "source": "ICO (via Google News)",
+  "category": "UK data protection",
+  "title": "Engage Management Services 2 LLP",
+  "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB6QUpIalk4RnM1enRIbndYR2xfMUR3dTBjMWktRnpwdTY4c1ZyVWlVbkVwWE1Kd0QzYTI4bHgzb2pFa3NRdW83SVJhTGtyNWFtS3l2SEthNHk?oc=5",
+  "date": "2026-11-20",
+  "summary": "Engage Management Services 2 LLP ICO"
+ },
+ {
+  "uid": "CBMiWEFVX3lxTE5zMkY0SlhXaDl3TElYMjRmNERxVGVFZllvTE0wZEVUTDRqNmI2Z19DXzZqZlFpNmYtN2JxYzZwZUZ0MTZBZVpIeVEwX0xfc1plVG5wSUFBOEw",
+  "source": "ICO (via Google News)",
+  "category": "UK data protection",
+  "title": "Engineerbetter Ltd",
+  "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5zMkY0SlhXaDl3TElYMjRmNERxVGVFZllvTE0wZEVUTDRqNmI2Z19DXzZqZlFpNmYtN2JxYzZwZUZ0MTZBZVpIeVEwX0xfc1plVG5wSUFBOEw?oc=5",
+  "date": "2026-11-22",
+  "summary": "Engineerbetter Ltd ICO"
+ }
+]
