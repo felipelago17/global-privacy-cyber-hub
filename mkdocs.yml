@@ -91,6 +91,7 @@ nav:
       - Unit 42 CL-STA-1238 Cairn AI-driven attacks (Nov 2026): analyses/unit42-cairn-cl-sta-1238-ai-driven-attacks-2026.md
       - McKinsey agentic AI safety and security playbook (Oct 2025): analyses/mckinsey-deploying-agentic-ai-safety-security-playbook-2025.md
       - Polaris opt-out enforcement, CalPrivacy and Minnesota (Nov 2026): analyses/polaris-minnesota-calprivacy-opt-out-enforcement-2026.md
+      - Microsoft Kimi K3 misalignment probe signals (Nov 2026): analyses/microsoft-kimi-k3-misalignment-probe-signals-2026.md
       - EU–US AI sovereignty contest (Kennedys, Nov 2026): analyses/eu-us-ai-sovereignty-contest-kennedys-2026.md
   - Resources:
       - Source papers: resources/papers/links.md
