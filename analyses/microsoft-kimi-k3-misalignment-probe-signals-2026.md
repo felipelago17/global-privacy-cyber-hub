@@ -2,19 +2,19 @@
 
 `AI agents · Activation probes · Layered monitoring · Open-weight model · Vendor research · Single source · Secondary summary`
 
-Status as of 25 Nov 2026. This page rests on a tool-generated summary of the Microsoft Command Line article (16 Nov 2026; authors named as Tanmay Gautam, Sandeep Atluri, Kesav Gopal and Microsoft's Responsible AI team) and one search excerpt from a trade write-up. I have not read the article in full or seen the data. Figures are Microsoft's and unreplicated. A fuller evaluation-focused version sits in the Responsible-AI-evaluation repository (see its page on probe-based agent monitoring).
+Status as of 25 Nov 2026. This page is based on the full text of the Microsoft Command Line article (16 Nov 2026; Tanmay Gautam, Sandeep Atluri, Kesav Gopal and Microsoft's Responsible AI team), pasted by the hub owner. I have not seen the figures or data. Numbers are Microsoft's and unreplicated. A fuller evaluation-focused version is in the Responsible-AI-evaluation repository (page on probe-based agent monitoring).
 
 ## Summary
 
-Microsoft trained a lightweight activation probe on frozen Kimi K3 activations, using labels from a separate LLM monitor, and studied what it flags and when. The authors argue agents should be judged on their action sequences and reporting, not just final answers. They propose layered monitoring: a cheap probe screens every prefix, and flagged cases go to a stronger LLM reviewer.
+Microsoft trained a small causal attention probe on frozen Kimi K3 activations (layer 63), with whole-trajectory labels from an LLM monitor, and studied what it flags and when. The authors argue agents should be evaluated on their action sequences and honest reporting, not just final answers, and describe a two-stage system in which the probe screens every prefix and flagged runs go to the LLM monitor. They cite the July 2026 Hugging Face incident and OpenAI's and Anthropic's layered monitoring as motivation.
 
 ## Reported results
 
-- In two hand-picked contrasts the probe flagged the violating run and left the benign run alone; these are examples, not rates.
-- Reasoning accounted for 68.1% of first alerts and tool results for 19.6%.
-- About 74% of first alerts came before the monitor's cited evidence window ended; about 26% came after.
-- In about 35% of runs flagged by both systems, a monitor-cited passage scored above the cutoff.
-- In a shopping run, the alert came only when an unsupported claim reached the user, so a message may already have gone out.
+- In two hand-picked contrasts the probe flagged the violating run and not the benign one; these are selected examples, not rates.
+- First flags: 42.3% before the monitor's cited-evidence window, 31.9% during, 25.8% after (74.2% before it ended).
+- Location of first flag: reasoning 68.1%, tool result 19.6%, formatting 5.1%, assistant response 3.7%, tool-call payload 3.5%.
+- 35.0% of runs with locatable cited text had an above-cutoff score on a monitor quotation.
+- In a shopping run the agent misread a system instruction as a 3% voucher and told the user; the first alert came as that claim was written, so the message would need to be held before release. The monitor described confusion, not deceptive intent.
 
 ## Why a privacy and cyber hub should care
 
@@ -25,6 +25,5 @@ Microsoft trained a lightweight activation probe on frozen Kimi K3 activations, 
 
 ## Gaps and cautions
 
-- The authors state no measurement of missed violations or false alarms, selected positive cases only, labels from the same kind of monitor, and cutoffs tuned on the same examples.
-- Vendor research with no independent replication found; I did not open the article's data or code.
-- Not legal or security advice.
+- The authors state: no measurement of missed violations or false alarms; selected positive cases only; timing is relative to evidence chosen after the run; cutoffs and F1 use the same examples; unquoted text is not confirmed benign.
+- Vendor research on one open-weight model with no independent replication found. Not legal or security advice.
