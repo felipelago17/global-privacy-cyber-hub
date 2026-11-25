@@ -1,0 +1,281 @@
+[
+ {
+  "uid": "https://iapp.org/news/a/when-nobody-checks-the-work-what-recent-system-outages-mean-for-ai-governance",
+  "source": "IAPP",
+  "category": "Privacy & AI governance",
+  "title": "When nobody checks the work: What recent system outages mean for AI governance",
+  "link": "https://iapp.org/news/a/when-nobody-checks-the-work-what-recent-system-outages-mean-for-ai-governance",
+  "date": "",
+  "summary": ""
+ },
+ {
+  "uid": "https://iapp.org/news/a/closing-the-ai-connector-blind-spot-a-certification-model-for-privacy-teams",
+  "source": "IAPP",
+  "category": "Privacy & AI governance",
+  "title": "Closing the AI connector blind spot: A certification model for privacy teams",
+  "link": "https://iapp.org/news/a/closing-the-ai-connector-blind-spot-a-certification-model-for-privacy-teams",
+  "date": "",
+  "summary": ""
+ },
+ {
+  "uid": "https://iapp.org/news/a/who-is-responsible-when-the-ai-is-wrong-why-legal-duty-does-not-equal-technical-visibility",
+  "source": "IAPP",
+  "category": "Privacy & AI governance",
+  "title": "Who is responsible when the AI is wrong? Why legal duty does not equal technical visibility",
+  "link": "https://iapp.org/news/a/who-is-responsible-when-the-ai-is-wrong-why-legal-duty-does-not-equal-technical-visibility",
+  "date": "",
+  "summary": ""
+ },
+ {
+  "uid": "https://iapp.org/news/a/how-to-track-ai-use-and-meet-gdpr-obligations-effectively",
+  "source": "IAPP",
+  "category": "Privacy & AI governance",
+  "title": "How to track AI use and meet GDPR obligations effectively",
+  "link": "https://iapp.org/news/a/how-to-track-ai-use-and-meet-gdpr-obligations-effectively",
+  "date": "",
+  "summary": ""
+ },
+ {
+  "uid": "112562 at https://www.eff.org",
+  "source": "EFF Deeplinks",
+  "category": "Privacy & digital rights",
+  "title": "New York and California Age Gating Rules Go Into Effect in the New Year",
+  "link": "https://www.eff.org/deeplinks/2026/11/new-york-and-california-age-gating-rules-go-effect-new-year",
+  "date": "2026-11-24",
+  "summary": "Come January 2027, everyday social media browsing in two of the country's largest states will look noticeably different. In California, AB 1709 (2026), AB 1043 (2025), and SB 976 (2024) are slated to take effect on January 1, 2027. Meanwhile, state attorney general regulations f…"
+ },
+ {
+  "uid": "112561 at https://www.eff.org",
+  "source": "EFF Deeplinks",
+  "category": "Privacy & digital rights",
+  "title": "Signal Moves to Block AI Agents",
+  "link": "https://www.eff.org/deeplinks/2026/11/signal-now-blocks-ai-agents",
+  "date": "2026-11-24",
+  "summary": "Signal announced an update to its mobile apps on iOS and Android that seeks to curb issues with AI agents accessing private chats. This is a useful new barrier against a problem we’ve been highlighting this year in our Encrypt It Already campaign. And good news, it’s enabled by …"
+ },
+ {
+  "uid": "https://cybersecuritynews.com/?p=174777",
+  "source": "Cyber Security News",
+  "category": "Cyber incidents & threat intel",
+  "title": "Hackers Exploit Fortinet Flaws to Breach Commercial Ships and Access Control Networks",
+  "link": "https://cybersecuritynews.com/fortinet-flaws-to-breach-commercial-ships/",
+  "date": "2026-11-25",
+  "summary": "U.S. authorities are investigating whether Iran was behind cyberattacks that may have compromised up to 50 commercial ships. A U.S. official familiar with the inquiry told NPR that hackers exploited known flaws in Fortinet FortiGate devices used aboard vessels. The figure is a U…"
+ },
+ {
+  "uid": "https://cybersecuritynews.com/?p=174676",
+  "source": "Cyber Security News",
+  "category": "Cyber incidents & threat intel",
+  "title": "Hackers Use Autonomous AI Agents to Steal Credentials and Breach Corporate Networks",
+  "link": "https://cybersecuritynews.com/hackers-use-autonomous-ai-agents-2/",
+  "date": "2026-11-25",
+  "summary": "Hackers used autonomous AI agents to steal credentials, move between corporate servers, and probe cloud systems in more than 10 campaigns tracked from July through September 2026. The activity targeted government, logistics, hospitality, manufacturing, agriculture, and education…"
+ },
+ {
+  "uid": "https://cybersecuritynews.com/?p=174671",
+  "source": "Cyber Security News",
+  "category": "Cyber incidents & threat intel",
+  "title": "Iran-Linked Volant Manticore Hackers Target Airlines and Hospitals With New KuboShell Backdoor",
+  "link": "https://cybersecuritynews.com/iran-linked-volant-manticore-hackers/",
+  "date": "2026-11-25",
+  "summary": "An Iran-linked cyberespionage group called Volant Manticore used a fake résumé to target a Cyprus-based airline and later turned to healthcare-themed phishing in Saudi Arabia. Both campaigns delivered KuboShell, a newly documented Windows backdoor that lets operators run command…"
+ },
+ {
+  "uid": "https://www.securityweek.com/?p=51049",
+  "source": "SecurityWeek",
+  "category": "Cyber incidents & threat intel",
+  "title": "Drupal Flaw Found by Anthropic Scanner Exploited in Attacks",
+  "link": "https://www.securityweek.com/drupal-flaw-found-by-anthropic-scanner-exploited-in-attacks/",
+  "date": "2026-11-25",
+  "summary": "CISA has added the vulnerability to its KEV catalog and instructed federal agencies to patch it within three days. The post Drupal Flaw Found by Anthropic Scanner Exploited in Attacks appeared first on SecurityWeek ."
+ },
+ {
+  "uid": "https://www.darkreading.com/cyberattacks-data-breaches/latin-america-cyberattacks-ports-pipelines-manufacturing",
+  "source": "Dark Reading",
+  "category": "Cyber incidents & threat intel",
+  "title": "Latin America Sees Cyberattacks on Ports, Pipelines & Manufacturing",
+  "link": "https://www.darkreading.com/cyberattacks-data-breaches/latin-america-cyberattacks-ports-pipelines-manufacturing",
+  "date": "2026-11-25",
+  "summary": "From the Port of Santos in Brazil to a pipeline in Argentina, cyberattacks are increasingly affecting industrial systems throughout the region."
+ },
+ {
+  "uid": "https://www.infosecurity-magazine.com/news/ncsc-tips-tackle-agentic-threat/",
+  "source": "Infosecurity Magazine",
+  "category": "Cyber incidents & threat intel",
+  "title": "NCSC Shares Guidance to Tackle Agentic Threat From ARTEX-Like Tools",
+  "link": "https://www.infosecurity-magazine.com/news/ncsc-tips-tackle-agentic-threat/",
+  "date": "2026-11-25",
+  "summary": "UK’s National Cyber Security Centre urges “strong operational discipline” to manage agentic offensive frameworks"
+ },
+ {
+  "uid": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
+  "source": "Simon Willison",
+  "category": "AI & agent security",
+  "title": "Three LLM inflection points in twelve months",
+  "link": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
+  "date": "2026-11-24",
+  "summary": "I gave a keynote at the AI Engineer Code Summit a couple of weeks ago, constructed around the idea that there have been three significant inflection points in the abilities of LLMs and coding agents in the past twelve months. Here's the video of the talk. In this post I'm going …"
+ },
+ {
+  "uid": "CBMiZkFVX3lxTE9kdDdZVWh4LW5zcUtPSzNDZFFDOFBHNDNFMEFZUmVYeDJGUzFncGczcUtBS2owVHd5eFlZMFkyWTMwdzNYMWpDLWRLRWp0RzhJcDFzOXo0RF9tTGNEVFNNdWo3U0NTZw",
+  "source": "ENISA (via Google News)",
+  "category": "EU cybersecurity",
+  "title": "Search",
+  "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9kdDdZVWh4LW5zcUtPSzNDZFFDOFBHNDNFMEFZUmVYeDJGUzFncGczcUtBS2owVHd5eFlZMFkyWTMwdzNYMWpDLWRLRWp0RzhJcDFzOXo0RF9tTGNEVFNNdWo3U0NTZw?oc=5",
+  "date": "2026-11-24",
+  "summary": "Search EUVD"
+ },
+ {
+  "uid": "CBMiZkFVX3lxTFBuSS1UUWVQWTdJc2VNSWhmWHRRM21SeUNndHlmbFlDUkM0MlhRTWhyS09kcHZZRWVhNlFRQlN4cTY0ZkQwZm9ZU2pjWFhYRnE3X1o0QWVkM0lxdnhJZGNpZkpYVXd3Zw",
+  "source": "ENISA (via Google News)",
+  "category": "EU cybersecurity",
+  "title": "Search",
+  "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBuSS1UUWVQWTdJc2VNSWhmWHRRM21SeUNndHlmbFlDUkM0MlhRTWhyS09kcHZZRWVhNlFRQlN4cTY0ZkQwZm9ZU2pjWFhYRnE3X1o0QWVkM0lxdnhJZGNpZkpYVXd3Zw?oc=5",
+  "date": "2026-11-24",
+  "summary": "Search EUVD"
+ },
+ {
+  "uid": "CBMiZkFVX3lxTE1zb00zRlJyNXlyNGsxbS1oWW93cnRvdWtmdzRYZUNYZVVxTkFBZVk2cmx2eEZqWTJ4dGdKb2IySXIyN01LQXhEX09VdjB0d2daNjhoRWl0amN0bG11VTF6OTBINHJmdw",
+  "source": "ENISA (via Google News)",
+  "category": "EU cybersecurity",
+  "title": "Search",
+  "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1zb00zRlJyNXlyNGsxbS1oWW93cnRvdWtmdzRYZUNYZVVxTkFBZVk2cmx2eEZqWTJ4dGdKb2IySXIyN01LQXhEX09VdjB0d2daNjhoRWl0amN0bG11VTF6OTBINHJmdw?oc=5",
+  "date": "2026-11-24",
+  "summary": "Search EUVD"
+ },
+ {
+  "uid": "CBMiZ0FVX3lxTE0wSEltRVdVd29KVjcyUURkc0pTZ2lMVGFPNGFDYkN6NG91S2dicldqWElEU00xOGN4RVlCR2VZRzdyd2VGcWpGZ2tleUMwN0c0NVVIdnNFeWZEOFNBX09ERkRnUENvTzg",
+  "source": "ENISA (via Google News)",
+  "category": "EU cybersecurity",
+  "title": "Search",
+  "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0wSEltRVdVd29KVjcyUURkc0pTZ2lMVGFPNGFDYkN6NG91S2dicldqWElEU00xOGN4RVlCR2VZRzdyd2VGcWpGZ2tleUMwN0c0NVVIdnNFeWZEOFNBX09ERkRnUENvTzg?oc=5",
+  "date": "2026-11-24",
+  "summary": "Search EUVD"
+ },
+ {
+  "uid": "CBMiZ0FVX3lxTFAxWVVGR3UyNnNGU01iXzdTRVE2LXBpakNUZXB4YzI0WGlKWU9qS3VUdHp3WHk3UTB5LW1LaVlHVjlYNmh1d0JOaUhBV3pXZE1mNUgyLXBaOEFya0JweHNGY29oMGxwRjg",
+  "source": "ENISA (via Google News)",
+  "category": "EU cybersecurity",
+  "title": "Search",
+  "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAxWVVGR3UyNnNGU01iXzdTRVE2LXBpakNUZXB4YzI0WGlKWU9qS3VUdHp3WHk3UTB5LW1LaVlHVjlYNmh1d0JOaUhBV3pXZE1mNUgyLXBaOEFya0JweHNGY29oMGxwRjg?oc=5",
+  "date": "2026-11-24",
+  "summary": "Search EUVD"
+ },
+ {
+  "uid": "CBMiZkFVX3lxTFA2SjlzdG50UF9jQm9vX0VMenBvTDVzbHBhSG9NSmowUTduQ3N4dDh1anlzTjlGcEUzVTFFblZQdXJXQ0hqOXRqQ2JsMUNUMkZuRlppU0lCdXJBUU53anlWMmtJbzdoZw",
+  "source": "ENISA (via Google News)",
+  "category": "EU cybersecurity",
+  "title": "Search",
+  "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA2SjlzdG50UF9jQm9vX0VMenBvTDVzbHBhSG9NSmowUTduQ3N4dDh1anlzTjlGcEUzVTFFblZQdXJXQ0hqOXRqQ2JsMUNUMkZuRlppU0lCdXJBUU53anlWMmtJbzdoZw?oc=5",
+  "date": "2026-11-24",
+  "summary": "Search EUVD"
+ },
+ {
+  "uid": "CBMiZkFVX3lxTE1PandOdkVPak9YQlVVQ2JwMjBhSzN1cWVqTUJ1cDFaMnZFU1hvcWloNFJlT1FiQmVEeUlWMjloY3pKN0syQ05aVUxRWWVkOW5NMGZ0NVZlcUpGRXBFWW1pb3hZSjJIdw",
+  "source": "ENISA (via Google News)",
+  "category": "EU cybersecurity",
+  "title": "Search",
+  "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1PandOdkVPak9YQlVVQ2JwMjBhSzN1cWVqTUJ1cDFaMnZFU1hvcWloNFJlT1FiQmVEeUlWMjloY3pKN0syQ05aVUxRWWVkOW5NMGZ0NVZlcUpGRXBFWW1pb3hZSjJIdw?oc=5",
+  "date": "2026-11-24",
+  "summary": "Search EUVD"
+ },
+ {
+  "uid": "CBMiZkFVX3lxTE8zcXVvUUFPNEdubGl5ZnJkdXBrY1daTFlLOHREemJITXBoYk5HVVJ1R2ZhWENIWjNta0lHREtLZHVGRXNoTDViWXpKNFJHODNqbE5oQ3FjTW51OFlGWnRHRUVDazVQQQ",
+  "source": "ENISA (via Google News)",
+  "category": "EU cybersecurity",
+  "title": "Search",
+  "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8zcXVvUUFPNEdubGl5ZnJkdXBrY1daTFlLOHREemJITXBoYk5HVVJ1R2ZhWENIWjNta0lHREtLZHVGRXNoTDViWXpKNFJHODNqbE5oQ3FjTW51OFlGWnRHRUVDazVQQQ?oc=5",
+  "date": "2026-11-24",
+  "summary": "Search EUVD"
+ },
+ {
+  "uid": "CBMiWEFVX3lxTE1zX0d4eVJPRDJUaXd0Tzk2Z1lNTVBRcTdHYXZzWEVsVDE4clE2Y2NVR05NLXVST1M5X2NIcmZhTHZjQ1VlVkF5RUJfb2pCNW1QYnhQRW5xZlU",
+  "source": "ICO (via Google News)",
+  "category": "UK data protection",
+  "title": "Raw Pet Supplies Ltd",
+  "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1zX0d4eVJPRDJUaXd0Tzk2Z1lNTVBRcTdHYXZzWEVsVDE4clE2Y2NVR05NLXVST1M5X2NIcmZhTHZjQ1VlVkF5RUJfb2pCNW1QYnhQRW5xZlU?oc=5",
+  "date": "2026-11-23",
+  "summary": "Raw Pet Supplies Ltd ICO"
+ },
+ {
+  "uid": "CBMiWEFVX3lxTE5RZ2pMUEhlUnVYZVdLa2tOaWpNWHdhaFlNbTVObmRvS0Q5OU9XY1kzRmpzelI4SUtkM3YxLVgwblJON3JKamltbHFtT1p6dWd5M1EwYmR4cHg",
+  "source": "ICO (via Google News)",
+  "category": "UK data protection",
+  "title": "Superbuild Builders Merchants Limited",
+  "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5RZ2pMUEhlUnVYZVdLa2tOaWpNWHdhaFlNbTVObmRvS0Q5OU9XY1kzRmpzelI4SUtkM3YxLVgwblJON3JKamltbHFtT1p6dWd5M1EwYmR4cHg?oc=5",
+  "date": "2026-11-24",
+  "summary": "Superbuild Builders Merchants Limited ICO"
+ },
+ {
+  "uid": "CBMiWEFVX3lxTE1PNEs0a01NT2hUeUhnajQ4cUtfQnp1T3U5MXpBTlp5Y0pHYy01Wk1wMkJSNF9PUDJSZnlUYXhCejFLWWRlbV84MzNxbUdHYXB1TGFPTW4wZk0",
+  "source": "ICO (via Google News)",
+  "category": "UK data protection",
+  "title": "The Larder (Lichfield) Limited",
+  "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1PNEs0a01NT2hUeUhnajQ4cUtfQnp1T3U5MXpBTlp5Y0pHYy01Wk1wMkJSNF9PUDJSZnlUYXhCejFLWWRlbV84MzNxbUdHYXB1TGFPTW4wZk0?oc=5",
+  "date": "2026-11-23",
+  "summary": "The Larder (Lichfield) Limited ICO"
+ },
+ {
+  "uid": "CBMiWEFVX3lxTE9GZ2lUQ0p5ejNqUldvbWdoSmR6aXBIck1VSzVLMEpFRmxIcW1fbng0cFpnNndjNl96aUZEUzdmcksxd093b2NROGtoQUtOd1JndUtXV1FqV2k",
+  "source": "ICO (via Google News)",
+  "category": "UK data protection",
+  "title": "Sue Ryder Direct Ltd",
+  "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9GZ2lUQ0p5ejNqUldvbWdoSmR6aXBIck1VSzVLMEpFRmxIcW1fbng0cFpnNndjNl96aUZEUzdmcksxd093b2NROGtoQUtOd1JndUtXV1FqV2k?oc=5",
+  "date": "2026-11-24",
+  "summary": "Sue Ryder Direct Ltd ICO"
+ },
+ {
+  "uid": "CBMiWEFVX3lxTE10M0J6R1dncElUNFBESGJGQjdKWllyNkx1dHExbWNyYkRpM1h1Nng0aVUxSUpLRzdkbzNzck9DYkNCdlJqTHp1cGNoMEtWbUdkTU0xZDN6emQ",
+  "source": "ICO (via Google News)",
+  "category": "UK data protection",
+  "title": "Visaura Ltd",
+  "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE10M0J6R1dncElUNFBESGJGQjdKWllyNkx1dHExbWNyYkRpM1h1Nng0aVUxSUpLRzdkbzNzck9DYkNCdlJqTHp1cGNoMEtWbUdkTU0xZDN6emQ?oc=5",
+  "date": "2026-11-23",
+  "summary": "Visaura Ltd ICO"
+ },
+ {
+  "uid": "CBMiWEFVX3lxTE1UdEpBSjFWUmJZcUh2VnEtQXY3MTdkZ29rUkd4b05TMGM5MUY2eFhkTFQzNTZjODl3T2xsX2Nmc2Iyd1p0SW5GZkRuTS11Rms2VFFvbzFzLUE",
+  "source": "ICO (via Google News)",
+  "category": "UK data protection",
+  "title": "Dal Sterling (Uk) Limited",
+  "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1UdEpBSjFWUmJZcUh2VnEtQXY3MTdkZ29rUkd4b05TMGM5MUY2eFhkTFQzNTZjODl3T2xsX2Nmc2Iyd1p0SW5GZkRuTS11Rms2VFFvbzFzLUE?oc=5",
+  "date": "2026-11-22",
+  "summary": "Dal Sterling (Uk) Limited ICO"
+ },
+ {
+  "uid": "CBMiWEFVX3lxTE8wZ0ZtQ185TDNfbnk3YlV2ZnNQcXhKUnA0RzlpazV0TTRnZ2tYTzlKT3c5NUFvZzRHYVZQem9jaTJqUS1ibG9DNjF0NWhFUk14VUFCdmtzZmY",
+  "source": "ICO (via Google News)",
+  "category": "UK data protection",
+  "title": "Albion Court Investments Ltd",
+  "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8wZ0ZtQ185TDNfbnk3YlV2ZnNQcXhKUnA0RzlpazV0TTRnZ2tYTzlKT3c5NUFvZzRHYVZQem9jaTJqUS1ibG9DNjF0NWhFUk14VUFCdmtzZmY?oc=5",
+  "date": "2026-11-22",
+  "summary": "Albion Court Investments Ltd ICO"
+ },
+ {
+  "uid": "CBMiWEFVX3lxTFBmbmFvWXg5WUtuVlNSNDhpeGtTQmRadDBLNVhKUG4zOEQ4N3VDUlJ3d0NIYTZZdV9ZZHpkVVRmV2VQQllvMmJmUU5na3A0bjk4elZEV3VDUGQ",
+  "source": "ICO (via Google News)",
+  "category": "UK data protection",
+  "title": "SMART HOME SYSTEMS LIMITED",
+  "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBmbmFvWXg5WUtuVlNSNDhpeGtTQmRadDBLNVhKUG4zOEQ4N3VDUlJ3d0NIYTZZdV9ZZHpkVVRmV2VQQllvMmJmUU5na3A0bjk4elZEV3VDUGQ?oc=5",
+  "date": "2026-11-23",
+  "summary": "SMART HOME SYSTEMS LIMITED ICO"
+ },
+ {
+  "uid": "CBMib0FVX3lxTE93VnpORFhaYmRrNTlxTVRwX2VvUEFWQVVJcFF1Yi1NVUJKTXRCb2x0SUZBdnF0WFRrU183MkJmREpzTFl4ZVljQzNiUGV6R1gwRjR0THdHd1NLOFhlbzZlYUhUN3NNUi1JQUhoUW91SQ",
+  "source": "CISA (via Google News)",
+  "category": "Cybersecurity advisories",
+  "title": "Danfoss AK-SM 8xxA Series",
+  "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE93VnpORFhaYmRrNTlxTVRwX2VvUEFWQVVJcFF1Yi1NVUJKTXRCb2x0SUZBdnF0WFRrU183MkJmREpzTFl4ZVljQzNiUGV6R1gwRjR0THdHd1NLOFhlbzZlYUhUN3NNUi1JQUhoUW91SQ?oc=5",
+  "date": "2026-11-24",
+  "summary": "Danfoss AK-SM 8xxA Series CISA (.gov)"
+ },
+ {
+  "uid": "CBMingFBVV95cUxPQUlld3BhaDBzY013YmhieWNPbVQ2WmFEWUIyUlZGZnZ1dnBmaUNiYTZEcTZadExoYWxpaVJXWTJrb1RCUm1mVmY1SUdCTWwyZWVZMTRhb19QSWttX1llMVRZcnlYeE54a0QxS0FlS29mb1Q3QnFRSlJjXzZQaHpubU5JWHpyQVdFVWJ1SHMtdFE0SDJGa2haNm1oMVNmUQ",
+  "source": "CISA (via Google News)",
+  "category": "Cybersecurity advisories",
+  "title": "Introduction to Conflict Prevention Techniques - January",
+  "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQUlld3BhaDBzY013YmhieWNPbVQ2WmFEWUIyUlZGZnZ1dnBmaUNiYTZEcTZadExoYWxpaVJXWTJrb1RCUm1mVmY1SUdCTWwyZWVZMTRhb19QSWttX1llMVRZcnlYeE54a0QxS0FlS29mb1Q3QnFRSlJjXzZQaHpubU5JWHpyQVdFVWJ1SHMtdFE0SDJGa2haNm1oMVNmUQ?oc=5",
+  "date": "2026-11-25",
+  "summary": "Introduction to Conflict Prevention Techniques - January CISA (.gov)"
+ }
+]
