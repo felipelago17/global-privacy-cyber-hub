@@ -1,0 +1,272 @@
+[
+ {
+  "uid": "112565 at https://www.eff.org",
+  "source": "EFF Deeplinks",
+  "category": "Privacy & digital rights",
+  "title": "🎩 Tech Monopolies Make Outages Worse | EFFector 38.21",
+  "link": "https://www.eff.org/deeplinks/2026/11/tech-monopolies-make-outages-worse-effector-3820",
+  "date": "2026-11-25",
+  "summary": "Service outages, like the ones we've seen take down everything from airlines to email, seem to be coming faster than ever. Their specific causes might be different, but these wide-scale service disruptions share one thing in common: the over-reliance on one company or system to …"
+ },
+ {
+  "uid": "https://cybersecuritynews.com/?p=175539",
+  "source": "Cyber Security News",
+  "category": "Cyber incidents & threat intel",
+  "title": "Bithumb Hacked for 15 Days, Customer Passport Numbers, Bank Details and Wallet Addresses Stolen",
+  "link": "https://cybersecuritynews.com/bithumb-hacked-for-15-days/",
+  "date": "2026-11-26",
+  "summary": "South Korean cryptocurrency exchange Bithumb says hackers stole passport numbers, bank account numbers, and crypto wallet addresses after gaining access to an internal system for more than 15 days. In a November 25 update, the company said its investigation found more people and…"
+ },
+ {
+  "uid": "https://cybersecuritynews.com/?p=175154",
+  "source": "Cyber Security News",
+  "category": "Cyber incidents & threat intel",
+  "title": "CISA Adds 10 Flaws from Danfoss, HPE, Mitel MiCollab and Vates Xen to Exploited Catalog",
+  "link": "https://cybersecuritynews.com/cisa-adds-10-flaws-to-kev/",
+  "date": "2026-11-26",
+  "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added 10 vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog on November 25, 2026, after finding evidence of active exploitation. Five affect Mitel MiCollab, three affect Danfoss refrigeration cont…"
+ },
+ {
+  "uid": "https://cybersecuritynews.com/?p=175596",
+  "source": "Cyber Security News",
+  "category": "Cyber incidents & threat intel",
+  "title": "Standard Chartered’s Zodia Custody Hacked, Client and Employee Data Exposed",
+  "link": "https://cybersecuritynews.com/zodia-custody-data-breach/",
+  "date": "2026-11-26",
+  "summary": "Standard Chartered’s cryptocurrency custody unit, Zodia Custody, suffered a security breach that exposed information about some clients and employees. Chief Executive Richard Clark told Reuters on November 26 that the company detected attempts to probe its platform on Monday, No…"
+ },
+ {
+  "uid": "https://cybersecuritynews.com/?p=175440",
+  "source": "Cyber Security News",
+  "category": "Cyber incidents & threat intel",
+  "title": "Microsoft Confirms Windows November Updates Can Break SSO and Third-Party App Logins",
+  "link": "https://cybersecuritynews.com/november-update-breaks-authentication/",
+  "date": "2026-11-26",
+  "summary": "Microsoft has confirmed that the November 2026 Windows security updates can cause sign-in failures in some third-party apps and devices that use NTLM authentication. The issue can affect authentication proxies, single sign-on (SSO) tools, and application packaging products after…"
+ },
+ {
+  "uid": "https://cybersecuritynews.com/?p=175256",
+  "source": "Cyber Security News",
+  "category": "Cyber incidents & threat intel",
+  "title": "Exposed Hacker Servers Reveal U.S. Hospital Credentials, Corporate Cloud Access and Law Firm Targets",
+  "link": "https://cybersecuritynews.com/exposed-hacker-servers/",
+  "date": "2026-11-26",
+  "summary": "Three exposed web directories revealed an intrusion crew’s collection of U.S. hospital credential records, a listing of more than 155,000 files and other objects in a manufacturer’s cloud storage, and a map of remote-access systems used by U.S. law firms. The recovered files sho…"
+ },
+ {
+  "uid": "https://cybersecuritynews.com/?p=175110",
+  "source": "Cyber Security News",
+  "category": "Cyber incidents & threat intel",
+  "title": "Critical Danfoss Refrigeration Controller Flaw Could Allow Remote Code Execution Without Authentication",
+  "link": "https://cybersecuritynews.com/danfoss-refrigeration-controller-flaw/",
+  "date": "2026-11-26",
+  "summary": "A critical flaw, CVE-2026-129713, affects Danfoss AK-SM 8xxA refrigeration controllers running version 5.4.0 or earlier and could allow unauthenticated remote code execution. The U.S. Cybersecurity and Infrastructure Security Agency (CISA) issued advisory ICSA-26-328-03 on Novem…"
+ },
+ {
+  "uid": "https://gbhackers.com/?p=210382",
+  "source": "GBHackers",
+  "category": "Cyber incidents & threat intel",
+  "title": "Windows NTLM Security Update Causes Authentication Failures in Third-Party Apps and Devices",
+  "link": "https://gbhackers.com/windows-ntlm-security-update-causes-authentication-failures/",
+  "date": "2026-11-26",
+  "summary": "Microsoft has confirmed that Windows security updates released on or after November 10, 2026, can cause authentication failures in some third-party applications and devices that rely on NT LAN Manager (NTLM). Affected products can include authentication proxy servers, single sig…"
+ },
+ {
+  "uid": "https://gbhackers.com/?p=210290",
+  "source": "GBHackers",
+  "category": "Cyber incidents & threat intel",
+  "title": "CISA Warns of 10 Actively Exploited Vulnerabilities in Juniper, Mitel, Danfoss, and Vates Products",
+  "link": "https://gbhackers.com/cisa-warns-of-10-actively-exploited-vulnerabilities/",
+  "date": "2026-11-26",
+  "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added 10 vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog on November 25, 2026, citing evidence of in-the-wild exploitation. The CISA alert covers five flaws in Mitel MiCollab, three in the Danf…"
+ },
+ {
+  "uid": "https://gbhackers.com/?p=210267",
+  "source": "GBHackers",
+  "category": "Cyber incidents & threat intel",
+  "title": "Critical Danfoss Refrigeration Controller Vulnerability Could Let Hackers Execute Arbitrary Code Remotely",
+  "link": "https://gbhackers.com/critical-danfoss-refrigeration-controller-vulnerability/",
+  "date": "2026-11-26",
+  "summary": "A critical vulnerability in Danfoss AK-SM 8xxA Series refrigeration controllers could allow remote attackers to execute arbitrary code without logging in. The flaw, tracked as CVE-2026-129713, affects software version 5.4.0 and earlier. In its November 24, 2026, industrial contr…"
+ },
+ {
+  "uid": "https://gbhackers.com/?p=210262",
+  "source": "GBHackers",
+  "category": "Cyber incidents & threat intel",
+  "title": "FIFA Confirms Data Breach After Hackers Steal Personal and Business Information",
+  "link": "https://gbhackers.com/fifa-confirms-data-breach/",
+  "date": "2026-11-26",
+  "summary": "FIFA confirmed that attackers gained unauthorized access to a “limited set of personal and business information.” At the same time, Spain’s LaLiga disclosed a separate intrusion that exposed personal data belonging to users of its digital fan services and those of several clubs.…"
+ },
+ {
+  "uid": "https://www.securityweek.com/?p=51082",
+  "source": "SecurityWeek",
+  "category": "Cyber incidents & threat intel",
+  "title": "1Password Breach Exposes Customer Data, Internal Source Code",
+  "link": "https://www.securityweek.com/1password-breach-exposes-customer-data-internal-source-code/",
+  "date": "2026-11-26",
+  "summary": "A hacker used a compromised employee GitHub account to push malicious code and steal customer records, but vaults were not accessed. The post 1Password Breach Exposes Customer Data, Internal Source Code appeared first on SecurityWeek ."
+ },
+ {
+  "uid": "https://www.infosecurity-magazine.com/news/cisa-alert-danfoss-critical-flaw/",
+  "source": "Infosecurity Magazine",
+  "category": "Cyber incidents & threat intel",
+  "title": "CISA Issues Alert After Danfoss Reveals Critical Flaw in Fridge Controllers",
+  "link": "https://www.infosecurity-magazine.com/news/cisa-alert-danfoss-critical-flaw/",
+  "date": "2026-11-26",
+  "summary": "Food retailers are in the firing line again after manufacturer Danfoss issued an alert about a critical new flaw"
+ },
+ {
+  "uid": "https://www.infosecurity-magazine.com/news/home-office-reprimanded-gdpr/",
+  "source": "Infosecurity Magazine",
+  "category": "Cyber incidents & threat intel",
+  "title": "Home Office Reprimanded After GDPR Failure at the Border",
+  "link": "https://www.infosecurity-magazine.com/news/home-office-reprimanded-gdpr/",
+  "date": "2026-11-26",
+  "summary": "The ICO has reprimanded the Home Office after data integrity failings caused distress at the border"
+ },
+ {
+  "uid": "https://www.infosecurity-magazine.com/news/1password-github-account-backend/",
+  "source": "Infosecurity Magazine",
+  "category": "Cyber incidents & threat intel",
+  "title": "1Password Hit by Backend Breach via Hijacked Employee GitHub Account",
+  "link": "https://www.infosecurity-magazine.com/news/1password-github-account-backend/",
+  "date": "2026-11-26",
+  "summary": "An attacker used a 1Password employee's GitHub account to take customer data, but not vaults"
+ },
+ {
+  "uid": "https://www.microsoft.com/en-us/security/blog/?p=151158",
+  "source": "Microsoft Security Blog",
+  "category": "Vendor threat research",
+  "title": "What defenders need to know about ARTEX, the agentic AI framework threat actors abuse",
+  "link": "https://www.microsoft.com/en-us/security/blog/2026/11/25/what-defenders-need-to-know-artex-agentic-ai-framework-threat-actors-abuse/",
+  "date": "2026-11-25",
+  "summary": "The AI-powered penetration testing framework ARTEX has been abused by threat actors like Storm-0940, Storm-3358, Onyx Sleet, Pearl Sleet, Crystal Typhoon, and Salt Typhoon to accelerate their existing workflows related to network reconnaissance, credential attacks, and web appli…"
+ },
+ {
+  "uid": "e97be5f3-4af4-4e76-bc32-13b256627c55",
+  "source": "EDPB",
+  "category": "EU data protection",
+  "title": "Hellenic DPA fines Teleperformance Greece EUR 100 000 for GDPR breaches",
+  "link": "https://www.edpb.europa.eu/news/hellenic-dpa-fines-teleperformance-greece-eur-100-000-for-gdpr-breaches_en",
+  "date": "2026-11-25",
+  "summary": "Background information Date of final decision: 05/10/2026 National case Controller: TELEPERFORMANCE GREECE Legal References: Articles 5 (Principles relating to processing of personal data), 12 (Transparent information, communication and modalities for the exercise of the rights …"
+ },
+ {
+  "uid": "169209fr",
+  "source": "CNIL",
+  "category": "EU data protection",
+  "title": "Ordre du jour de la séance plénière du 26 novembre 2026",
+  "link": "https://www.cnil.fr/fr/ordre-du-jour-de-la-seance-pleniere-du-26-novembre-2026",
+  "date": "2026-11-26",
+  "summary": "La Commission nationale de l'informatique et des libertés s’est réunie le jeudi 26 novembre 2026 à 9&nbsp;h&nbsp;30 avec l’ordre du jour suivant&nbsp;:"
+ },
+ {
+  "uid": "CBMiZkFVX3lxTFBfTlBsa3NHaWxnZDZsQkdUVXBMVzJUZzJDdVlDMXFmQ050SHFOSjc4cmVweUFNdFJjQjg1NXc2QkRoWkUxdDgtUmRCX2FpbXpOalctVjRzbjJmM0lfMmtyOGZaN3cwUQ",
+  "source": "ENISA (via Google News)",
+  "category": "EU cybersecurity",
+  "title": "Search",
+  "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBfTlBsa3NHaWxnZDZsQkdUVXBMVzJUZzJDdVlDMXFmQ050SHFOSjc4cmVweUFNdFJjQjg1NXc2QkRoWkUxdDgtUmRCX2FpbXpOalctVjRzbjJmM0lfMmtyOGZaN3cwUQ?oc=5",
+  "date": "2026-11-24",
+  "summary": "Search EUVD"
+ },
+ {
+  "uid": "CBMicEFVX3lxTE1lenc1OWJ0WWZFRi1zSzllREFDcFFra2doUVdNdXJGYktSUzd2RFJRakhERDhOaGhzNGl1blh1MnJmR3BqRlR6QzFQeGlvYXRubXItSTRDUTJiWU9LMUFKWWo0VUhQb3ppQ1YzUVZHc2w",
+  "source": "ENISA (via Google News)",
+  "category": "EU cybersecurity",
+  "title": "- ENISA",
+  "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1lenc1OWJ0WWZFRi1zSzllREFDcFFra2doUVdNdXJGYktSUzd2RFJRakhERDhOaGhzNGl1blh1MnJmR3BqRlR6QzFQeGlvYXRubXItSTRDUTJiWU9LMUFKWWo0VUhQb3ppQ1YzUVZHc2w?oc=5",
+  "date": "2026-11-25",
+  "summary": "ENISA"
+ },
+ {
+  "uid": "17785 at https://digital-strategy.ec.europa.eu",
+  "source": "EU Digital Strategy",
+  "category": "EU digital policy",
+  "title": "Commission proposes Quantum Act and new Sovereign Tech Equity Fund to strengthen Europe's industrial capacity and security",
+  "link": "https://digital-strategy.ec.europa.eu/en/news/commission-proposes-quantum-act-and-new-sovereign-tech-equity-fund-strengthen-europes-industrial",
+  "date": "2026-11-25",
+  "summary": "Commission proposes Quantum Act and new Sovereign Tech Equity Fund to strengthen Europe's industrial capacity and security Anonymous (not verified) Wed, 11/25/2026 - 08:52 The European Commission today proposed the Quantum Act, a new framework to help turn Europe's quantum resea…"
+ },
+ {
+  "uid": "CBMirAFBVV95cUxNVW5SOWx4eTcyemRPVGNhdk5iejhrWWxfblE5VzBlMTVzaHRUNFpsTVVSUnE5aWJudGJfeEl0cmdmaDFlMzFrQUFMWTM0NkZtZmwzS0QtbVZBWXRqdVN6WTRXN2dCbFRCZFNYM215dFB5WTg5NEk0YUtZMXVwMnN0OVF1UG5rNUpncmpHZ0pqNm8wOU9VZ2pBRC1xbzFBRDhHQnZsUE5oVFBjRTc5",
+  "source": "ICO (via Google News)",
+  "category": "UK data protection",
+  "title": "Statement on UK launch of Meta Muse",
+  "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVW5SOWx4eTcyemRPVGNhdk5iejhrWWxfblE5VzBlMTVzaHRUNFpsTVVSUnE5aWJudGJfeEl0cmdmaDFlMzFrQUFMWTM0NkZtZmwzS0QtbVZBWXRqdVN6WTRXN2dCbFRCZFNYM215dFB5WTg5NEk0YUtZMXVwMnN0OVF1UG5rNUpncmpHZ0pqNm8wOU9VZ2pBRC1xbzFBRDhHQnZsUE5oVFBjRTc5?oc=5",
+  "date": "2026-11-24",
+  "summary": "Statement on UK launch of Meta Muse ICO"
+ },
+ {
+  "uid": "CBMilgFBVV95cUxQRkdCNnpGUmhBb0lhamIweHE1MGQ3Qlp0Q0ZSQW9JQmRXSG53Nnd6Q0wwOTFKWWQzY25TQUlXeG0teUFqaGNBcm0xRHRPZU9Ob1c3V21QOFNkSnc0dndROFJLajdYaGlkbC01T3I1QmFCVDNZeWZFQnhzQlBaMU12TFlmYUlNOWNiYmNyZEFxa0RoQWhjRUE",
+  "source": "ICO (via Google News)",
+  "category": "UK data protection",
+  "title": "Lancashire Police",
+  "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRkdCNnpGUmhBb0lhamIweHE1MGQ3Qlp0Q0ZSQW9JQmRXSG53Nnd6Q0wwOTFKWWQzY25TQUlXeG0teUFqaGNBcm0xRHRPZU9Ob1c3V21QOFNkSnc0dndROFJLajdYaGlkbC01T3I1QmFCVDNZeWZFQnhzQlBaMU12TFlmYUlNOWNiYmNyZEFxa0RoQWhjRUE?oc=5",
+  "date": "2026-11-25",
+  "summary": "Lancashire Police ICO"
+ },
+ {
+  "uid": "CBMi9AFBVV95cUxNeXRFVFRuLVpJc1BJRTdoUGhYcURWTHBJNUdwQVhFOFVKSGtNR0dwMmlNWW1NQXkxTzlpYk95YW5hQW8xOXM5Q1VzRW1jZ3E4UHdfOVdtRklFcDNKQ0tsa2xCVEtleF9kZ1gzdkExb0RlSFNzZFN5Y1NzVk1UOXNiQTd6N0l6Z1NfbUNSamdrRlJtOXVIczZISTRDcGs2VFVIa3JtVUVwYzJhUGhrVVY2bmdFanRUREtkSXBEc0oxVk1xSVU3M0ZFWGo4LXdfY3lCbHZzZVh2U2V0TVhzbEtQdXRXY1ZvVU9JY1R4Wkg4RVk5V2U4",
+  "source": "ICO (via Google News)",
+  "category": "UK data protection",
+  "title": "ICO and DCMS announce launch of independent review into regulator’s culture, accountability and governance following former Commissioner resignation",
+  "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNeXRFVFRuLVpJc1BJRTdoUGhYcURWTHBJNUdwQVhFOFVKSGtNR0dwMmlNWW1NQXkxTzlpYk95YW5hQW8xOXM5Q1VzRW1jZ3E4UHdfOVdtRklFcDNKQ0tsa2xCVEtleF9kZ1gzdkExb0RlSFNzZFN5Y1NzVk1UOXNiQTd6N0l6Z1NfbUNSamdrRlJtOXVIczZISTRDcGs2VFVIa3JtVUVwYzJhUGhrVVY2bmdFanRUREtkSXBEc0oxVk1xSVU3M0ZFWGo4LXdfY3lCbHZzZVh2U2V0TVhzbEtQdXRXY1ZvVU9JY1R4Wkg4RVk5V2U4?oc=5",
+  "date": "2026-11-26",
+  "summary": "ICO and DCMS announce launch of independent review into regulator’s culture, accountability and governance following former Commissioner resignation ICO"
+ },
+ {
+  "uid": "CBMieEFVX3lxTE9CUERoOWVaR1VoSXZta3puenA1ZVo3aWVZUTdqa2xDTm1RdzBnaU5BekhpZ2g5OWN4RUlpblFRQUdMdGFrYmtETWRzLThiZVE3X1RMTHQyS2tfZGtnTng5bjAxcFFGdGJRdEs0bUtUOU05dTJlNUJSQw",
+  "source": "ICO (via Google News)",
+  "category": "UK data protection",
+  "title": "Home Office",
+  "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9CUERoOWVaR1VoSXZta3puenA1ZVo3aWVZUTdqa2xDTm1RdzBnaU5BekhpZ2g5OWN4RUlpblFRQUdMdGFrYmtETWRzLThiZVE3X1RMTHQyS2tfZGtnTng5bjAxcFFGdGJRdEs0bUtUOU05dTJlNUJSQw?oc=5",
+  "date": "2026-11-25",
+  "summary": "Home Office ICO"
+ },
+ {
+  "uid": "CBMi2gFBVV95cUxOMlZnV242WDBJUFlJLS1meXVrUHZhYXZ5QS01cDhDU1pfbmt0blAtdzYzcTRWeDFXRG9hZVUzWHFRUzBUc2JNd0JpMS1sTERrN0gxYWRUREtYLVZaQmFNdmo5SzIzZzB6dFdkdk1VM1RUYWdLeDNZb25vZXFhNERwN25lRm5mak16YjkwbHI1RVV5M0pGVzhmVmxuQWw4TzdNdm10dTZ3OEVHOFZwR1QwUzlSanJ1UkhPYUdKWDE0aWpTaUFlV3ZhRW5JZC1uQjNWUkUwR203X2FrQQ",
+  "source": "ICO (via Google News)",
+  "category": "UK data protection",
+  "title": "Home Office reprimanded after personal information failings at UK border",
+  "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOMlZnV242WDBJUFlJLS1meXVrUHZhYXZ5QS01cDhDU1pfbmt0blAtdzYzcTRWeDFXRG9hZVUzWHFRUzBUc2JNd0JpMS1sTERrN0gxYWRUREtYLVZaQmFNdmo5SzIzZzB6dFdkdk1VM1RUYWdLeDNZb25vZXFhNERwN25lRm5mak16YjkwbHI1RVV5M0pGVzhmVmxuQWw4TzdNdm10dTZ3OEVHOFZwR1QwUzlSanJ1UkhPYUdKWDE0aWpTaUFlV3ZhRW5JZC1uQjNWUkUwR203X2FrQQ?oc=5",
+  "date": "2026-11-25",
+  "summary": "Home Office reprimanded after personal information failings at UK border ICO"
+ },
+ {
+  "uid": "CBMiiwJBVV95cUxONUdjWGhWblY5SV8xWmtjOGgyOGNucEszSDRpQWh3andrQm9kNjdYS3MtOUFjZTVSUm9LWE9acVJ2N1JGX01zOU0yWFFZMkg0Nk15T2k2TGc4OUZjNG50aDFmcGxobzdNYXpyZ3VSa293NGdyTC1OTkt3NEhodTlnWnFXZXhkZDdkUEk0c3lLMVRHYURQaHR3aXozdFZiOEZ4cGpfTURtNmVCSTUwc0dNZmdia2NQWWFNYnA4UE1fTVl5U1A0Snp4TE40aTVWRG5xYy1IOEZuTXo0N01sY05wOTJFNGtXWW1RZENwbWk1V1hVRmFKWkR3WHZJWE5HcFRzNUtoV1IzbFFaTG8",
+  "source": "ICO (via Google News)",
+  "category": "UK data protection",
+  "title": "Developers creating agentic AI services for consumers reminded to meet their data protection responsibilities",
+  "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxONUdjWGhWblY5SV8xWmtjOGgyOGNucEszSDRpQWh3andrQm9kNjdYS3MtOUFjZTVSUm9LWE9acVJ2N1JGX01zOU0yWFFZMkg0Nk15T2k2TGc4OUZjNG50aDFmcGxobzdNYXpyZ3VSa293NGdyTC1OTkt3NEhodTlnWnFXZXhkZDdkUEk0c3lLMVRHYURQaHR3aXozdFZiOEZ4cGpfTURtNmVCSTUwc0dNZmdia2NQWWFNYnA4UE1fTVl5U1A0Snp4TE40aTVWRG5xYy1IOEZuTXo0N01sY05wOTJFNGtXWW1RZENwbWk1V1hVRmFKWkR3WHZJWE5HcFRzNUtoV1IzbFFaTG8?oc=5",
+  "date": "2026-11-24",
+  "summary": "Developers creating agentic AI services for consumers reminded to meet their data protection responsibilities ICO"
+ },
+ {
+  "uid": "CBMiWEFVX3lxTE53Mkw0T1E5WC1JY1lFbWZIazJXTVMxV21qd0FaYTk3LWE1djN5U0s4SWNLa00zYnAzWU04d1RCV2ZtblZUQnJVSnlNcm1QSjkzMG9yRFNLa1k",
+  "source": "ICO (via Google News)",
+  "category": "UK data protection",
+  "title": "KT Ivory Haulage And Storage Trading Limited",
+  "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE53Mkw0T1E5WC1JY1lFbWZIazJXTVMxV21qd0FaYTk3LWE1djN5U0s4SWNLa00zYnAzWU04d1RCV2ZtblZUQnJVSnlNcm1QSjkzMG9yRFNLa1k?oc=5",
+  "date": "2026-11-23",
+  "summary": "KT Ivory Haulage And Storage Trading Limited ICO"
+ },
+ {
+  "uid": "CBMiWEFVX3lxTE1wMDZkZ2ZKY3JzQU5VNzQwaGpJNjRORDl4a3VWN25iYXJZTTNmYW1IMV9KeWgxcTJ2MjNCUUxkUllwMHJEak5GQm5wZXZzSFlrbUI3WnB5WWc",
+  "source": "ICO (via Google News)",
+  "category": "UK data protection",
+  "title": "Wessex Holistic Therapy Ltd",
+  "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1wMDZkZ2ZKY3JzQU5VNzQwaGpJNjRORDl4a3VWN25iYXJZTTNmYW1IMV9KeWgxcTJ2MjNCUUxkUllwMHJEak5GQm5wZXZzSFlrbUI3WnB5WWc?oc=5",
+  "date": "2026-11-23",
+  "summary": "Wessex Holistic Therapy Ltd ICO"
+ },
+ {
+  "uid": "CBMipgFBVV95cUxQTnk4MkxycFI5STFoWXk0N284VFRhTmxsYkx5V1p5TUxud2R2WWdoZEpNX3ZSVUN5QjBMZjJoTFlKdDdKZnBvbXllVUYwb09OX1FVb1Njc0FPX3kxSm1hU1NXQkVlNXRWS2pOaTZOSFNzOHJubmpPdkZfNGNNZm0xZXkybTFxblZudkpFbVZFWXNZLUVCX19GaWdva3VnR1BYSEZqUzF3",
+  "source": "CISA (via Google News)",
+  "category": "Cybersecurity advisories",
+  "title": "CISA Adds 10 Known Exploited Vulnerabilities to Catalog",
+  "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQTnk4MkxycFI5STFoWXk0N284VFRhTmxsYkx5V1p5TUxud2R2WWdoZEpNX3ZSVUN5QjBMZjJoTFlKdDdKZnBvbXllVUYwb09OX1FVb1Njc0FPX3kxSm1hU1NXQkVlNXRWS2pOaTZOSFNzOHJubmpPdkZfNGNNZm0xZXkybTFxblZudkpFbVZFWXNZLUVCX19GaWdva3VnR1BYSEZqUzF3?oc=5",
+  "date": "2026-11-25",
+  "summary": "CISA Adds 10 Known Exploited Vulnerabilities to Catalog CISA (.gov)"
+ }
+]
